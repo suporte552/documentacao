@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
@@ -183,11 +183,11 @@
   },
   "active": "16c89dd48ddb4f6e",
   "lastOpenFiles": [
-    "docs/fornecedores.md",
-    "docs/faq.md",
-    "docs/campanhas-novo.md",
-    "docs/index.md",
     "README.md",
+    "docs/campanhas-novo.md",
+    "docs/faq.md",
+    "docs/fornecedores.md",
+    "docs/index.md",
     "site/img/grid.png",
     "site/instalacao/index.html",
     "site/instalacao",
