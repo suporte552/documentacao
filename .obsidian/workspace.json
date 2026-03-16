@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/faq.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "faq"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/faq.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para faq"
+              "title": "Links inversos para index"
             }
           },
           {
@@ -185,8 +185,9 @@
     "docs/api.md",
     "docs/instalacao.md",
     "docs/index.md",
-    "README.md",
     "docs/faq.md",
+    "README.md",
+    "mkdocs.yml",
     "docs"
   ]
 }

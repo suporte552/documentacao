@@ -4,6 +4,6 @@ Bem-vindo à documentação.
   
 ## Conteúdo  
   
-- [Instalação](instalacao.md)  
-- [API](api.md)  
-- [FAQ](faq.md)
+- [[Instalação](instalacao/)  
+- [API](api/)  
+- [FAQ](faq/)
