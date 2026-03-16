@@ -5,5 +5,5 @@ Teste de documentação
 ## Conteúdo  
   
 - [[campanhas-novo]]]Ccampanhaxss/)  
-- [API](api/)  
-- [FAQ](faq/)
+- [produtos](api/)  
+- [fornecedores](faq/)
