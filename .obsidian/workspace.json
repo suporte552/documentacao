@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para index"
+              "title": "Links inversos para README"
             }
           },
           {
@@ -181,12 +181,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b84b4b455c8c9754",
+  "active": "16c89dd48ddb4f6e",
   "lastOpenFiles": [
+    "site/img/grid.png",
+    "README.md",
+    "docs/index.md",
     "docs/fornecedores.md",
     "docs/campanhas-novo.md",
     "docs/faq.md",
-    "docs/index.md",
     "site/instalacao/index.html",
     "site/instalacao",
     "site/faq/index.html",
@@ -196,8 +198,6 @@
     "site/index.html",
     "site/sitemap.xml.gz",
     "site/sitemap.xml",
-    "site/404.html",
-    "site/img/grid.png",
-    "README.md"
+    "site/404.html"
   ]
 }
