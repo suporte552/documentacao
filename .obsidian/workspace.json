@@ -180,14 +180,23 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "b84b4b455c8c9754",
+  "active": "16c89dd48ddb4f6e",
   "lastOpenFiles": [
-    "docs/api.md",
-    "docs/instalacao.md",
-    "docs/index.md",
     "docs/faq.md",
-    "README.md",
-    "mkdocs.yml",
-    "docs"
+    "docs/api.md",
+    "docs/index.md",
+    "site/instalacao/index.html",
+    "site/instalacao",
+    "site/faq/index.html",
+    "site/faq",
+    "site/api/index.html",
+    "site/api",
+    "site/index.html",
+    "site/sitemap.xml.gz",
+    "site/sitemap.xml",
+    "site/404.html",
+    "site/img/grid.png",
+    "docs/campanhas.md",
+    "README.md"
   ]
 }

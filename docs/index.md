@@ -4,6 +4,6 @@ Bem-vindo à documentação.
   
 ## Conteúdo  
   
-- [[Instalação](instalacao/)  
+- [[Campanhas](campanhas/)  
 - [API](api/)  
 - [FAQ](faq/)
