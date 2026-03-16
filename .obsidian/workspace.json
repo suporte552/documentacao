@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/fornecedores.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fornecedores"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/fornecedores.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para fornecedores"
+              "title": "Links inversos para index"
             }
           },
           {
@@ -181,14 +181,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b84b4b455c8c9754",
+  "active": "16c89dd48ddb4f6e",
   "lastOpenFiles": [
+    "docs/fornecedores.md",
+    "docs/faq.md",
+    "docs/campanhas-novo.md",
+    "docs/index.md",
     "README.md",
     "site/img/grid.png",
-    "docs/index.md",
-    "docs/fornecedores.md",
-    "docs/campanhas-novo.md",
-    "docs/faq.md",
     "site/instalacao/index.html",
     "site/instalacao",
     "site/faq/index.html",
