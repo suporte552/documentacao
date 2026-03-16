@@ -4,6 +4,6 @@ Bem-vindo à documentação.
   
 ## Conteúdo  
   
-- [[Campanhas](campanhas/)  
+- [[Campanhas](campanhaxss/)  
 - [API](api/)  
 - [FAQ](faq/)
