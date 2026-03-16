@@ -1,6 +1,6 @@
 # Documentação do Sistema  
   
-Bem-vindo à documentação.  
+Teste de documentação
   
 ## Conteúdo  
   
