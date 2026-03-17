@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Note/note.md",
+                "file": "docs/Produtos/Cadastro de produtos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "note"
+              "title": "Cadastro de produtos"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Note/note.md",
+                "file": "docs/Produtos/Cadastro de produtos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para note"
+              "title": "Links inversos para Cadastro de produtos"
             }
           },
           {
@@ -199,8 +199,8 @@
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
     "docs/Campanhas.md",
-    "docs/Note/note.md",
-    "docs/Note",
+    "docs/Produtos/Cadastro de produtos.md",
+    "docs/Produtos",
     "docs/Campanhas",
     "docs/Fornecedores.md",
     "docs/index.md",
