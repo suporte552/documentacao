@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Fornecedores- temp.md",
+                "file": "docs/Fornecedores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fornecedores- temp"
+              "title": "Fornecedores"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Fornecedores- temp.md",
+                "file": "docs/Fornecedores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Fornecedores- temp"
+              "title": "Links inversos para Fornecedores"
             }
           },
           {
@@ -183,8 +183,8 @@
   },
   "active": "b84b4b455c8c9754",
   "lastOpenFiles": [
-    "docs/FAQ- temp.md",
-    "docs/Fornecedores- temp.md",
+    "docs/FAQ.md",
+    "docs/Fornecedores.md",
     "docs/Campanhas.md",
     "README.md",
     "docs/index.md",

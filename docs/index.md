@@ -4,5 +4,5 @@ Documentação do sistema
 ## Conteúdo  
   
 - [[Campanhas]]
-- [[Fornecedores- temp]][[]]
-- [[FAQ- temp]]
+- [[Fornecedores]][[]]
+- [[FAQ]]
