@@ -16,11 +16,10 @@ A **Gestão de Campanhas** é onde você cria e acompanha todas as suas açõe
 ### 1. Criação de Campanhas
 
 O processo de criação de campanhas é dividido em três etapas principais através de um assistente intuitivo:
-
+![[Pasted image 20260317121817.png]]
 #### **Etapa 1: Identificação**
 
 Definição das informações básicas da campanha:
-![[Pasted image 20260317121720.png]]
 - **Nome da Campanha**: Identificação única
 - **Lojas Participantes**: Seleção de unidades (múltipla escolha)
 - **Calendário**: Vinculação com calendário promocional
