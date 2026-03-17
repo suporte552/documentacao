@@ -3,6 +3,6 @@
 Documentação do sistema
 ## Conteúdo  
   
-- [[Campanhas]]
+- [[Gestão de Campanhas]]
 - [[Fornecedores]][[]]
 - [[FAQ]]

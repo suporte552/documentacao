@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Campanhas.md",
+                "file": "docs/Campanhas/Gestão de Campanhas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Campanhas"
+              "title": "Gestão de Campanhas"
+            }
+          },
+          {
+            "id": "335bf08f2897ed34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Campanhas/Gestão de Campanhas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gestão de Campanhas"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas.md",
+                "file": "docs/Campanhas/Gestão de Campanhas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Campanhas"
+              "title": "Links inversos para Gestão de Campanhas"
             }
           },
           {
@@ -181,13 +196,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b84b4b455c8c9754",
+  "active": "335bf08f2897ed34",
   "lastOpenFiles": [
+    "docs/Campanhas",
     "docs/Fornecedores.md",
-    "docs/Campanhas.md",
-    "docs/FAQ.md",
-    "README.md",
     "docs/index.md",
+    "docs/FAQ.md",
+    "docs/Campanhas/Gestão de Campanhas.md",
+    "docs/Sem título.md",
+    "README.md",
     "conflict-files-obsidian-git.md",
     "faq.md",
     "api.md",
