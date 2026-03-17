@@ -1,1 +1,5 @@
-site_name: Gomark.core
+theme:
+  site_name: Gomark.core
+  features:
+    - navigation.sections  # Organiza o menu lateral em seções
+    - navigation.expand    # Deixa o menu lateral já aberto
