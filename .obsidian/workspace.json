@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Produtos/Cadastro de produtos.md",
+                "file": "docs/Campanhas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cadastro de produtos"
+              "title": "Campanhas"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Produtos/Cadastro de produtos.md",
+                "file": "docs/Campanhas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Cadastro de produtos"
+              "title": "Links inversos para Campanhas"
             }
           },
           {
@@ -198,13 +198,15 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
+    "Pasted image 20260317121720.png",
+    "Pasted image 20260317121709.png",
+    "docs/FAQ.md",
     "docs/Campanhas.md",
     "docs/Produtos/Cadastro de produtos.md",
     "docs/Produtos",
     "docs/Campanhas",
     "docs/Fornecedores.md",
     "docs/index.md",
-    "docs/FAQ.md",
     "docs/Sem título.md",
     "README.md",
     "conflict-files-obsidian-git.md",
