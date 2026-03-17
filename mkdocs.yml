@@ -9,12 +9,21 @@ theme:
     - navigation.sections
     - navigation.expand
 
+# Esta extensão ajuda o MkDocs a entender links e imagens do Obsidian
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admition
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+
 nav:
   - Início: index.md
   - Campanhas: Campanhas.md
   - FAQ: FAQ.md
-<<<<<<< HEAD
   - Fornecedores: Fornecedores.md
-=======
-  - Fornecedores: Fornecedores.md
->>>>>>> origin/main
+
+# Importante: O MkDocs só lê o que está dentro da pasta 'docs'
+docs_dir: docs
