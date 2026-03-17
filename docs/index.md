@@ -3,6 +3,6 @@
 Documentação do sistema
 ## Conteúdo  
   
-- [[campanhas-temp]]
+- [[Campanhas]]
 - [[Fornecedores]][[]]
 - [[FAQ]]
