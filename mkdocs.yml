@@ -5,7 +5,9 @@ theme:
   features:
     - navigation.sections
     - navigation.expand
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
+nav:
+  - Início: index.md
+  - Campanhas: campanhas.md
+  - FAQ: faq.md
+  - Fornecedores: fornecedores.md
