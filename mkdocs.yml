@@ -8,6 +8,6 @@ theme:
 
 nav:
   - Início: index.md
-  - Campanhas: Campanhas.md
-  - FAQ: FAQ.md
-  - Fornecedores: Fornecedores.md
+  - Campanhas: Campanhas/Campanhas.md
+  - FAQ: FAQ/FAQ.md
+  - Fornecedores: Fornecedores/Fornecedores.md
