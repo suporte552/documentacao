@@ -1,4 +1,4 @@
-# campanhas
+# Campanhas
 ## Visão Geral
 
 A **Gestão de Campanhas** é onde você cria e acompanha todas as suas ações promocionais, desde o planejamento até a execução nas lojas.
