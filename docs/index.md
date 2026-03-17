@@ -1,7 +1,6 @@
 # Documentação do Sistema  
   
-Teste de documentação
-  teste de documentacao
+Documentação do sistema
 ## Conteúdo  
   
 - [[Campanhas]]
