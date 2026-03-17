@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Campanhas"
             }
+          },
+          {
+            "id": "eeef82f161737845",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260317121709.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260317121709"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas.md",
+                "file": "Pasted image 20260317121709.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Campanhas"
+              "title": "Links inversos para Pasted image 20260317121709"
             }
           },
           {
@@ -196,12 +208,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "335bf08f2897ed34",
+  "active": "eeef82f161737845",
   "lastOpenFiles": [
     "Pasted image 20260317121720.png",
     "Pasted image 20260317121709.png",
-    "docs/FAQ.md",
+    "conflict-files-obsidian-git.md",
     "docs/Campanhas.md",
+    "docs/FAQ.md",
     "docs/Produtos/Cadastro de produtos.md",
     "docs/Produtos",
     "docs/Campanhas",
@@ -209,7 +222,6 @@
     "docs/index.md",
     "docs/Sem título.md",
     "README.md",
-    "conflict-files-obsidian-git.md",
     "faq.md",
     "api.md",
     "api 2.md",
