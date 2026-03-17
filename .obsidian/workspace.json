@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Campanhas.md",
+                "file": "docs/Note/note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Campanhas"
+              "title": "note"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas.md",
+                "file": "docs/Note/note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Campanhas"
+              "title": "Links inversos para note"
             }
           },
           {
@@ -196,14 +196,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16c89dd48ddb4f6e",
+  "active": "335bf08f2897ed34",
   "lastOpenFiles": [
+    "docs/Campanhas.md",
+    "docs/Note/note.md",
     "docs/Note",
     "docs/Campanhas",
     "docs/Fornecedores.md",
     "docs/index.md",
     "docs/FAQ.md",
-    "docs/Campanhas.md",
     "docs/Sem título.md",
     "README.md",
     "conflict-files-obsidian-git.md",
@@ -219,7 +220,6 @@
     "site/api/index.html",
     "site/api",
     "site/index.html",
-    "site/sitemap.xml.gz",
-    "site/sitemap.xml"
+    "site/sitemap.xml.gz"
   ]
 }
