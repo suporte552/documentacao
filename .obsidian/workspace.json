@@ -198,6 +198,7 @@
   },
   "active": "16c89dd48ddb4f6e",
   "lastOpenFiles": [
+    "docs/Note",
     "docs/Campanhas",
     "docs/Fornecedores.md",
     "docs/index.md",
@@ -219,7 +220,6 @@
     "site/api",
     "site/index.html",
     "site/sitemap.xml.gz",
-    "site/sitemap.xml",
-    "site/404.html"
+    "site/sitemap.xml"
   ]
 }
