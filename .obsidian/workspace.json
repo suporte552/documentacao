@@ -181,13 +181,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16c89dd48ddb4f6e",
+  "active": "b84b4b455c8c9754",
   "lastOpenFiles": [
-    "README.md",
-    "docs/campanhas-novo.md",
+    "docs/campanhas.md",
     "docs/faq.md",
     "docs/fornecedores.md",
     "docs/index.md",
+    "faq.md",
+    "api.md",
+    "api 2.md",
+    "api 1.md",
+    "README.md",
     "site/img/grid.png",
     "site/instalacao/index.html",
     "site/instalacao",
