@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Campanhas/Gestão de campanhas.md",
+                "file": "docs/Campanhas/Calendários.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gestão de campanhas"
+              "title": "Calendários"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas/Gestão de campanhas.md",
+                "file": "docs/Campanhas/Calendários.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Gestão de campanhas"
+              "title": "Links inversos para Calendários"
             }
           },
           {
@@ -183,8 +183,9 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
-    "docs/Campanhas.md",
     "docs/Campanhas/Gestão de campanhas.md",
+    "docs/Campanhas/Calendários.md",
+    "docs/Campanhas.md",
     "docs/Campanhas",
     "docs/Sem título.md",
     "docs/images/Pasted image 20260318080947.png",
