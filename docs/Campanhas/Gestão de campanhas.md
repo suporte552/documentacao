@@ -14,7 +14,8 @@ A **Gestão de Campanhas** é onde você cria e acompanha todas as suas açõe
 ## Funcionalidades Principais
 
 ### 1. Criação de Campanhas
-![Identificação](images/Pasted%20image%2020260317123555.png)
+![Identificação](../images/Pasted%20image%2020260317123555.png)
+
 O processo de criação de campanhas é dividido em três etapas principais através de um assistente intuitivo:
 #### **Etapa 1: Identificação**
 
