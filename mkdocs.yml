@@ -21,6 +21,7 @@ markdown_extensions:
 nav:
   - Início: index.md
   - Campanhas:
+      - Calendários: Campanhas/Calendários.md
       - Gestão de campanhas: Campanhas/Gestão de campanhas.md
   - Campanhas: Campanhas.md
   - FAQ: FAQ.md
