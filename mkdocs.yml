@@ -19,12 +19,12 @@ markdown_extensions:
       permalink: true
 
 nav:
+nav:
   - Início: index.md
   - Campanhas:
       - Calendários: Campanhas/Calendários.md
       - Gestão de campanhas: Campanhas/Gestão de campanhas.md
-  - Campanhas: Campanhas.md
   - FAQ: FAQ.md
   - Fornecedores: Fornecedores.md
-
+  
 docs_dir: docs
