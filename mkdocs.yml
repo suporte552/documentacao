@@ -20,6 +20,8 @@ markdown_extensions:
 
 nav:
   - Início: index.md
+  - Campanhas:
+      - Gestão de campanhas: Campanhas/Gestão de campanhas.md
   - Campanhas: Campanhas.md
   - FAQ: FAQ.md
   - Fornecedores: Fornecedores.md
