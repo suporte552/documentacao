@@ -85,6 +85,7 @@ Criação de calendários como **"Regional Sul"** ou **"Nacional"**.
 ### Ações em Massa
 Na grid de calendários, é possível utilizar o botão **Ações** para excluir registros selecionados, otimizando a limpeza de calendários antigos.
 
+![Identificação](../images/Pasted%20image%2020260324154958.png)
 ### Gestão de Modelos
 - Garante que apenas modelos apropriados sejam usados.
 - Mantém a consistência visual entre campanhas do mesmo tema.
