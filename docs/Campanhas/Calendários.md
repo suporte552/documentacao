@@ -3,7 +3,7 @@
 
 O **Calendário** é o seu braço direito no planejamento. Ele serve para organizar e visualizar suas promoções ao longo do ano. Pense nele como uma "pasta temática" onde você guarda tudo o que pertence a um mesmo evento (como a Páscoa ou a Black Friday), evitando que as artes e campanhas fiquem bagunçadas.
 
-> [!NOTE] Acesso ao Formulário
+> [!NOTA] Acesso ao Formulário
 > 
 > Caminho: Menu lateral esquerdo -> Campanhas -> Calendários
 
@@ -15,17 +15,21 @@ O **Calendário** é o seu braço direito no planejamento. Ele serve para organi
 - **Eficiência:** Criação mais rápida com modelos vinculados.
 - **Histórico:** Comparação facilitada com anos anteriores.
 ## Fluxo de Trabalho
-
-1. Acessar Calendários ↓
-2. Criar Novo Calendário ↓ 
-3. Definir Nome e Especificações ↓
-4. Vincular Elementos ↓
-5. Campanhas ↓ 
-6. Modelos de Mídia ↓ 
-
+```
+1.  Acessar Calendários
+   ↓
+2. Criar Novo Calendário
+   ↓
+3. Definir Nome e Especificações
+   ↓
+4. Vincular Elementos
+   ↓
+5. Campanhas
+   ↓
+6. Modelos de Mídia
+```
 ## Estrutura da Configuração
 ### Componentes Principais
-
 1. **Nome:** Identificação obrigatória do calendário.
 2. **Especificações:** Campo de texto livre para observações.
 3. **Status:** Publicado ou Rascunho (gerenciado automaticamente).
