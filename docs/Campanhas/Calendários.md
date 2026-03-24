@@ -30,12 +30,11 @@ O **Calendário** é o seu braço direito no planejamento. Ele serve para organi
 ```
 ## Estrutura da Configuração
 ### Componentes Principais
-1. **Nome:** Identificação obrigatória do calendário.
-2. **Especificações:** Campo de texto livre para observações.
-3. **Status:** Publicado ou Rascunho (gerenciado automaticamente).
-4. **Vínculo de Campanha:** Agrupador temático para cada campanha criada.
-5. **Vínculo de Modelo de Mídia:** Filtro que determina quais artes aparecem em cada campanha.
-    
+- **Nome:** Como você vai chamar esse grupo (Ex: "Natal 2025"). É obrigatório.
+- **Especificações:** Um espaço livre para você escrever anotações ou detalhes importantes.
+- **Status:** O sistema avisa se está como "Rascunho" ou "Publicado" sozinho.
+- **Vínculo de Campanha:** O "gancho" que une o calendário às suas promoções.
+- **Vínculo de Modelo:** O filtro que decide quais artes (molduras) aparecem em cada campanha.
 ## Processo de Configuração
 
 ### Passo 1: Criação de Calendários
@@ -89,7 +88,6 @@ Na grid de calendários, é possível utilizar o botão **Ações** para excluir
 ### Gestão de Modelos
 - Garante que apenas modelos apropriados sejam usados.
 - Mantém a consistência visual entre campanhas do mesmo tema.
-    
 
 > [!INFO] Considerações Importantes
 > 
