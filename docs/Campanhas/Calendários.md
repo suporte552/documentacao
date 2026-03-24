@@ -52,6 +52,8 @@ O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma
 | ------------------------ | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | **Criar**                | Salva o registro e mantém o usuário na mesma tela, habilitando o modo de edição (**Salvar Alterações**). | Ideal quando o usuário precisa revisar ou detalhar o calendário logo após a criação. |
 | **Salvar e Criar Outro** | Conclui o registro atual e limpa os campos para um novo cadastro, sem fechar a janela.                   | Focado em produtividade para cadastros em lote (múltiplos calendários de uma vez).   |
+
+
 ![[Legenda Opcional](../images/Gravando%202026-03-24%20151016.mp4)
 ### Passo 2: Uso em Campanhas
 1. Ao criar uma campanha, selecione o calendário no campo **"Calendário"**.
