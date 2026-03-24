@@ -1,7 +1,7 @@
 
 ## Introdução
 
-O **Calendário** é uma ferramenta de planejamento que permite organizar e visualizar campanhas promocionais ao longo do ano. Ele serve como base para a criação de campanhas recorrentes e padronização de períodos promocionais, funcionando como um agrupador simples para organizar campanhas e modelos de mídia.
+O **Calendário** é o seu braço direito no planejamento. Ele serve para organizar e visualizar suas promoções ao longo do ano. Pense nele como uma "pasta temática" onde você guarda tudo o que pertence a um mesmo evento (como a Páscoa ou a Black Friday), evitando que as artes e campanhas fiquem bagunçadas.
 
 > [!NOTE] Acesso ao Formulário
 > 
@@ -16,16 +16,14 @@ O **Calendário** é uma ferramenta de planejamento que permite organizar e visu
 - **Histórico:** Comparação facilitada com anos anteriores.
 ## Fluxo de Trabalho
 
-```
-graph TD
-    A[Acessar Calendários] --> B[Criar Novo Calendário]
-    B --> C[Definir Nome e Especificações]
-    C --> D{Vincular Elementos}
-    D --> E[Campanhas]
-    D --> F[Modelos de Mídia]
-```
-## Estrutura da Configuração
+1. Acessar Calendários ↓
+2. Criar Novo Calendário ↓ 
+3. Definir Nome e Especificações ↓
+4. Vincular Elementos ↓
+5. Campanhas ↓ 
+6. Modelos de Mídia ↓ 
 
+## Estrutura da Configuração
 ### Componentes Principais
 
 1. **Nome:** Identificação obrigatória do calendário.
@@ -46,6 +44,12 @@ graph TD
 | **Nome**           | Identificação do calendário (ex: "Páscoa 2025", "Ofertas Semanais") |
 | **Especificações** | Campo de texto livre para descrição ou observações                  |
 
+### Opções de Finalização: Cadastro de Calendário
+
+| **Botão**                | **Comportamento**                                                                                        | **Objetivo Principal**                                                               |
+| ------------------------ | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Criar**                | Salva o registro e mantém o usuário na mesma tela, habilitando o modo de edição (**Salvar Alterações**). | Ideal quando o usuário precisa revisar ou detalhar o calendário logo após a criação. |
+| **Salvar e Criar Outro** | Conclui o registro atual e limpa os campos para um novo cadastro, sem fechar a janela.                   | Focado em produtividade para cadastros em lote (múltiplos calendários de uma vez).   |
 ### Passo 2: Uso em Campanhas
 1. Ao criar uma campanha, selecione o calendário no campo **"Calendário"**.
 2. O sistema aplicará automaticamente a **Filtragem**: facilitando encontrar campanhas relacionadas e modelos de mídia compatíveis.
