@@ -40,11 +40,11 @@ O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma
 2. Clique em **Novo Calendário**.
 3. Preencha as informações conforme a tabela abaixo:
 
-|**Campo**|**Descrição**|**Dica de Ouro**|
-|---|---|---|
-|**Nome**|Identificação do grupo (Obrigatório).|Use o padrão "Nome + Ano" (Ex: _Natal 2025_).|
-|**Especificações**|Texto livre para notas.|Insira aqui os objetivos da campanha ou o público-alvo.|
-|**Status**|Controle automático do sistema.|O sistema define como _Rascunho_ ou _Publicado_ sozinho.|
+| **Campo**          | **Descrição**                         | **Dica de Ouro**                                         |
+| ------------------ | ------------------------------------- | -------------------------------------------------------- |
+| **Nome**           | Identificação do grupo (Obrigatório). | Use o padrão "Nome + Ano" (Ex: _Natal 2025_).            |
+| **Especificações** | Texto livre para notas.               | Insira aqui os objetivos da campanha ou o público-alvo.  |
+| **Status**         | Controle automático do sistema.       | O sistema define como _Rascunho_ ou _Publicado_ sozinho. |
 
 ### Opções de Finalização: Cadastro de Calendário
 
@@ -98,7 +98,27 @@ Na grid de calendários, é possível utilizar o botão **Ações** para excluir
 >     
 > - **Exclusão:** Se excluir um calendário, as campanhas vinculadas não são apagadas, elas apenas perdem a referência do agrupador.
 >     
+## Perguntas Frequentes
+**P: Posso ter múltiplos calendários ativos ao mesmo tempo?**  
+R: Sim! É comum ter múltiplos calendários para organizar diferentes tipos de campanhas (eventos sazonais, ofertas semanais, campanhas regionais, etc.).
 
+**P: O calendário armazena eventos ou datas?**  
+R: Não. O calendário é apenas um agrupador. As datas e períodos são definidos diretamente nas campanhas.
+
+**P: Posso editar um calendário que já tem campanhas vinculadas?**  
+R: Sim, você pode editar o nome e descrição do calendário a qualquer momento. Isso não afeta as campanhas vinculadas.
+
+**P: Campanhas precisam estar vinculadas a calendários?**  
+R: Não é obrigatório, mas é altamente recomendado para organização e para que os modelos de mídia apropriados apareçam automaticamente.
+
+**P: Como funciona a filtragem de modelos de mídia por calendário?**  
+R: Ao criar uma campanha vinculada a um calendário, apenas os modelos de mídia vinculados ao mesmo calendário aparecem como opções durante a diagramação.
+
+**P: Posso vincular um modelo de mídia a múltiplos calendários?**  
+R: Para cartazes, sim. Um modelo de cartaz pode ser vinculado a múltiplos calendários. Para laminas, cards e stories, cada modelo é vinculado a apenas um calendário.
+
+**P: O que acontece se eu excluir um calendário?**  
+R: As campanhas vinculadas não são excluídas, mas ficam sem calendário. Os modelos de mídia vinculados também não são excluídos, mas perdem a vinculação.
 ## Considerações Finais
 
 A configuração correta dos calendários é o primeiro passo para uma operação de marketing eficiente e organizada, garantindo que a equipe de diagramação tenha sempre as ferramentas certas para cada tema promocional.
