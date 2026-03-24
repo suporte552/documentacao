@@ -1,11 +1,9 @@
 
 ## Introdução
 
-O **Calendário** é o seu braço direito no planejamento. Ele serve para organizar e visualizar suas promoções ao longo do ano. Pense nele como uma "pasta temática" onde você guarda tudo o que pertence a um mesmo evento (como a Páscoa ou a Black Friday), evitando que as artes e campanhas fiquem bagunçadas.
-
-> [!NOTA] Acesso ao Formulário
-> 
-> Caminho: Menu lateral esquerdo -> Campanhas -> Calendários
+O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma "pasta temática" que agrupa tudo o que pertence a um mesmo evento (como a Páscoa ou a Black Friday), garantindo que a identidade visual e as campanhas sigam uma lógica organizacional impecável.
+### 📍 Onde encontrar?
+> **Caminho:** Menu Lateral → Campanhas → **Calendários**
 
 ## Entrega de Valor
 
@@ -42,10 +40,11 @@ O **Calendário** é o seu braço direito no planejamento. Ele serve para organi
 2. Clique em **Novo Calendário**.
 3. Preencha as informações conforme a tabela abaixo:
 
-| **Campo**          | **Descrição**                                                       |
-| ------------------ | ------------------------------------------------------------------- |
-| **Nome**           | Identificação do calendário (ex: "Páscoa 2025", "Ofertas Semanais") |
-| **Especificações** | Campo de texto livre para descrição ou observações                  |
+|**Campo**|**Descrição**|**Dica de Ouro**|
+|---|---|---|
+|**Nome**|Identificação do grupo (Obrigatório).|Use o padrão "Nome + Ano" (Ex: _Natal 2025_).|
+|**Especificações**|Texto livre para notas.|Insira aqui os objetivos da campanha ou o público-alvo.|
+|**Status**|Controle automático do sistema.|O sistema define como _Rascunho_ ou _Publicado_ sozinho.|
 
 ### Opções de Finalização: Cadastro de Calendário
 
