@@ -8,17 +8,20 @@ theme:
   features:
     - navigation.sections
     - navigation.expand
+    - hide.footer
 
 markdown_extensions:
   - attr_list
   - md_in_html
-  - admonition  # <-- Corrigido aqui (antes estava admition)
-  - pymdownx.superfences
+  - admonition
   - pymdownx.tilde
   - toc:
       permalink: true
+  - pymdownx.superfences # <-- DEIXE APENAS ASSIM, SEM AS LINHAS EMBAIXO
 
-nav:
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
 nav:
   - Início: index.md
   - Campanhas:
@@ -26,5 +29,5 @@ nav:
       - Gestão de campanhas: Campanhas/Gestão de campanhas.md
   - FAQ: FAQ.md
   - Fornecedores: Fornecedores.md
-  
+
 docs_dir: docs
