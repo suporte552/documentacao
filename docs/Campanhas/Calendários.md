@@ -12,20 +12,7 @@ O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma
 - **Organização:** Evita sobreposição e conflitos de datas.
 - **Eficiência:** Criação mais rápida com modelos vinculados.
 - **Histórico:** Comparação facilitada com anos anteriores.
-## Fluxo de Trabalho
-```
-1.  Acessar Calendários
-   ↓
-2. Criar Novo Calendário
-   ↓
-3. Definir Nome e Especificações
-   ↓
-4. Vincular Elementos
-   ↓
-5. Campanhas
-   ↓
-6. Modelos de Mídia
-```
+
 ## Estrutura da Configuração
 ### Componentes Principais
 - **Nome:** Como você vai chamar esse grupo (Ex: "Natal 2025"). É obrigatório.
@@ -68,7 +55,7 @@ Os modelos de mídia devem ser vinculados para garantir a consistência visual:
 > 
 > Durante a diagramação, o sistema filtra e exibe apenas os modelos que estão vinculados ao mesmo calendário da campanha ativa. Isso garante que você não use acidentalmente uma moldura de "Natal" em uma campanha de "Páscoa".
 
-## Casos de Uso
+# Casos de Uso
 
 ### Organização por Eventos Sazonais
 Uma rede de supermercados cria calendários como **"Black Friday 2025"** ou **"Dia das Mães 2025"**.
@@ -100,6 +87,36 @@ Na grid de calendários, é possível utilizar o botão **Ações** para excluir
 >     
 > - **Exclusão:** Se excluir um calendário, as campanhas vinculadas não são apagadas, elas apenas perdem a referência do agrupador.
 >     
+
+## Fluxo de Trabalho
+
+```mermaid
+graph TD
+    A[Acessar Campanhas -> Calendários] --> B[Clicar em Novo Calendário]
+    B --> C[Preencher Nome]
+    C --> D[Preencher Especificações]
+    D --> E{Escolher Ação}
+    E --> F[Criar]
+    E --> G[Salvar e Criar Outro]
+    E --> H[Cancelar]
+
+    A --> I[Visualizar Grid de Calendários]
+    I --> J[Selecionar Registros]
+    J --> K[Clicar em Ações]
+    K --> L[Excluir Registros Selecionados]
+
+    F --> M[Uso em Campanhas]
+    G --> M
+
+    M --> N[Selecionar Calendário na Campanha]
+    N --> O[Filtragem Automática Aplicada]
+
+    O --> P[Uso em Modelos de Mídia]
+    P --> Q[Lâminas, Cards e Stories - 1 Calendário]
+    P --> R[Cartazes - Múltiplos Calendários]
+
+    O --> S[Exibir apenas Modelos Compatíveis com o Calendário]
+```
 ## Perguntas Frequentes
 **P: Posso ter múltiplos calendários ativos ao mesmo tempo?**  
 R: Sim! É comum ter múltiplos calendários para organizar diferentes tipos de campanhas (eventos sazonais, ofertas semanais, campanhas regionais, etc.).
