@@ -8,7 +8,7 @@ theme:
   features:
     - navigation.sections
     - navigation.expand
-    - hide.footer           # <-- Adicionei isso para tirar o "Made with..."
+    - hide.footer
 
 markdown_extensions:
   - attr_list
@@ -17,13 +17,8 @@ markdown_extensions:
   - pymdownx.tilde
   - toc:
       permalink: true
-  - pymdownx.superfences:    # <-- O Mermaid entra AQUI
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.mermaid_format
+  - pymdownx.superfences # <-- Agora sem o código extra que deu erro
 
-# ISSO É ESSENCIAL: O navegador precisa carregar o "motor" do Mermaid
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
 
