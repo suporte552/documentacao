@@ -14,13 +14,6 @@ O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma
 - **Eficiência:** Criação mais rápida com modelos vinculados.
 - **Histórico:** Comparação facilitada com anos anteriores.
 
-## Estrutura da Configuração
-### Componentes Principais
-- **Nome:** Como você vai chamar esse grupo (Ex: "Natal 2025"). É obrigatório.
-- **Especificações:** Um espaço livre para você escrever anotações ou detalhes importantes.
-- **Status:** O sistema avisa se está como "Rascunho" ou "Publicado" sozinho.
-- **Vínculo de Campanha:** O "gancho" que une o calendário às suas promoções.
-- **Vínculo de Modelo:** O filtro que decide quais artes (molduras) aparecem em cada campanha.
 ## Processo de Configuração
 
 ### Passo 1: Criação de Calendários
@@ -32,15 +25,18 @@ O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma
 | ------------------ | ------------------------------------- | -------------------------------------------------------- |
 | **Nome**           | Identificação do grupo (Obrigatório). | Use o padrão "Nome + Ano" (Ex: _Natal 2025_).            |
 | **Especificações** | Texto livre para notas.               | Insira aqui os objetivos da campanha ou o público-alvo.  |
-| **Status**         | Controle automático do sistema.       | O sistema define como _Rascunho_ ou _Publicado_ sozinho. |
 
 ### Opções de Finalização: Cadastro de Calendário
+No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo:
 
-| **Botão**                | **Comportamento**                                                                                        | **Objetivo Principal**                                                               |
-| ------------------------ | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| **Criar**                | Salva o registro e mantém o usuário na mesma tela, habilitando o modo de edição (**Salvar Alterações**). | Ideal quando o usuário precisa revisar ou detalhar o calendário logo após a criação. |
-| **Salvar e Criar Outro** | Conclui o registro atual e limpa os campos para um novo cadastro, sem fechar a janela.                   | Focado em produtividade para cadastros em lote (múltiplos calendários de uma vez).   |
-| **Cancelar**             | Cancela o registro iniciado.                                                                             | Cancelar o registro iniciado e redireciona para a grid de calendários já criados.    |
+| **Botão**                | **Comportamento**                                                        | **Objetivo Principal**                                                        |
+| ------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| **Criar**                | Salva o registro e mantém o usuário na mesma tela, habilitando a edição. | Ideal para quem precisa revisar ou detalhar o calendário logo após a criação. |
+| **Salvar e Criar Outro** | Conclui o registro atual e limpa os campos para um novo cadastro.        | Focado em produtividade para cadastros em lote (múltiplos itens).             |
+| **Cancelar**             | Interrompe o processo sem salvar.                                        | Redireciona para a grid de calendários existentes.                            |
+
+> [!TIP] Status na grid
+> O **Status** é gerado automaticamente pelo sistema no momento em que o registro é finalizado, ficando como **Publicado**
 
 
 <video src="../../images/Gravando%202026-03-24%20151016.mp4" controls width="100%"></video>
