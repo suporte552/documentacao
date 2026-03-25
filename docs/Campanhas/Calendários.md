@@ -3,7 +3,7 @@
 O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma "pasta temática" que agrupa tudo o que pertence a um mesmo evento (como a Páscoa ou a Black Friday), garantindo que a identidade visual e as campanhas sigam uma lógica organizacional impecável.
 
 > [!NOTE] Caminho
-> Menu Lateral → Campanhas → Calendários
+> Menu Lateral esquerdo → Campanhas → Calendários
 
 ## Entrega de Valor
 
@@ -136,7 +136,7 @@ Para garantir a segurança e a organização das informações, o acesso às fun
 
 ```mermaid
 graph TD
-    A[Acessar Campanhas -> Calendários] --> B[Clicar em Novo Calendário]
+    A[Acessar Campanhas -> Calendários] --> B[Clicar em Criar Calendário]
     B --> C[Preencher Nome]
     C --> D[Preencher Especificações]
     D --> E{Escolher Ação}
