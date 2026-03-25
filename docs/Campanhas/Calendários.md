@@ -14,7 +14,7 @@ O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma
 - **Eficiência:** Criação mais rápida com modelos vinculados.
 - **Histórico:** Comparação facilitada com anos anteriores.
 
-## Processo de Configuração
+## Funcionalidades Principais
 
 ### Passo 1: Criação de Calendários
 1. Acesse **Campanhas -> Calendários**.
@@ -26,7 +26,7 @@ O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma
 | **Nome**           | Identificação do grupo (Obrigatório). | Use o padrão "Nome + Ano" (Ex: _Natal 2025_).            |
 | **Especificações** | Texto livre para notas.               | Insira aqui os objetivos da campanha ou o público-alvo.  |
 
-### Opções de Finalização: Cadastro de Calendário
+####  Opções de Finalização
 No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo:
 
 | **Botão**                | **Comportamento**                                                        | **Objetivo Principal**                                                        |
@@ -38,45 +38,45 @@ No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo
 > [!TIP] Status na grid
 > O **Status** é gerado automaticamente pelo sistema no momento em que o registro é finalizado, ficando como **Publicado**
 
-
 <video src="../../images/Gravando%202026-03-24%20151016.mp4" controls width="100%"></video>
-### Passo 2: Uso em Campanhas
-1. Ao criar uma campanha, selecione o calendário no campo **"Calendário"**.
-2. O sistema aplicará automaticamente a **Filtragem**: facilitando encontrar campanhas relacionadas e modelos de mídia compatíveis.
+### Passo 2: Uso do Calendário em Campanhas
+Ao criar uma campanha, você pode vincular um calendário:
+**Benefícios da Vinculação:**
+- **Filtragem**: Facilita encontrar campanhas relacionadas
+- **Modelos de Mídia**: Os modelos de mídia vinculados ao mesmo calendário aparecem automaticamente como opções
+- **Organização**: Agrupa campanhas por tema ou período
+- **Relatórios**: Permite análises agrupadas por calendário
 
-### Passo 3: Uso em Modelos de Mídia
-Os modelos de mídia devem ser vinculados para garantir a consistência visual:
-- **Lâminas, Cards e Stories:** Permitem apenas **um** calendário por modelo.
-- **Cartazes:** Permitem vincular **múltiplos** calendários.
+**Como Funciona:**
+1. Ao criar uma campanha, selecione o calendário no campo "Calendário"
+2. O sistema filtra automaticamente os Modelos de Mídia compatíveis com o calendário selecionado
+3. Durante a diagramação, apenas modelos vinculados ao mesmo calendário aparecem como opções
+
+### Passo 3: Uso do Calendário em Modelos de Mídia
+Os modelos de mídia também podem ser "etiquetados" com um calendário para garantir que a comunicação visual esteja sempre alinhada:
+- **Lâminas, Cards e Stories:** Geralmente são vinculados a **um único calendário** específico.
+- **Cartazes:** Podem aceitar **múltiplos calendários**, permitindo mais flexibilidade na criação.
 
 > [!TIP] Filtragem Automática
 > 
 > Durante a diagramação, o sistema filtra e exibe apenas os modelos que estão vinculados ao mesmo calendário da campanha ativa. Isso garante que você não use acidentalmente uma moldura de "Natal" em uma campanha de "Páscoa".
 
-# Casos de Uso
+## 4. Visualização e Gerenciamento
+Na tela principal de **Calendários**, você tem uma visão completa de tudo o que foi planejado. É o seu painel de controle para manter a organização em dia.
+#### O que você pode fazer na Grid?
+- **Acompanhar tudo:** Veja todos os seus calendários em uma única lista organizada.
+- **Manutenção simples:** Precisa mudar algo? Você pode **Editar** as informações ou **Excluir** calendários que não serão mais utilizados.
 
-### Organização por Eventos Sazonais
-Uma rede de supermercados cria calendários como **"Black Friday 2025"** ou **"Dia das Mães 2025"**.
-- **Resultado:** Modelos de mídia específicos aparecem automaticamente ao criar campanhas desses eventos, mantendo o histórico organizado por tema.
-
-### Ofertas Semanais Recorrentes
-Criação do calendário **"Ofertas Semanais 2025"** para campanhas de quinta a domingo.
-- **Resultado:** Padronização visual e agilidade na busca de campanhas recorrentes.
-
-
-### Organização Regional
-Criação de calendários como **"Regional Sul"** ou **"Nacional"**.
-- **Resultado:** Campanhas e modelos regionais ficam restritos aos seus respectivos calendários, facilitando a gestão por praça de atuação.
-    
-## Funcionalidades Adicionais
-
-### Ações em Massa
-Na grid de calendários, é possível utilizar o botão **Ações** para excluir registros selecionados, otimizando a limpeza de calendários antigos.
+> [!TIP] Exclusão em massa
+> Na grid de calendários, é possível utilizar o botão **Ações** para excluir registros selecionados, otimizando a limpeza de calendários antigos.
+> Caminho: Acesse Calendários > Marque o checkbox "Nome" > Clique no botão "Abrir ações" > Excluir selecionado
 
 ![Identificação](../images/Pasted%20image%2020260324154958.png)
-### Gestão de Modelos
-- Garante que apenas modelos apropriados sejam usados.
-- Mantém a consistência visual entre campanhas do mesmo tema.
+#### Dicas para uma Organização Impecável (Boas Práticas)
+Para que o sistema trabalhe a seu favor e você ganhe tempo no dia a dia, siga estas recomendações:
+- **Nomes que falam por si:** Escolha nomes claros e descritivos. Em vez de apenas "Promoção", use "Ofertas Relâmpago - Outubro 2025". Isso facilita muito a busca depois.
+- **Agrupar é a chave:** Procure manter campanhas que tenham o mesmo contexto dentro do mesmo calendário. Isso evita que as informações fiquem espalhadas.
+- **Mantenha o padrão:** Tente organizar seus calendários sempre seguindo um tema (ex: Dia das Mães) ou um período específico (ex: Verão 2025). Isso ajuda muito na hora de tirar relatórios e analisar resultados
 
 > [!INFO] Considerações Importantes
 > 
@@ -86,6 +86,58 @@ Na grid de calendários, é possível utilizar o botão **Ações** para excluir
 >     
 > - **Exclusão:** Se excluir um calendário, as campanhas vinculadas não são apagadas, elas apenas perdem a referência do agrupador.
 >     
+# Casos de Uso
+
+## Caso 1: Organização por Eventos Sazonais
+Imagine uma rede de supermercados que precisa gerenciar dezenas de artes e ofertas ao longo do ano. Veja como os calendários simplificam essa rotina:
+### O Cenário
+A equipe de marketing cria calendários específicos para as grandes datas do varejo:
+- **Páscoa 2025:** Reúne todas as ofertas de chocolates e bacalhau.
+- **Dia das Mães 2025:** Focado em presentes e almoço especial.
+- **Black Friday 2025:** Concentra as promoções agressivas de eletrônicos e bazar.
+- **Natal 2025:** Agrupa tudo relacionado à ceia e presentes de fim de ano.
+
+### Por que isso é bom na prática?
+- **Foco Total:** Ao abrir o calendário "Natal", você vê apenas o que importa para aquela data, sem misturar com outras promoções.
+- **Seleção sem Erros:** Quando você cria uma campanha de Páscoa, o sistema já "filtra" os modelos de mídia (como artes de ovos de chocolate) automaticamente. Você não corre o risco de usar o fundo errado!
+- **Histórico que Funciona:** No próximo ano, você consegue consultar exatamente o que foi feito em 2025 para cada tema, facilitando o planejamento do futuro.
+- **Organização Visual:** Sua lista de campanhas deixa de ser uma "bagunça" de nomes e passa a ser um cronograma organizado por temas claros.
+
+## Caso 2: Ofertas Semanais Recorrentes
+Sabe aquelas ofertas que acontecem toda semana, de quinta a domingo? Em vez de criar tudo do zero toda vez, o calendário ajuda a padronizar o processo.
+
+### O Cenário
+A loja cria um calendário fixo chamado **"Ofertas Semanais 2025"**.
+
+### Como isso facilita o dia a dia?
+- **Padrão de Qualidade:** Todas as campanhas de ofertas da semana são "carimbadas" com esse calendário.
+- **Agilidade na Criação:** Ao abrir uma nova campanha semanal, o sistema já traz os modelos de mídia padrão (aqueles que você já usa toda semana). Você só precisa trocar os preços e produtos!
+- **Busca Simples:** Quer saber o que entrou em oferta nas últimas 4 semanas? Basta filtrar pelo calendário semanal e ter a lista completa na tela.
+
+## Caso 3: Organização por Regiões (Nacional vs. Regional)
+Se a sua rede tem lojas em diferentes estados ou cidades, você sabe que o que vende no Sul nem sempre é o que vende no Nordeste. O calendário ajuda a separar essas realidades.
+
+### O Cenário
+A equipe de marketing organiza a comunicação em três níveis:
+- **Calendário Nacional:** Campanhas que valem para a rede toda (ex: Aniversário do Supermercado).
+- **Calendário Regional Sul:** Ofertas de inverno, vinhos e itens típicos da região.
+- **Calendário Regional Nordeste:** Promoções de verão antecipado e itens regionais específicos.
+
+### Por que isso é bom na prática?
+- **Sem Confusão:** O gerente da loja do Nordeste não corre o risco de ver ou usar, por engano, uma arte criada especificamente para o Sul.
+- **Organização por Local:** Cada região tem seu "quadrado". Você consegue gerenciar o que é nacional e o que é local de forma totalmente separada.
+- **Artes Corretas:** Modelos de mídia com preços ou regionalismos específicos ficam "presos" aos seus calendários correspondentes, garantindo que a comunicação certa chegue ao lugar certo.
+
+## Permissões Necessárias
+
+Para garantir a segurança e a organização das informações, o acesso às funcionalidades de Calendário é dividido por perfis. Confira o que cada nível de acesso permite fazer:
+
+|Ação|Quem pode fazer (Perfis)|O que é permitido?|
+|---|---|---|
+|**Criar**|Gestor de Marketing ou Administrador|Criar novos grupos de calendários do zero.|
+|**Editar**|Gestor de Marketing ou Administrador|Alterar nomes ou especificações de calendários já criados.|
+|**Visualizar**|Todos os usuários do módulo de campanhas|Consultar a lista e usar os calendários nas campanhas.|
+|**Excluir**|Gestor de Marketing ou Administrador|Remover calendários (Ação irreversível).|
 
 ## Fluxo de Trabalho
 
