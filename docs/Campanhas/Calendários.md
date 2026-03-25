@@ -16,16 +16,15 @@ O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma
 
 ## Funcionalidades Principais
 
-### Passo 1: Criação de Calendários
+### 1: Criação de Calendários
 1. Acesse **Campanhas -> Calendários**.
-2. Clique em **Novo Calendário**.
+2. Clique em **Criar Calendário**.
 3. Preencha as informações conforme a tabela abaixo:
 
 | **Campo**          | **Descrição**                         | **Dica de Ouro**                                         |
 | ------------------ | ------------------------------------- | -------------------------------------------------------- |
 | **Nome**           | Identificação do grupo (Obrigatório). | Use o padrão "Nome + Ano" (Ex: _Natal 2025_).            |
 | **Especificações** | Texto livre para notas.               | Insira aqui os objetivos da campanha ou o público-alvo.  |
-
 ####  Opções de Finalização
 No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo:
 
@@ -36,10 +35,10 @@ No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo
 | **Cancelar**             | Interrompe o processo sem salvar.                                        | Redireciona para a grid de calendários existentes.                            |
 
 > [!TIP] Status na grid
-> O **Status** é gerado automaticamente pelo sistema no momento em que o registro é finalizado, ficando como **Publicado**
+> O **Status** é gerado automaticamente pelo sistema no momento em que o registro é finalizado, ficando como **Publicado**.
 
 <video src="../../images/Gravando%202026-03-24%20151016.mp4" controls width="100%"></video>
-### Passo 2: Uso do Calendário em Campanhas
+### 2: Uso do Calendário em Campanhas
 Ao criar uma campanha, você pode vincular um calendário:
 **Benefícios da Vinculação:**
 - **Filtragem**: Facilita encontrar campanhas relacionadas
@@ -51,24 +50,23 @@ Ao criar uma campanha, você pode vincular um calendário:
 1. Ao criar uma campanha, selecione o calendário no campo "Calendário"
 2. O sistema filtra automaticamente os Modelos de Mídia compatíveis com o calendário selecionado
 3. Durante a diagramação, apenas modelos vinculados ao mesmo calendário aparecem como opções
+![Identificação](../images/Pasted%20image%2020260325140447.png)
 
-### Passo 3: Uso do Calendário em Modelos de Mídia
+### 3: Uso do Calendário em Modelos de Mídia
 Os modelos de mídia também podem ser "etiquetados" com um calendário para garantir que a comunicação visual esteja sempre alinhada:
 - **Lâminas, Cards e Stories:** Geralmente são vinculados a **um único calendário** específico.
 - **Cartazes:** Podem aceitar **múltiplos calendários**, permitindo mais flexibilidade na criação.
 
-> [!TIP] Filtragem Automática
-> 
-> Durante a diagramação, o sistema filtra e exibe apenas os modelos que estão vinculados ao mesmo calendário da campanha ativa. Isso garante que você não use acidentalmente uma moldura de "Natal" em uma campanha de "Páscoa".
+![Identificação](../images/Pasted%20image%2020260325141602.png)
 
-## 4. Visualização e Gerenciamento
+### 4: Visualização e Gerenciamento
 Na tela principal de **Calendários**, você tem uma visão completa de tudo o que foi planejado. É o seu painel de controle para manter a organização em dia.
 #### O que você pode fazer na Grid?
 - **Acompanhar tudo:** Veja todos os seus calendários em uma única lista organizada.
 - **Manutenção simples:** Precisa mudar algo? Você pode **Editar** as informações ou **Excluir** calendários que não serão mais utilizados.
 
 > [!TIP] Exclusão em massa
-> Na grid de calendários, é possível utilizar o botão **Ações** para excluir registros selecionados, otimizando a limpeza de calendários antigos.
+> Na grid de calendários, é possível utilizar o botão **Abrir Ações** para excluir registros selecionados, otimizando a limpeza de calendários antigos.
 > Caminho: Acesse Calendários > Marque o checkbox "Nome" > Clique no botão "Abrir ações" > Excluir selecionado
 
 ![Identificação](../images/Pasted%20image%2020260324154958.png)
@@ -96,7 +94,6 @@ A equipe de marketing cria calendários específicos para as grandes datas do va
 - **Dia das Mães 2025:** Focado em presentes e almoço especial.
 - **Black Friday 2025:** Concentra as promoções agressivas de eletrônicos e bazar.
 - **Natal 2025:** Agrupa tudo relacionado à ceia e presentes de fim de ano.
-
 ### Por que isso é bom na prática?
 - **Foco Total:** Ao abrir o calendário "Natal", você vê apenas o que importa para aquela data, sem misturar com outras promoções.
 - **Seleção sem Erros:** Quando você cria uma campanha de Páscoa, o sistema já "filtra" os modelos de mídia (como artes de ovos de chocolate) automaticamente. Você não corre o risco de usar o fundo errado!
@@ -105,10 +102,8 @@ A equipe de marketing cria calendários específicos para as grandes datas do va
 
 ## Caso 2: Ofertas Semanais Recorrentes
 Sabe aquelas ofertas que acontecem toda semana, de quinta a domingo? Em vez de criar tudo do zero toda vez, o calendário ajuda a padronizar o processo.
-
 ### O Cenário
 A loja cria um calendário fixo chamado **"Ofertas Semanais 2025"**.
-
 ### Como isso facilita o dia a dia?
 - **Padrão de Qualidade:** Todas as campanhas de ofertas da semana são "carimbadas" com esse calendário.
 - **Agilidade na Criação:** Ao abrir uma nova campanha semanal, o sistema já traz os modelos de mídia padrão (aqueles que você já usa toda semana). Você só precisa trocar os preços e produtos!
@@ -116,13 +111,11 @@ A loja cria um calendário fixo chamado **"Ofertas Semanais 2025"**.
 
 ## Caso 3: Organização por Regiões (Nacional vs. Regional)
 Se a sua rede tem lojas em diferentes estados ou cidades, você sabe que o que vende no Sul nem sempre é o que vende no Nordeste. O calendário ajuda a separar essas realidades.
-
 ### O Cenário
 A equipe de marketing organiza a comunicação em três níveis:
 - **Calendário Nacional:** Campanhas que valem para a rede toda (ex: Aniversário do Supermercado).
 - **Calendário Regional Sul:** Ofertas de inverno, vinhos e itens típicos da região.
 - **Calendário Regional Nordeste:** Promoções de verão antecipado e itens regionais específicos.
-
 ### Por que isso é bom na prática?
 - **Sem Confusão:** O gerente da loja do Nordeste não corre o risco de ver ou usar, por engano, uma arte criada especificamente para o Sul.
 - **Organização por Local:** Cada região tem seu "quadrado". Você consegue gerenciar o que é nacional e o que é local de forma totalmente separada.
@@ -191,7 +184,6 @@ graph TD
 > [!QUESTION] O que acontece se eu excluir um calendário?
 > As campanhas vinculadas não são excluídas, mas ficam sem calendário. Os modelos de mídia vinculados também não são excluídos, mas perdem a vinculação.
 ## Considerações Finais
-
 A configuração correta dos calendários é o primeiro passo para uma operação de marketing eficiente e organizada, garantindo que a equipe de diagramação tenha sempre as ferramentas certas para cada tema promocional.
 
 ## Leia Também
