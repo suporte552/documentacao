@@ -14,5 +14,5 @@ jobs:
         with:
           python-version: 3.x
       # Adicionamos a biblioteca de extensões aqui embaixo:
-      - - run: pip install mkdocs-material pymdown-extensions
+      - run: pip install mkdocs-material pymdown-extensions
       - run: mkdocs gh-deploy --force
