@@ -2,8 +2,9 @@
 ## Introdução
 
 O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma "pasta temática" que agrupa tudo o que pertence a um mesmo evento (como a Páscoa ou a Black Friday), garantindo que a identidade visual e as campanhas sigam uma lógica organizacional impecável.
-### 📍 Onde encontrar?
-> **Caminho:** Menu Lateral → Campanhas → **Calendários**
+
+> [!NOTE] Caminho
+> Menu Lateral → Campanhas → Calendários
 
 ## Entrega de Valor
 
