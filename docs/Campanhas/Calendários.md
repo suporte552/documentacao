@@ -67,6 +67,7 @@ Uma rede de supermercados cria calendários como **"Black Friday 2025"** ou **"D
 Criação do calendário **"Ofertas Semanais 2025"** para campanhas de quinta a domingo.
 - **Resultado:** Padronização visual e agilidade na busca de campanhas recorrentes.
 
+
 ### Organização Regional
 Criação de calendários como **"Regional Sul"** ou **"Nacional"**.
 - **Resultado:** Campanhas e modelos regionais ficam restritos aos seus respectivos calendários, facilitando a gestão por praça de atuação.
