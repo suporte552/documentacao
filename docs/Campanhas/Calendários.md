@@ -1,4 +1,3 @@
-
 ## Introdução
 
 O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma "pasta temática" que agrupa tudo o que pertence a um mesmo evento (como a Páscoa ou a Black Friday), garantindo que a identidade visual e as campanhas sigam uma lógica organizacional impecável.
@@ -32,7 +31,8 @@ No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo
 | ------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
 | **Criar**                | Salva o registro e mantém o usuário na mesma tela, habilitando a edição. | Ideal para quem precisa revisar ou detalhar o calendário logo após a criação. |
 | **Salvar e Criar Outro** | Conclui o registro atual e limpa os campos para um novo cadastro.        | Focado em produtividade para cadastros em lote (múltiplos itens).             |
-| **Cancelar**             | Interrompe o processo sem salvar.                                        | Redireciona para a grid de calendários existentes.                            |
+
+> [!TIP] O botão **Cancelar** interrompe o processo sem salvar e redireciona para a grid de calendários já existentes. 
 
 > [!TIP] Status na grid
 > O **Status** é gerado automaticamente pelo sistema no momento em que o registro é finalizado, ficando como **Publicado**.
