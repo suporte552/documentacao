@@ -36,10 +36,11 @@ O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma
 
 ### Opções de Finalização: Cadastro de Calendário
 
-| **Botão**                | **Comportamento**                                                                                        | **Objetivo Principal**                                                               |     |
-| ------------------------ | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --- |
-| **Criar**                | Salva o registro e mantém o usuário na mesma tela, habilitando o modo de edição (**Salvar Alterações**). | Ideal quando o usuário precisa revisar ou detalhar o calendário logo após a criação. |     |
-| **Salvar e Criar Outro** | Conclui o registro atual e limpa os campos para um novo cadastro, sem fechar a janela.                   | Focado em produtividade para cadastros em lote (múltiplos calendários de uma vez).   |     |
+| **Botão**                | **Comportamento**                                                                                        | **Objetivo Principal**                                                               |
+| ------------------------ | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Criar**                | Salva o registro e mantém o usuário na mesma tela, habilitando o modo de edição (**Salvar Alterações**). | Ideal quando o usuário precisa revisar ou detalhar o calendário logo após a criação. |
+| **Salvar e Criar Outro** | Conclui o registro atual e limpa os campos para um novo cadastro, sem fechar a janela.                   | Focado em produtividade para cadastros em lote (múltiplos calendários de uma vez).   |
+| **Cancelar**             | Cancela o registro iniciado.                                                                             | Cancelar o registro iniciado e redireciona para a grid de calendários já criados.    |
 
 
 <video src="../../images/Gravando%202026-03-24%20151016.mp4" controls width="100%"></video>
@@ -119,26 +120,27 @@ graph TD
     O --> S[Exibir apenas Modelos Compatíveis com o Calendário]
 ```
 ## Perguntas Frequentes
-**P: Posso ter múltiplos calendários ativos ao mesmo tempo?**  
-R: Sim! É comum ter múltiplos calendários para organizar diferentes tipos de campanhas (eventos sazonais, ofertas semanais, campanhas regionais, etc.).
 
-**P: O calendário armazena eventos ou datas?**  
-R: Não. O calendário é apenas um agrupador. As datas e períodos são definidos diretamente nas campanhas.
+> [!QUESTION] Posso ter múltiplos calendários ativos ao mesmo tempo?
+> Sim! É comum ter múltiplos calendários para organizar diferentes tipos de campanhas (eventos sazonais, ofertas semanais, campanhas regionais, etc.).
 
-**P: Posso editar um calendário que já tem campanhas vinculadas?**  
-R: Sim, você pode editar o nome e descrição do calendário a qualquer momento. Isso não afeta as campanhas vinculadas.
+> [!QUESTION] O calendário armazena eventos ou datas?
+> Não. O calendário é apenas um agrupador. As datas e períodos são definidos diretamente nas campanhas.
 
-**P: Campanhas precisam estar vinculadas a calendários?**  
-R: Não é obrigatório, mas é altamente recomendado para organização e para que os modelos de mídia apropriados apareçam automaticamente.
+> [!QUESTION] Posso editar um calendário que já tem campanhas vinculadas?
+> Sim, você pode editar o nome e descrição do calendário a qualquer momento. Isso não afeta as campanhas vinculadas.
 
-**P: Como funciona a filtragem de modelos de mídia por calendário?**  
-R: Ao criar uma campanha vinculada a um calendário, apenas os modelos de mídia vinculados ao mesmo calendário aparecem como opções durante a diagramação.
+> [!QUESTION] Campanhas precisam estar vinculadas a calendários?
+> Não é obrigatório, mas é altamente recomendado para organização e para que os modelos de mídia apropriados apareçam automaticamente.
 
-**P: Posso vincular um modelo de mídia a múltiplos calendários?**  
-R: Para cartazes, sim. Um modelo de cartaz pode ser vinculado a múltiplos calendários. Para laminas, cards e stories, cada modelo é vinculado a apenas um calendário.
+> [!QUESTION] Como funciona a filtragem de modelos de mídia por calendário?
+> Ao criar uma campanha vinculada a um calendário, apenas os modelos de mídia vinculados ao mesmo calendário aparecem como opções durante a diagramação.
 
-**P: O que acontece se eu excluir um calendário?**  
-R: As campanhas vinculadas não são excluídas, mas ficam sem calendário. Os modelos de mídia vinculados também não são excluídos, mas perdem a vinculação.
+> [!QUESTION] Posso vincular um modelo de mídia a múltiplos calendários?
+> Para cartazes, sim. Um modelo de cartaz pode ser vinculado a múltiplos calendários. Para lâminas, cards e stories, cada modelo é vinculado a apenas um calendário.
+
+> [!QUESTION] O que acontece se eu excluir um calendário?
+> As campanhas vinculadas não são excluídas, mas ficam sem calendário. Os modelos de mídia vinculados também não são excluídos, mas perdem a vinculação.
 ## Considerações Finais
 
 A configuração correta dos calendários é o primeiro passo para uma operação de marketing eficiente e organizada, garantindo que a equipe de diagramação tenha sempre as ferramentas certas para cada tema promocional.
