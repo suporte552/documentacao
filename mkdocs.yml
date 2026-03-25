@@ -17,11 +17,7 @@ markdown_extensions:
   - pymdownx.tilde
   - toc:
       permalink: true
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.mermaid_format
+  - pymdownx.superfences # <-- DEIXE APENAS ASSIM, SEM AS LINHAS EMBAIXO
 
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
