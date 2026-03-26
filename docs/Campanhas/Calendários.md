@@ -1,6 +1,6 @@
 ## Introdução
 
-O **Calendário** é o seu braço direito no planejamento. Ele funciona como uma "pasta temática" que agrupa tudo o que pertence a um mesmo evento (como a Páscoa ou a Black Friday), garantindo que a identidade visual e as campanhas sigam uma lógica organizacional impecável.
+O **Calendário de Campanhas** é o coração do seu planeamento. Com ele, você organiza e visualiza todas as ações promocionais do ano de forma estratégica, garantindo que as campanhas recorrentes sigam um padrão e que nenhum período importante seja esquecido.
 
 > [!NOTE] Caminho
 > Menu Lateral esquerdo → Campanhas → Calendários
@@ -61,13 +61,14 @@ Os modelos de mídia também podem ser "etiquetados" com um calendário para gar
 
 ### 4: Visualização e Gerenciamento
 Na tela principal de **Calendários**, você tem uma visão completa de tudo o que foi planejado. É o seu painel de controle para manter a organização em dia.
+
 #### O que você pode fazer na Grid?
 - **Acompanhar tudo:** Veja todos os seus calendários em uma única lista organizada.
 - **Manutenção simples:** Precisa mudar algo? Você pode **Editar** as informações ou **Excluir** calendários que não serão mais utilizados.
 
 > [!TIP] Exclusão em massa
 > Na grid de calendários, é possível utilizar o botão **Abrir Ações** para excluir registros selecionados, otimizando a limpeza de calendários antigos.
-> Caminho: Acesse Calendários > Marque o checkbox "Nome" > Clique no botão "Abrir ações" > Excluir selecionado
+> Caminho: Acesse Calendários > Marque o checkbox "Nome" > Clique no botão "Abrir ações" > Excluir selecionado.
 
 ![Identificação](../images/Pasted%20image%2020260324154958.png)
 #### Dicas para uma Organização Impecável (Boas Práticas)

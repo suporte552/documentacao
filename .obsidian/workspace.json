@@ -167,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,9 +183,12 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
+    "docs/images/Pasted image 20260326104353.png",
+    "docs/Campanhas/Calendários.md",
+    "images/Pasted image 20260326104318.png",
+    "images",
     "docs/images/Pasted image 20260325140447.png",
     "docs/images/Pasted image 20260325141602.png",
-    "docs/Campanhas/Calendários.md",
     "docs/Campanhas/images/Pasted image 20260325141520.png",
     "docs/Campanhas/images",
     "docs/images/Pasted image 20260324154958.png",
@@ -198,12 +201,9 @@
     "docs/Campanhas",
     "docs/Sem título.md",
     "images/Pasted.md",
-    "images",
     "docs/images/Pasted image 20260318080428.png",
     "docs/images/Pasted image 20260318080100.png",
-    "docs/images/Pasted image 20260317121817.png",
     "docs/images",
-    "Pasted image 20260317121709.png",
     "conflict-files-obsidian-git.md",
     "docs/FAQ.md",
     "docs/Produtos/Cadastro de produtos.md",

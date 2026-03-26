@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./images",
+  "attachmentFolderPath": "docs/images",
   "newLinkFormat": "relative"
 }
