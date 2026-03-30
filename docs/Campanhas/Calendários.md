@@ -20,10 +20,10 @@ O **Calendário de Campanhas** é o coração do seu planeamento. Com ele, você
 2. Clique em **Criar Calendário**.
 3. Preencha as informações conforme a tabela abaixo:
 
-| **Campo**          | **Descrição**                         | **Dica de Ouro**                                         |
-| ------------------ | ------------------------------------- | -------------------------------------------------------- |
-| **Nome**           | Identificação do grupo (Obrigatório). | Use o padrão "Nome + Ano" (Ex: _Natal 2025_).            |
-| **Especificações** | Texto livre para notas.               | Insira aqui os objetivos da campanha ou o público-alvo.  |
+| **Campo**          | **Descrição**                         | **Dica de Ouro**                                        |
+| ------------------ | ------------------------------------- | ------------------------------------------------------- |
+| **Nome**           | Identificação do grupo (Obrigatório). | Use o padrão "Nome + Ano" (Ex: _Natal 2025_).           |
+| **Especificações** | Texto livre para notas.               | Insira aqui os objetivos da campanha ou o público-alvo. |
 ####  Opções de Finalização
 No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo:
 
@@ -68,7 +68,7 @@ Na tela principal de **Calendários**, você tem uma visão completa de tudo o q
 
 > [!TIP] Exclusão em massa
 > Na grid de calendários, é possível utilizar o botão **Abrir Ações** para excluir registros selecionados, otimizando a limpeza de calendários antigos.
-> Caminho: Acesse Calendários > Marque o checkbox "Nome" > Clique no botão "Abrir ações" > Excluir selecionado.
+> Caminho: Acesse Calendários > Marque o Checkbox "Nome" > Clique no botão "Abrir ações" > Selecione os calendários para exclusão > Excluir selecionado.
 
 ![Identificação](../images/Pasted%20image%2020260324154958.png)
 #### Dicas para uma Organização Impecável (Boas Práticas)
@@ -126,12 +126,12 @@ A equipe de marketing organiza a comunicação em três níveis:
 
 Para garantir a segurança e a organização das informações, o acesso às funcionalidades de Calendário é dividido por perfis. Confira o que cada nível de acesso permite fazer:
 
-|Ação|Quem pode fazer (Perfis)|O que é permitido?|
-|---|---|---|
-|**Criar**|Gestor de Marketing ou Administrador|Criar novos grupos de calendários do zero.|
-|**Editar**|Gestor de Marketing ou Administrador|Alterar nomes ou especificações de calendários já criados.|
-|**Visualizar**|Todos os usuários do módulo de campanhas|Consultar a lista e usar os calendários nas campanhas.|
-|**Excluir**|Gestor de Marketing ou Administrador|Remover calendários (Ação irreversível).|
+| Ação           | Quem pode fazer (Perfis)                 | O que é permitido?                                         |
+| -------------- | ---------------------------------------- | ---------------------------------------------------------- |
+| **Criar**      | Gestor de Marketing ou Administrador     | Criar novos grupos de calendários do zero.                 |
+| **Editar**     | Gestor de Marketing ou Administrador     | Alterar nomes ou especificações de calendários já criados. |
+| **Visualizar** | Todos os usuários do módulo de campanhas | Consultar a lista e usar os calendários nas campanhas.     |
+| **Excluir**    | Gestor de Marketing ou Administrador     | Remover calendários (Ação irreversível).                   |
 
 ## Fluxo de Trabalho
 
@@ -188,3 +188,5 @@ graph TD
 A configuração correta dos calendários é o primeiro passo para uma operação de marketing eficiente e organizada, garantindo que a equipe de diagramação tenha sempre as ferramentas certas para cada tema promocional.
 
 ## Leia Também
+- [[Gestão de campanhas]]
+- [[../Fornecedores|Fornecedores]]
