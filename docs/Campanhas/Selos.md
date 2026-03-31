@@ -46,9 +46,11 @@ Após cadastrar os selos, eles ficam disponíveis na biblioteca do editor para s
 
 #### Ajuste de Sobreposição (Camadas)
 Para que o selo apareça exatamente onde você deseja (por exemplo, à frente do produto, mas atrás de um texto), utilize as ferramentas de ordenação:
+
 - **Organização de Camadas:** Localize os ícones de seta ao lado da lixeira no menu de propriedades do elemento.
 - **Recuar Elemento:** Utilize o botão **"Send Backward"** (ou o atalho `Ctrl` + `Shift` + `Down`) para mover o elemento para trás, nível por nível, até que ele fique posicionado abaixo do componente desejado.
 - **Trazer para Frente:** Se o selo sumir atrás de uma imagem, utilize o botão **"Bring Forward"** para trazê-lo para o topo.
+
 **Dica de Ouro:** Ao selecionar o selo no editor, você também pode usar o mouse para ajustar o **tamanho** (puxando pelas extremidades) e a **rotação** (utilizando o ícone circular acima do elemento).
 
 ### 3: Visualização e Gerenciamento
