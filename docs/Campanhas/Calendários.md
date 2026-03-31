@@ -32,10 +32,11 @@ No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo
 | **Criar**                | Salva o registro e mantém o usuário na mesma tela, habilitando a edição. | Ideal para quem precisa revisar ou detalhar o calendário logo após a criação. |
 | **Salvar e Criar Outro** | Conclui o registro atual e limpa os campos para um novo cadastro.        | Focado em produtividade para cadastros em lote (múltiplos itens).             |
 
-> [!TIP] O botão **Cancelar** interrompe o processo sem salvar e redireciona para a grid de calendários já existentes. 
+!!! tip ""
+    O botão **Cancelar** interrompe o processo sem salvar e redireciona para a grid de calendários já existentes.
 
-> [!TIP] Status na grid
-> O **Status** é gerado automaticamente pelo sistema no momento em que o registro é finalizado, ficando como **Publicado**.
+!!! info "Status na grid"
+    O **Status** é gerado automaticamente pelo sistema no momento em que o registro é finalizado, ficando como **Publicado**.
 
 <video src="../../images/Gravando%202026-03-24%20151016.mp4" controls width="100%"></video>
 ### 2: Uso do Calendário em Campanhas
@@ -66,9 +67,10 @@ Na tela principal de **Calendários**, você tem uma visão completa de tudo o q
 - **Acompanhar tudo:** Veja todos os seus calendários em uma única lista organizada.
 - **Manutenção simples:** Precisa mudar algo? Você pode **Editar** as informações ou **Excluir** calendários que não serão mais utilizados.
 
-> [!TIP] Exclusão em massa
-> Na grid de calendários, é possível utilizar o botão **Abrir Ações** para excluir registros selecionados, otimizando a limpeza de calendários antigos.
-> Caminho: Acesse Calendários > Marque o Checkbox "Nome" > Clique no botão "Abrir ações" > Selecione os calendários para exclusão > Excluir selecionado.
+!!! info "Exclusão em massa"
+    Na grid de calendários, é possível utilizar o botão **Abrir Ações** para excluir registros selecionados, otimizando a limpeza de calendários antigos.
+    
+    **Caminho:** Acesse Calendários > Marque o Checkbox "Nome" > Clique no botão "Abrir ações" > Selecione os calendários para exclusão > Excluir selecionado.
 
 ![Identificação](../images/Pasted%20image%2020260324154958.png)
 #### Dicas para uma Organização Impecável (Boas Práticas)
@@ -77,14 +79,10 @@ Para que o sistema trabalhe a seu favor e você ganhe tempo no dia a dia, siga e
 - **Agrupar é a chave:** Procure manter campanhas que tenham o mesmo contexto dentro do mesmo calendário. Isso evita que as informações fiquem espalhadas.
 - **Mantenha o padrão:** Tente organizar seus calendários sempre seguindo um tema (ex: Dia das Mães) ou um período específico (ex: Verão 2025). Isso ajuda muito na hora de tirar relatórios e analisar resultados
 
-> [!INFO] Considerações Importantes
-> 
-> - **O calendário não armazena datas:** Ele é apenas um agrupador. As datas de vigência são definidas dentro da Campanha.
->     
-> - **Edição Segura:** Você pode editar o nome de um calendário mesmo que ele já possua campanhas vinculadas; isso não afetará os dados das campanhas.
->     
-> - **Exclusão:** Se excluir um calendário, as campanhas vinculadas não são apagadas, elas apenas perdem a referência do agrupador.
->     
+!!! info "Considerações Importantes"
+    * **O calendário não armazena datas:** Ele é apenas um agrupador. As datas de vigência são definidas dentro da Campanha.
+    * **Edição Segura:** Você pode editar o nome de um calendário mesmo que ele já possua campanhas vinculadas; isso não afetará os dados das campanhas.
+    * **Exclusão:** Se excluir um calendário, as campanhas vinculadas não são apagadas, elas apenas perdem a referência do agrupador.
 # Casos de Uso
 
 ## Caso 1: Organização por Eventos Sazonais
@@ -162,28 +160,29 @@ graph TD
 
     O --> S[Exibir apenas Modelos Compatíveis com o Calendário]
 ```
-## Perguntas Frequentes
 
-> [!QUESTION] Posso ter múltiplos calendários ativos ao mesmo tempo?
-> Sim! É comum ter múltiplos calendários para organizar diferentes tipos de campanhas (eventos sazonais, ofertas semanais, campanhas regionais, etc.).
+# Perguntas Frequentes (FAQ)
 
-> [!QUESTION] O calendário armazena eventos ou datas?
-> Não. O calendário é apenas um agrupador. As datas e períodos são definidos diretamente nas campanhas.
+!!! question "Posso ter múltiplos calendários ativos ao mesmo tempo?"
+    Sim! É comum ter múltiplos calendários para organizar diferentes tipos de campanhas (eventos sazonais, ofertas semanais, campanhas regionais, etc.).
 
-> [!QUESTION] Posso editar um calendário que já tem campanhas vinculadas?
-> Sim, você pode editar o nome e descrição do calendário a qualquer momento. Isso não afeta as campanhas vinculadas.
+!!! question "O calendário armazena eventos ou datas?"
+    Não. O calendário é apenas um agrupador. As datas e períodos são definidos diretamente nas campanhas.
 
-> [!QUESTION] Campanhas precisam estar vinculadas a calendários?
-> Não é obrigatório, mas é altamente recomendado para organização e para que os modelos de mídia apropriados apareçam automaticamente.
+!!! question "Posso editar um calendário que já tem campanhas vinculadas?"
+    Sim, você pode editar o nome e descrição do calendário a qualquer momento. Isso não afeta as campanhas vinculadas.
 
-> [!QUESTION] Como funciona a filtragem de modelos de mídia por calendário?
-> Ao criar uma campanha vinculada a um calendário, apenas os modelos de mídia vinculados ao mesmo calendário aparecem como opções durante a diagramação.
+!!! question "Campanhas precisam estar vinculadas a calendários?"
+    Não é obrigatório, mas é altamente recomendado para organização e para que os modelos de mídia apropriados apareçam automaticamente.
 
-> [!QUESTION] Posso vincular um modelo de mídia a múltiplos calendários?
-> Para cartazes, sim. Um modelo de cartaz pode ser vinculado a múltiplos calendários. Para lâminas, cards e stories, cada modelo é vinculado a apenas um calendário.
+!!! question "Como funciona a filtragem de modelos de mídia por calendário?"
+    Ao criar uma campanha vinculada a um calendário, apenas os modelos de mídia vinculados ao mesmo calendário aparecem como opções durante a diagramação.
 
-> [!QUESTION] O que acontece se eu excluir um calendário?
-> As campanhas vinculadas não são excluídas, mas ficam sem calendário. Os modelos de mídia vinculados também não são excluídos, mas perdem a vinculação.
+!!! question "Posso vincular um modelo de mídia a múltiplos calendários?"
+    Para cartazes, sim. Um modelo de cartaz pode ser vinculado a múltiplos calendários. Para lâminas, cards e stories, cada modelo é vinculado a apenas um calendário.
+
+!!! question "O que acontece se eu excluir um calendário?"
+    As campanhas vinculadas não são excluídas, mas ficam sem calendário. Os modelos de mídia vinculados também não são excluídos, mas perdem a vinculação.
 ## Considerações Finais
 A configuração correta dos calendários é o primeiro passo para uma operação de marketing eficiente e organizada, garantindo que a equipe de diagramação tenha sempre as ferramentas certas para cada tema promocional.
 
