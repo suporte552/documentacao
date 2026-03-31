@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Campanhas/Calendários.md",
+                "file": "docs/Campanhas/Selos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calendários"
+              "title": "Selos"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas/Calendários.md",
+                "file": "docs/Campanhas/Selos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Calendários"
+              "title": "Links inversos para Selos"
             }
           },
           {
@@ -184,7 +184,8 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
-    "docs/Campanhas/Fluxo de aprovação.md",
+    "docs/Campanhas/Gestão de campanhas.md",
+    "docs/Campanhas/Selos.md",
     "docs/Campanhas/Calendários.md",
     "docs/images/Pasted image 20260326104353.png",
     "images/Pasted image 20260326104318.png",
@@ -196,7 +197,6 @@
     "docs/images/Pasted image 20260324154958.png",
     "docs/images/Pasted image 20260318080947.png",
     "docs/images/Pasted image 20260317123555.png",
-    "docs/Campanhas/Gestão de campanhas.md",
     "docs/images/Gravando 2026-03-24 151016.mp4",
     "docs/Fornecedores.md",
     "docs/Campanhas.md",
