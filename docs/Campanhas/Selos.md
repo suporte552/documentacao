@@ -57,6 +57,7 @@ Para que o selo apareça exatamente onde você deseja (por exemplo, à frente do
 Na tela principal de Selos, você tem uma visão completa de todos os elementos cadastrados.
 
 **O que você pode fazer na Grid?**
+
 - **Acompanhar tudo:** Veja todos os seus selos em uma única lista organizada.
 - **Manutenção simples:** Precisa mudar a imagem ou o nome? Você pode **Editar** as informações ou **Excluir** selos que não serão mais utilizados.
 
