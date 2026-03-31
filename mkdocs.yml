@@ -31,6 +31,7 @@ nav:
   - Início: index.md
   - Campanhas:
       - Calendários: Campanhas/Calendários.md
+      - Fluxo de aprovação: Campanhas/Fluxo de aprovação.md
       - Gestão de campanhas: Campanhas/Gestão de campanhas.md
   - FAQ: FAQ.md
   - Fornecedores: Fornecedores.md
