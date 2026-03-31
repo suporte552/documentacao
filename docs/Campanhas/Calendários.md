@@ -24,8 +24,10 @@ O **Calendário de Campanhas** é o coração do seu planeamento. Com ele, você
 | ------------------ | ------------------------------------- | ------------------------------------------------------- |
 | **Nome**           | Identificação do grupo (Obrigatório). | Use o padrão "Nome + Ano" (Ex: _Natal 2025_).           |
 | **Especificações** | Texto livre para notas.               | Insira aqui os objetivos da campanha ou o público-alvo. |
+
 ####  Opções de Finalização
 No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo:
+
 
 | **Botão**                | **Comportamento**                                                        | **Objetivo Principal**                                                        |
 | ------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
