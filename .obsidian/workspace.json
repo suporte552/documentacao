@@ -167,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 203.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,9 +184,9 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
-    "docs/Campanhas/Gestão de campanhas.md",
-    "docs/Campanhas/Selos.md",
     "docs/Campanhas/Calendários.md",
+    "docs/Campanhas/Selos.md",
+    "docs/Campanhas/Gestão de campanhas.md",
     "docs/images/Pasted image 20260326104353.png",
     "images/Pasted image 20260326104318.png",
     "images",
