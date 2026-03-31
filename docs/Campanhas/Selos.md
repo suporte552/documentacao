@@ -32,10 +32,12 @@ No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo
 | **Criar**                | Salva o registro e mantém o usuário na mesma tela, habilitando a edição. | Ideal para quem precisa revisar o selo logo após a criação.       |
 | **Salvar e Criar Outro** | Conclui o registro atual e limpa os campos para um novo cadastro.        | Focado em produtividade para cadastros em lote (múltiplos itens). |
 
-!!! tip "" O botão **Cancelar** interrompe o processo sem salvar e redireciona para a grid de selos já existentes.
+!!! tip "Botão cancelar" 
+    O botão **Cancelar** interrompe o processo sem salvar e redireciona para a grid de selos já existentes.
 
 ### 2: Vinculo no modelo de diagramação
 Após cadastrar os selos, eles ficam disponíveis na biblioteca do editor para serem aplicados às suas peças. Veja como utilizá-los e como organizar as camadas para um visual perfeito:
+
 !!! info "Caminho"
     Menu lateral esquerdo → Campanhas → **Modelos de Diagramação**
 
