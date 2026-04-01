@@ -2,7 +2,8 @@
 
 O Portal do Fornecedor é uma interface dedicada que permite aos parceiros acessar o sistema de forma independente. Com ele, é possível gerenciar produtos, visualizar campanhas e enviar propostas diretamente para os clientes da Gomark, estabelecendo um relacionamento B2B2C eficiente e colaborativo.
 
-!!! info "Caminho" Menu Lateral esquerdo → Operacional → Fornecedores
+!!! info "Caminho"
+    Menu Lateral esquerdo → Operacional → Fornecedores
 
 ## Entrega de Valor
 
@@ -27,7 +28,8 @@ Na tela principal de fornecedores, você tem o controle total dos cadastros.
 - **Salvar e Criar Outro:** Salva e limpa os campos para um novo cadastro rápido.
 - **Vincular a um Parceiro:** Permite buscar e associar um fornecedor já existente no banco de dados através do CNPJ.
 
-!!! tip "" O botão **Cancelar** interrompe o processo sem salvar e redireciona para a grid de fornecedores.
+!!! tip "Botão cancelar" 
+    O botão **Cancelar** interrompe o processo sem salvar e redireciona para a grid de fornecedores.
 
 ### 2: Gerar Convite de Cadastro
 Esta funcionalidade permite convidar novos parceiros via e-mail com total segurança.
@@ -38,7 +40,8 @@ Esta funcionalidade permite convidar novos parceiros via e-mail com total segura
     - **Desativado (Padrão):** O link expira após o primeiro uso.
 - **Expiração:** Você pode definir o prazo de validade (1, 3, 7, 15 ou 30 dias). Recomendamos **7 dias**.
 
-!!! info "Segurança do Link" O sistema gera um token aleatório de 48 caracteres. O link valida automaticamente o ID do cliente, a expiração e a unicidade do token, garantindo que apenas o fornecedor autorizado realize o cadastro via HTTPS.
+!!! info "Segurança do Link" 
+    O sistema gera um token aleatório de 48 caracteres. O link valida automaticamente o ID do cliente, a expiração e a unicidade do token, garantindo que apenas o fornecedor autorizado realize o cadastro via HTTPS.
 
 
 ### 3: Importação de Dados
@@ -100,8 +103,6 @@ graph TD
 
 !!! question "Como aprovar um fornecedor que acabou de se cadastrar via convite?"
     Na grid de fornecedores, selecione o registro desejado através do checkbox e utilize a opção de "Aprovar" que aparecerá no menu de ações.
-
----
 
 ## Considerações Finais
 
