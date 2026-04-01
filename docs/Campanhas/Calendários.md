@@ -43,6 +43,7 @@ No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo
 <video src="../../images/Gravando%202026-03-24%20151016.mp4" controls width="100%"></video>
 ### 2: Uso do Calendário em Campanhas
 Ao criar uma campanha, você pode vincular um calendário:
+
 **Benefícios da Vinculação:**
 
 - **Filtragem**: Facilita encontrar campanhas relacionadas
