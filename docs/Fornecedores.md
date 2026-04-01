@@ -36,8 +36,11 @@ Esta funcionalidade permite convidar novos parceiros via e-mail com total segura
 **Configurações do Convite:**
 
 - **E-mal do Vendedor (Opcional):** E-mail para envio do convite. 
-- **Permitir Uso Múltiplo (Toggle):** * **Ativado:** O link pode ser usado por várias pessoas da mesma empresa.
+- **Permitir Uso Múltiplo (Toggle):** 
+
+    * **Ativado:** O link pode ser usado por várias pessoas da mesma empresa.
     - **Desativado (Padrão):** O link expira após o primeiro uso.
+    
 - **Expiração:** Você pode definir o prazo de validade (1, 3, 7, 15 ou 30 dias). Recomendamos **7 dias**.
 
 !!! info "Segurança do Link" 
