@@ -103,6 +103,6 @@ graph TD
     Ele serve para manter o histórico. Se você excluiu um cluster por engano, pode filtrar por "Somente excluídos" para consultar os dados que estavam lá anteriormente.
 
 ## Considerações Finais
-A organização por clusters é a base para uma comunicação segmentada e eficiente. Grupos bem definidos evitam erros de logística e garantem que a mensagem certa chegue à unidade correta, poupando tempo operacional da equipe de marketing e vendas.
+A organização por clusters é a base para uma comunicação segmentada e eficiente. Grupos bem definidos evitam erros de logística e garantem que a mensagem certa chegue à unidade correta, poupando tempo operacional dpa equipe de marketing e vendas.
 
 ## Leia Também
