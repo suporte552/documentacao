@@ -199,5 +199,3 @@ graph TD
 A configuração correta dos calendários é o primeiro passo para uma operação de marketing eficiente e organizada, garantindo que a equipe de diagramação tenha sempre as ferramentas certas para cada tema promocional.
 
 ## Leia Também
-- [[Gestão de campanhas]]
-- [[../Fornecedores|Fornecedores]]

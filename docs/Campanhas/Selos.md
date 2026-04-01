@@ -17,6 +17,7 @@ Os **Selos** são elementos visuais essenciais para destacar ofertas e novidades
 ### 1: Criação de Selos
 Acesse **Campanhas -> Selos** -> Clique em **Criar**. 
 Preencha as informações conforme os campos abaixo:
+
 - **Nome**: Identificação do selo;
 - **Imagem**: Para que o selo esteja disponível na diagramação, você precisa realizar o upload do arquivo visual. O sistema oferece duas formas práticas de inserção:
     - **Arrastar e Soltar:** Selecione o arquivo de imagem em seu computador e arraste-o diretamente para a área demarcada no campo "Imagem".
@@ -42,6 +43,7 @@ Após cadastrar os selos, eles ficam disponíveis na biblioteca do editor do mod
     Menu lateral esquerdo → Campanhas → **Modelos de Diagramação**
 
 #### Passo a Passo para Inserção:
+
 1. **Acesse o Modelo:** Selecione o modelo de diagramação que deseja editar.
 2. **Ative o Menu de Edição:** Clique em qualquer componente da tela para habilitar o **menu lateral direito**.
 3. **Selecione o Selo:** No menu lateral direito, clique na aba **Selos** e escolha o selo desejado para inseri-lo na tela.
@@ -117,6 +119,3 @@ graph TD
 A utilização correta dos selos é um diferencial estratégico para destacar suas promoções e guiar o olhar do consumidor. Ao manter uma biblioteca organizada e padronizada em PNG transparente, você garante que a equipe de marketing tenha agilidade total na criação de peças visualmente atraentes e profissionais.
 
 ## Leia Também
-* [Modelos de Diagramação](#)
-* [Gestão de Campanhas](../Campanhas/Gestão de campanhas.md)
-* [FAQ de Selos](#)
