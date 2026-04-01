@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Campanhas/Calendários.md",
+                "file": "docs/Campanhas/Gestão de campanhas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calendários"
+              "title": "Gestão de campanhas"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas/Calendários.md",
+                "file": "docs/Campanhas/Gestão de campanhas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Calendários"
+              "title": "Links inversos para Gestão de campanhas"
             }
           },
           {
@@ -184,14 +184,14 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
-    "docs/Unidades.md",
+    "docs/Campanhas/Selos.md",
     "docs/Campanhas/Calendários.md",
+    "docs/Unidades.md",
     "docs/Clusters.md",
     "docs/Fornecedores.md",
     "docs/FAQ.md",
     "docs/index.md",
     "docs/Campanhas/Gestão de campanhas.md",
-    "docs/Campanhas/Selos.md",
     "docs/images/Pasted image 20260326104353.png",
     "images/Pasted image 20260326104318.png",
     "images",
