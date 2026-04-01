@@ -1,4 +1,3 @@
-
 ## Introdução
 
 A Gestão de Lojas (Unidades) permite cadastrar e organizar todas as unidades da sua rede — sejam elas lojas físicas, centros de distribuição (CD) ou qualquer ponto de venda. É nesta seção que você centraliza as informações estratégicas de cada unidade para organizar suas campanhas e garantir que os materiais promocionais cheguem ao destino correto.

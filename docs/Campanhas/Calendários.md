@@ -1,6 +1,6 @@
 ## Introdução
 
-O **Calendário de Campanhas** é o coração do seu planeamento. Com ele, você organiza e visualiza todas as ações promocionais do ano de forma estratégica, garantindo que as campanhas recorrentes sigam um padrão e que nenhum período importante seja esquecido.
+O **Calendário de Campanhas** é o coração do seu planejamento. Com ele, você organiza e visualiza todas as ações promocionais do ano de forma estratégica, garantindo que as campanhas recorrentes sigam um padrão e que nenhum período importante seja esquecido.
 
 !!! info "Caminho"
     Menu Lateral esquerdo → Campanhas → Calendários
