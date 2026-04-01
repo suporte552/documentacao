@@ -89,13 +89,17 @@ graph TD
 
 ## Perguntas Frequentes (FAQ)
 
-!!! question "O que acontece se o link do convite expirar?" O parceiro não conseguirá acessar a tela de cadastro. Será necessário gerar um novo convite no painel administrativo.
+!!! question "O que acontece se o link do convite expirar?" 
+    O parceiro não conseguirá acessar a tela de cadastro. Será necessário gerar um novo convite no painel administrativo.
 
-!!! question "Qual a diferença entre 'Uso Múltiplo' ativado ou desativado?" Se estiver **desativado**, apenas a primeira pessoa que clicar conseguirá se cadastrar; o link "morre" depois disso. Se estiver **ativado**, você pode enviar o mesmo link para vários departamentos de um fornecedor.
+!!! question "Qual a diferença entre 'Uso Múltiplo' ativado ou desativado?" 
+    Se estiver **desativado**, apenas a primeira pessoa que clicar conseguirá se cadastrar; o link "morre" depois disso. Se estiver **ativado**, você pode enviar o mesmo link para vários departamentos de um fornecedor.
 
-!!! question "Posso vincular um vendedor a mais de um fornecedor?" Sim, através da opção de "Associar", você consegue conectar representantes a diferentes CNPJs de fornecedores parceiros.
+!!! question "Posso vincular um vendedor a mais de um fornecedor?" 
+    Sim, através da opção de "Associar", você consegue conectar representantes a diferentes CNPJs de fornecedores parceiros.
 
-!!! question "Como aprovar um fornecedor que acabou de se cadastrar via convite?" Na grid de fornecedores, selecione o registro desejado através do checkbox e utilize a opção de "Aprovar" que aparecerá no menu de ações.
+!!! question "Como aprovar um fornecedor que acabou de se cadastrar via convite?"
+    Na grid de fornecedores, selecione o registro desejado através do checkbox e utilize a opção de "Aprovar" que aparecerá no menu de ações.
 
 ---
 
