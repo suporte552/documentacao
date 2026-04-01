@@ -49,7 +49,7 @@ A grid de clusters oferece ferramentas poderosas para controle e limpeza de dado
 - **Alterar Colunas:** Personalize sua visualização definindo quais colunas (Nome, Especificações, Data de Criação) deseja ver na tela.
 - **Filtros de Exclusão:** 
 
-    - Não exibir registros excluídos (Padrão).
+    - Não exibir registros excluídos (Padrão).p
     - Exibir registros excluídos (Lista tudo).
     - Somente registros excluídos (Para recuperação ou auditoria).
 
