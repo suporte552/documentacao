@@ -13,7 +13,6 @@ Os **Grupos** (também chamados de Clusters) são uma forma essencial de organiz
 - **Agilidade em Escala:** Ao atualizar um cluster, você impacta todas as lojas vinculadas a ele.
 - **Padronização:** Garante que lojas com o mesmo perfil recebam a mesma comunicação ou sortimento.
 
-
 ## Funcionalidades Principais
 ### 1: Criação de Clusters
 Acesse **Operacional -> Clusters** e clique em **Criar**. Preencha as informações conforme a tabela abaixo:
@@ -40,17 +39,17 @@ Acesse **Operacional -> Clusters** e clique em **Criar**. Preencha as informaç�
 ### 2: Integração com Unidades (Lojas)
 A função do Cluster se concretiza no cadastro das lojas.
 
-- Ao cadastrar ou editar uma **Unidade (Loja)**, você deve selecionar a qual **Grupo (Cluster)** ela pertence.
+- Ao cadastrar ou editar uma **Unidade (Loja)**, você pode selecionar a qual **Grupo (Cluster)** ela pertence.
 - Uma loja vinculada a um cluster herda as regras e filtros definidos para aquele grupo, otimizando a gestão em massa.
-
 
 ### 3: Visualização e Gerenciamento na Grid
 A grid de clusters oferece ferramentas poderosas para controle e limpeza de dados:
 
 - **Pesquisa Direta:** Utilize a barra de busca para encontrar clusters específicos pelo nome.
 - **Alterar Colunas:** Personalize sua visualização definindo quais colunas (Nome, Especificações, Data de Criação) deseja ver na tela.
-- **Filtros de Exclusão:** * Não exibir registros excluídos (Padrão).
-    
+- **Filtros de Exclusão:** 
+
+    - Não exibir registros excluídos (Padrão).
     - Exibir registros excluídos (Lista tudo).
     - Somente registros excluídos (Para recuperação ou auditoria).
 
