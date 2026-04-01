@@ -44,12 +44,14 @@ No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo
 ### 2: Uso do Calendário em Campanhas
 Ao criar uma campanha, você pode vincular um calendário:
 **Benefícios da Vinculação:**
+
 - **Filtragem**: Facilita encontrar campanhas relacionadas
 - **Modelos de Mídia**: Os modelos de mídia vinculados ao mesmo calendário aparecem automaticamente como opções
 - **Organização**: Agrupa campanhas por tema ou período
 - **Relatórios**: Permite análises agrupadas por calendário
 
 **Como Funciona:**
+
 1. Ao criar uma campanha, selecione o calendário no campo "Calendário"
 2. O sistema filtra automaticamente os Modelos de Mídia compatíveis com o calendário selecionado
 3. Durante a diagramação, apenas modelos vinculados ao mesmo calendário aparecem como opções
@@ -57,6 +59,7 @@ Ao criar uma campanha, você pode vincular um calendário:
 
 ### 3: Uso do Calendário em Modelos de Mídia
 Os modelos de mídia também podem ser "etiquetados" com um calendário para garantir que a comunicação visual esteja sempre alinhada:
+
 - **Lâminas, Cards e Stories:** Geralmente são vinculados a **um único calendário** específico.
 - **Cartazes:** Podem aceitar **múltiplos calendários**, permitindo mais flexibilidade na criação.
 
@@ -66,6 +69,7 @@ Os modelos de mídia também podem ser "etiquetados" com um calendário para gar
 Na tela principal de **Calendários**, você tem uma visão completa de tudo o que foi planejado. É o seu painel de controle para manter a organização em dia.
 
 #### O que você pode fazer na Grid?
+
 - **Acompanhar tudo:** Veja todos os seus calendários em uma única lista organizada.
 - **Manutenção simples:** Precisa mudar algo? Você pode **Editar** as informações ou **Excluir** calendários que não serão mais utilizados.
 
@@ -77,6 +81,7 @@ Na tela principal de **Calendários**, você tem uma visão completa de tudo o q
 ![Identificação](../images/Pasted%20image%2020260324154958.png)
 #### Dicas para uma Organização Impecável (Boas Práticas)
 Para que o sistema trabalhe a seu favor e você ganhe tempo no dia a dia, siga estas recomendações:
+
 - **Nomes que falam por si:** Escolha nomes claros e descritivos. Em vez de apenas "Promoção", use "Ofertas Relâmpago - Outubro 2025". Isso facilita muito a busca depois.
 - **Agrupar é a chave:** Procure manter campanhas que tenham o mesmo contexto dentro do mesmo calendário. Isso evita que as informações fiquem espalhadas.
 - **Mantenha o padrão:** Tente organizar seus calendários sempre seguindo um tema (ex: Dia das Mães) ou um período específico (ex: Verão 2025). Isso ajuda muito na hora de tirar relatórios e analisar resultados
@@ -91,11 +96,13 @@ Para que o sistema trabalhe a seu favor e você ganhe tempo no dia a dia, siga e
 Imagine uma rede de supermercados que precisa gerenciar dezenas de artes e ofertas ao longo do ano. Veja como os calendários simplificam essa rotina:
 ### O Cenário
 A equipe de marketing cria calendários específicos para as grandes datas do varejo:
+
 - **Páscoa 2025:** Reúne todas as ofertas de chocolates e bacalhau.
 - **Dia das Mães 2025:** Focado em presentes e almoço especial.
 - **Black Friday 2025:** Concentra as promoções agressivas de eletrônicos e bazar.
 - **Natal 2025:** Agrupa tudo relacionado à ceia e presentes de fim de ano.
 ### Por que isso é bom na prática?
+
 - **Foco Total:** Ao abrir o calendário "Natal", você vê apenas o que importa para aquela data, sem misturar com outras promoções.
 - **Seleção sem Erros:** Quando você cria uma campanha de Páscoa, o sistema já "filtra" os modelos de mídia (como artes de ovos de chocolate) automaticamente. Você não corre o risco de usar o fundo errado!
 - **Histórico que Funciona:** No próximo ano, você consegue consultar exatamente o que foi feito em 2025 para cada tema, facilitando o planejamento do futuro.
@@ -106,6 +113,7 @@ Sabe aquelas ofertas que acontecem toda semana, de quinta a domingo? Em vez de c
 ### O Cenário
 A loja cria um calendário fixo chamado **"Ofertas Semanais 2025"**.
 ### Como isso facilita o dia a dia?
+
 - **Padrão de Qualidade:** Todas as campanhas de ofertas da semana são "carimbadas" com esse calendário.
 - **Agilidade na Criação:** Ao abrir uma nova campanha semanal, o sistema já traz os modelos de mídia padrão (aqueles que você já usa toda semana). Você só precisa trocar os preços e produtos!
 - **Busca Simples:** Quer saber o que entrou em oferta nas últimas 4 semanas? Basta filtrar pelo calendário semanal e ter a lista completa na tela.
@@ -114,10 +122,12 @@ A loja cria um calendário fixo chamado **"Ofertas Semanais 2025"**.
 Se a sua rede tem lojas em diferentes estados ou cidades, você sabe que o que vende no Sul nem sempre é o que vende no Nordeste. O calendário ajuda a separar essas realidades.
 ### O Cenário
 A equipe de marketing organiza a comunicação em três níveis:
+
 - **Calendário Nacional:** Campanhas que valem para a rede toda (ex: Aniversário do Supermercado).
 - **Calendário Regional Sul:** Ofertas de inverno, vinhos e itens típicos da região.
 - **Calendário Regional Nordeste:** Promoções de verão antecipado e itens regionais específicos.
 ### Por que isso é bom na prática?
+
 - **Sem Confusão:** O gerente da loja do Nordeste não corre o risco de ver ou usar, por engano, uma arte criada especificamente para o Sul.
 - **Organização por Local:** Cada região tem seu "quadrado". Você consegue gerenciar o que é nacional e o que é local de forma totalmente separada.
 - **Artes Corretas:** Modelos de mídia com preços ou regionalismos específicos ficam "presos" aos seus calendários correspondentes, garantindo que a comunicação certa chegue ao lugar certo.
