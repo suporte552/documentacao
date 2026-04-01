@@ -64,6 +64,23 @@ Ao selecionar o checkbox **"Razão Social"** na listagem principal, novas açõe
 - **Voltar para Rascunho:** Permite reverter um cadastro aprovado para ajustes internos.
 
 
+## Casos de Uso
+
+### Caso 1: Prospecção de Novos Parceiros via Convite
+Imagine que sua rede de varejo está expandindo o setor de bebidas e precisa cadastrar 10 novas vinícolas parceiras rapidamente.
+
+- **O Cenário:** Em vez de pedir os documentos por e-mail e cadastrar um por um, o comprador gera **convites individuais** no sistema.
+- **A Prática:** O comprador configura os convites com validade de **7 dias** e uso único.
+- **O Resultado:** Cada vinícola recebe o link seguro, preenche seus próprios dados e, assim que finalizam, os cadastros aparecem na sua grid para apenas um clique de **Aprovação**. Isso economiza horas de trabalho manual da sua equipe.
+
+### Caso 2: Cadastro em Lote para Grandes Campanhas
+Sua empresa vai realizar uma "Semana do Fornecedor" e precisa importar os dados de 50 novos parceiros e seus respectivos 100 vendedores que atuarão na plataforma.
+
+- **O Cenário:** O cadastro manual seria inviável para o prazo da campanha.
+- **A Prática:** Você utiliza a função **Importar Fornecedores** via Excel para subir os dados das empresas e, em seguida, usa o **Importar Usuários** para liberar o acesso de todos os vendedores de uma só vez.
+- **O Resultado:** Em poucos minutos, todo o ecossistema de parceiros está criado e pronto para enviar propostas de produtos para as artes das campanhas.
+
+
 ## Fluxo de Trabalho
 
 
