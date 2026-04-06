@@ -1,4 +1,3 @@
-
 ## Introdução
 
 Os **Grupos** (também chamados de Clusters) são uma forma essencial de organizar suas unidades de negócio. Eles funcionam como pastas inteligentes que agrupam lojas com características em comum — seja por região geográfica, porte da unidade, perfil de público ou qualquer critério estratégico que faça sentido para sua operação.

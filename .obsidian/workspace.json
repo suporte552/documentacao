@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Campanhas/Calendários.md",
+                "file": "docs/Operacional/Unidades.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calendários"
+              "title": "Unidades"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas/Calendários.md",
+                "file": "docs/Operacional/Unidades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Calendários"
+              "title": "Links inversos para Unidades"
             }
           },
           {
@@ -184,14 +184,16 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
-    "docs/Campanhas/Selos.md",
+    "docs/Cadastro de Produtos.md",
+    "docs/Operacional/Fornecedores.md",
+    "docs/Operacional/Clusters.md",
+    "docs/Operacional/Unidades.md",
+    "docs/Operacional",
     "docs/Campanhas/Calendários.md",
+    "docs/Campanhas/Selos.md",
     "docs/Campanhas/Gestão de campanhas.md",
-    "docs/Unidades.md",
-    "docs/Clusters.md",
-    "docs/Fornecedores.md",
-    "docs/FAQ.md",
     "docs/index.md",
+    "docs/FAQ.md",
     "docs/images/Pasted image 20260326104353.png",
     "images/Pasted image 20260326104318.png",
     "images",
@@ -219,7 +221,6 @@
     "api 2.md",
     "api 1.md",
     "site/instalacao/index.html",
-    "site/instalacao",
-    "site/faq/index.html"
+    "site/instalacao"
   ]
 }
