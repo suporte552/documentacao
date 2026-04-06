@@ -38,7 +38,7 @@ nav:
       - Fornecedores: Operacional/Fornecedores.md
       - Unidades: Operacional/Unidades.md
   - Cadastro de Produtos: Cadastro de Produtos.md
-  - FAQ: FAQ.md
+  - FAQ: FAQ.md 
 
 
 docs_dir: docs
