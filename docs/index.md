@@ -4,5 +4,5 @@ Documentação do sistema
 ## Conteúdo  
   
 - [[Campanhas]]
-- [[Operacional/Fornecedores]][[]]
+- [[Operacional/Cadastro de Fornecedores]][[]]
 - [[FAQ]]
