@@ -35,10 +35,11 @@ nav:
       - Gestão de campanhas: Campanhas/Gestão de campanhas.md
   - Operacional:
       - Clusters: Operacional/Clusters.md
-      - Fornecedores: Operacional/Fornecedores.md
+      - Cadastro de Fornecedores: Operacional/Cadastro de Fornecedores.md
       - Unidades: Operacional/Unidades.md
   - Cadastro de Produtos: Cadastro de Produtos.md
   - FAQ: FAQ.md 
+  - Portal do fornecedor: Portal do fornecedor.md
 
 
 docs_dir: docs
