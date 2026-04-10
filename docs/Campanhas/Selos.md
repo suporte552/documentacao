@@ -23,7 +23,8 @@ Preencha as informações conforme os campos abaixo:
     - **Arrastar e Soltar:** Selecione o arquivo de imagem em seu computador e arraste-o diretamente para a área demarcada no campo "Imagem".
     - **Seleção Manual:** Clique no ícone de upload dentro do campo "Imagem" para abrir o explorador de arquivos do seu computador e selecionar o arquivo desejado.
 
-!!! tip "Dica de Formato" Para garantir um acabamento profissional na diagramação, utilize arquivos em formato **.PNG com fundo transparente**. Isso evita que o selo sobreponha o produto com um "quadrado branco" indesejado.
+!!! tip "Dica de Formato" 
+    Para garantir um acabamento profissional na diagramação, utilize arquivos em formato **.PNG com fundo transparente**. Isso evita que o selo sobreponha o produto com um "quadrado branco" indesejado.
 
 #### Opções de Finalização
 No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo:
