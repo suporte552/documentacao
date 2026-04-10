@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Operacional/Cadastro de Fornecedores.md",
+                "file": "docs/Portal do fornecedor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cadastro de Fornecedores"
+              "title": "Portal do fornecedor"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Operacional/Cadastro de Fornecedores.md",
+                "file": "docs/Portal do fornecedor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Cadastro de Fornecedores"
+              "title": "Links inversos para Portal do fornecedor"
             }
           },
           {
@@ -184,8 +184,8 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
-    "docs/Portal do fornecedor.md",
     "docs/Operacional/Unidades.md",
+    "docs/Portal do fornecedor.md",
     "docs/Operacional/Cadastro de Fornecedores.md",
     "docs/Cadastro de Produtos.md",
     "docs/Operacional/Clusters.md",
