@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Campanhas/Selos.md",
+                "file": "docs/Campanhas/Modelos de diagramação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Selos"
+              "title": "Modelos de diagramação"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas/Selos.md",
+                "file": "docs/Campanhas/Modelos de diagramação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Selos"
+              "title": "Links inversos para Modelos de diagramação"
             }
           },
           {
@@ -184,16 +184,21 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
-    "docs/FAQ.md",
-    "docs/Campanhas/Selos.md",
+    "docs/Campanhas/Mídias rápidas.md",
+    "docs/Campanhas/Modelos de diagramação.md",
+    "docs/Campanhas/Painel de controle.md",
+    "docs/Campanhas/Modelos de mídia.md",
+    "docs/Campanhas/Calendários.md",
+    "docs/Campanhas/Listas campanhas.md",
+    "docs/Campanhas/Config das Campanhas",
     "docs/Portal do fornecedor.md",
+    "docs/Campanhas/Selos.md",
+    "docs/FAQ.md",
     "docs/Operacional/Unidades.md",
     "docs/Operacional/Cadastro de Fornecedores.md",
     "docs/Cadastro de Produtos.md",
     "docs/Operacional/Clusters.md",
     "docs/Operacional",
-    "docs/Campanhas/Calendários.md",
-    "docs/Campanhas/Gestão de campanhas.md",
     "docs/index.md",
     "docs/images/Pasted image 20260326104353.png",
     "images/Pasted image 20260326104318.png",
@@ -221,7 +226,6 @@
     "api.md",
     "api 2.md",
     "api 1.md",
-    "site/instalacao/index.html",
-    "site/instalacao"
+    "site/instalacao/index.html"
   ]
 }

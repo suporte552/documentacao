@@ -56,7 +56,7 @@ Ao criar uma campanha, você pode vincular um calendário:
 1. Ao criar uma campanha, selecione o calendário no campo "Calendário"
 2. O sistema filtra automaticamente os Modelos de Mídia compatíveis com o calendário selecionado
 3. Durante a diagramação, apenas modelos vinculados ao mesmo calendário aparecem como opções
-![Identificação](../images/Pasted%20image%2020260325140447.png)
+![Identificação](../../images/Pasted%20image%2020260325140447.png)
 
 ### 3: Uso do Calendário em Modelos de Mídia
 Os modelos de mídia também podem ser "etiquetados" com um calendário para garantir que a comunicação visual esteja sempre alinhada:
@@ -64,7 +64,7 @@ Os modelos de mídia também podem ser "etiquetados" com um calendário para gar
 - **Lâminas, Cards e Stories:** Geralmente são vinculados a **um único calendário** específico.
 - **Cartazes:** Podem aceitar **múltiplos calendários**, permitindo mais flexibilidade na criação.
 
-![Identificação](../images/Pasted%20image%2020260325141602.png)
+![Identificação](../../images/Pasted%20image%2020260325141602.png)
 
 ### 4: Visualização e Gerenciamento
 Na tela principal de **Calendários**, você tem uma visão completa de tudo o que foi planejado. É o seu painel de controle para manter a organização em dia.
@@ -79,7 +79,7 @@ Na tela principal de **Calendários**, você tem uma visão completa de tudo o q
     
     **Caminho:** Acesse Calendários > Marque o Checkbox "Nome" > Clique no botão "Abrir ações" > Selecione os calendários para exclusão > Excluir selecionado.
 
-![Identificação](../images/Pasted%20image%2020260324154958.png)
+![Identificação](../../images/Pasted%20image%2020260324154958.png)
 #### Dicas para uma Organização Impecável (Boas Práticas)
 Para que o sistema trabalhe a seu favor e você ganhe tempo no dia a dia, siga estas recomendações:
 
