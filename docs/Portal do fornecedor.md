@@ -102,16 +102,6 @@ O cadastro permanece na área privada do fornecedor (**Meus produtos**) até que
 4. No formulário, selecione o **Cliente** (Rede) e o **Comprador** responsável.
 5. Clique em **Enviar**. O item passará a ser listado em **"Produtos enviados"** para acompanhamento.
 
-
-## Perguntas Frequentes (FAQ)
-
-!!! question "Posso editar um produto que já foi enviado?" 
-    Não. Após o envio para o comprador, o produto fica em modo de visualização para garantir que a negociação ocorra sobre dados fixos.
-
-!!! question "O que acontece se o comprador recusar o produto?"
-    O produto retornará para a grid com o status **Recusado** e o motivo da recusa poderá ser visualizado nos detalhes.
-
-
 ## Fluxo de Trabalho
 
 ```mermaid
@@ -123,6 +113,15 @@ graph TD
     E --> F[Enviar para Cliente e Comprador]
     F --> G[Acompanhar em Produtos Enviados]
 ```
+
+
+## Perguntas Frequentes (FAQ)
+
+!!! question "Posso editar um produto que já foi enviado?" 
+    Não. Após o envio para o comprador, o produto fica em modo de visualização para garantir que a negociação ocorra sobre dados fixos.
+
+!!! question "O que acontece se o comprador recusar o produto?"
+    O produto retornará para a grid com o status **Recusado** e o motivo da recusa poderá ser visualizado nos detalhes.
 
 ## Considerações Finais
 
