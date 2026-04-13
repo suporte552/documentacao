@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
+                "file": "docs/Campanhas/Modelos de mídia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Como usar o editor no modelo de mídia"
+              "title": "Modelos de mídia"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
+                "file": "docs/Campanhas/Modelos de mídia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Como usar o editor no modelo de mídia"
+              "title": "Links inversos para Modelos de mídia"
             }
           },
           {
@@ -184,9 +184,9 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
+    "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
     "docs/Campanhas/Calendários.md",
     "main",
-    "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
     "docs/Tutoriais",
     "docs/Operacional/Sem título.md",
     "docs/Campanhas/Tutorias/Como usar o editor do modelo de mídia.md",
