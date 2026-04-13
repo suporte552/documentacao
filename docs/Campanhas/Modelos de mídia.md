@@ -2,7 +2,7 @@
 O módulo de **Modelos de Mídia** permite criar e gerenciar modelos reutilizáveis para peças promocionais. Através de modelos configuráveis, é possível padronizar a criação de cartazes, lâminas, cards e stories, garantindo a identidade visual e agilizando o processo de criação.
 
 !!! info "Caminho" 
-    Menu Lateral esquerdo → Campanhas e Ofertas → Config. das Campanhas → Modelos de Mídia - Dentro do modelo de mídia, o botão "Editar regiões"
+    Menu Lateral esquerdo → Campanhas e Ofertas → Config. das Campanhas → Modelos de Mídia
 
 ## Entrega de Valor
 
