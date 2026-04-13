@@ -184,6 +184,7 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
+    "main",
     "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
     "docs/Campanhas/Calendários.md",
     "docs/Tutoriais",
@@ -228,7 +229,6 @@
     "README.md",
     "faq.md",
     "api.md",
-    "api 2.md",
-    "api 1.md"
+    "api 2.md"
   ]
 }
