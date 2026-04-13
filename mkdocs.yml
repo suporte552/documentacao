@@ -41,6 +41,8 @@ nav:
       - Clusters: Operacional/Clusters.md
       - Cadastro de Fornecedores: Operacional/Cadastro de Fornecedores.md
       - Unidades: Operacional/Unidades.md
+  - Tutoriais:
+      - Como usar o editor no modelo de mídia: TutoriaisComo usar o editor no modelo de mídia.md
   - Cadastro de Produtos: Cadastro de Produtos.md 
   - Portal do fornecedor: Portal do fornecedor.md
 
