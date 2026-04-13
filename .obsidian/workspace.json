@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Campanhas/Calendários.md",
+                "file": "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calendários"
+              "title": "Como usar o editor no modelo de mídia"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas/Calendários.md",
+                "file": "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Calendários"
+              "title": "Links inversos para Como usar o editor no modelo de mídia"
             }
           },
           {
@@ -184,9 +184,9 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
+    "docs/Campanhas/Calendários.md",
     "main",
     "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
-    "docs/Campanhas/Calendários.md",
     "docs/Tutoriais",
     "docs/Operacional/Sem título.md",
     "docs/Campanhas/Tutorias/Como usar o editor do modelo de mídia.md",
@@ -225,7 +225,6 @@
     "docs/images",
     "conflict-files-obsidian-git.md",
     "docs/Produtos/Cadastro de produtos.md",
-    "docs/Produtos",
     "README.md",
     "faq.md",
     "api.md",
