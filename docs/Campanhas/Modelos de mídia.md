@@ -29,7 +29,6 @@ Material impresso para produto único, ideal para destaques.
 - **Vínculo:** Pode ser associado a **múltiplos calendários** (campo obrigatório).
 - **Diferencial:** Opção para criar versão espelhada (exclusivo A5).
 ### Story (Social Media Vertical)
-
 Formato vertical (9:16) otimizado para mobile (Instagram/Facebook).
 
 - **Dimensões:** 1080 × 1920 px.
