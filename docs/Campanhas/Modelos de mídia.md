@@ -85,7 +85,6 @@ O cartaz A4 é usado em diversas promoções diferentes ao longo do mês.
 
 - **Ação:** Cria-se um modelo de **Cartaz** e vincula-se a ele **múltiplos calendários** (Semanal, Açougue, Higiene).
 - **Resultado:** O mesmo layout profissional fica disponível para todas essas frentes de campanha.
-
 ## Fluxo de Trabalho
 
 ```mermaid
