@@ -162,8 +162,19 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "22ddc92107fe88f1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -184,10 +195,10 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
-    "docs/Operacional/Cadastro de Fornecedores.md",
-    "docs/Campanhas/Modelos de mídia.md",
     "docs/Campanhas/Calendários.md",
     "docs/Tutoriais/Como Funcionam as Cores nos Cards e Lâminas.md",
+    "docs/Operacional/Cadastro de Fornecedores.md",
+    "docs/Campanhas/Modelos de mídia.md",
     "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
     "docs/images/2026-04-16 15-04-37.mp4",
     "docs/images/Gravando 2026-03-24 151016.mp4",

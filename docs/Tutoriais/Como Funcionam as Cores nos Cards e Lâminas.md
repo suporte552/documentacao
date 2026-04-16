@@ -30,8 +30,8 @@ O sistema respeita a **Origem da Cor** selecionada no elemento:
 | **Opção**             | **Comportamento**                                                                                                                                                                             |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Automática**        | O sistema separa por tipo de campo:<br><br>• **Preços/Símbolos (R$, de, por):** Cor Secundária.<br>• **Demais textos:** Cor Principal.<br>_(Busca na Diagramação; se vazio, busca na Mídia)._ |
-| **Cor Principal**     | Força o uso da Cor Principal da Diagramação. Se não houver, busca a da Mídia.                                                                                                                 |
-| **Cor Secundária**    | Força o uso da Cor Secundária da Diagramação. Se não houver, busca a da Mídia.                                                                                                                |
+| **Cor Principal**     | Força o uso da Cor Principal do Modelo de  Diagramação. Se não houver, busca a do Modelo de Mídia.                                                                                            |
+| **Cor Secundária**    | Força o uso da Cor Secundária do Modelo de Diagramação. Se não houver, busca a do Modelo de Mídia.                                                                                            |
 | **Cor Personalizada** | Ignora as regras acima e utiliza a cor exata definida manualmente no elemento.                                                                                                                |
 
 #### **Quando DESATIVADO**
