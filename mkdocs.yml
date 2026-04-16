@@ -41,7 +41,8 @@ nav:
       - Clusters: "Operacional/Clusters.md"
       - Cadastro de Fornecedores: "Operacional/Cadastro de Fornecedores.md"
       - Unidades: "Operacional/Unidades.md"
-  - Tutoriais:
+  - Tutoriais: 
+      - Como Funcionam as Cores nos Cards e Lâminas: "Tutoriais/Como Funcionam as Cores nos Cards e Lâminas"
       - Como usar o editor no modelo de mídia: "Tutoriais/Como usar o editor no modelo de mídia.md"
   - Cadastro de Produtos: "Cadastro de Produtos.md"
   - Portal do fornecedor: "Portal do fornecedor.md"
