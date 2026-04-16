@@ -4,7 +4,7 @@
 Para garantir a identidade visual e a legibilidade das ofertas, o sistema utiliza uma hierarquia inteligente na definição das cores dos elementos. Essa estrutura permite automatizar o design, mantendo a flexibilidade para personalizações pontuais.
 
 !!! info "Caminho"
-    Módulo **Campanhas e Ofertas** → Conf. das Campanhas  **Modelos de Diagramação** → Selecione o elemento → No painel, clique em **Cor e Texto** → **Origem da Cor**.
+    Módulo "**Campanhas e Ofertas**" → Conf. das Campanhas  "**Modelos de Diagramação**" → Edite o modelo desejado → Selecione o elemento → No painel, clique em **Cor e Texto** → **Origem da Cor**.
 
 ## Entrega de Valor
 
@@ -53,7 +53,7 @@ Caso a primeira opção de cor esteja vazia, o sistema segue esta ordem:
 2. **2º** Cor Secundária da Mídia.
 
 !!! info "Cores vazias"
-    Se todas as opções de cores (Diagramação e Mídia) estiverem vazias, o elemento será renderizado na cor **cinza**.p
+    Se todas as opções de cores (Diagramação e Mídia) estiverem vazias, o elemento será renderizado na cor **cinza**.
 
 
 <video src="../../images/2026-04-16 15-04-37.mp4" controls width="100%"></video>
