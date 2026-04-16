@@ -42,12 +42,12 @@ As opções de Cor Principal, Secundária e Personalizada do elemento são **ign
 - _Lógica de busca:_ 1º Diagramação → 2º Mídia.
 ## Ordem de Precedência
 Caso a primeira opção de cor esteja vazia, o sistema segue esta ordem:
-### Para Cor Principal:
+#### Para Cor Principal:
 
 1. **1º** Cor Principal da Diagramação.
 2. **2º** Cor Principal da Mídia.
 
-### Para Cor Secundária:
+#### Para Cor Secundária:
 
 1. **1º** Cor Secundária da Diagramação.
 2. **2º** Cor Secundária da Mídia.
