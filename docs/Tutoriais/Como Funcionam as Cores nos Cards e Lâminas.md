@@ -52,7 +52,7 @@ Caso a primeira opção de cor esteja vazia, o sistema segue esta ordem:
 1. **1º** Cor Secundária da Diagramação.
 2. **2º** Cor Secundária da Mídia.
 
- !!! tip "Dica"
+ !!! tip "Cores vazias" 
      Se todas as opções de cores (Diagramação e Mídia) estiverem vazias, o elemento será renderizado na cor **cinza**.
 
 
