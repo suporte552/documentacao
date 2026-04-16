@@ -54,6 +54,9 @@ Caso a primeira opção de cor esteja vazia, o sistema segue esta ordem:
 
  !!! tip "Dica"
      Se todas as opções de cores (Diagramação e Mídia) estiverem vazias, o elemento será renderizado na cor **cinza**.
+
+
+<video src="../../images/2026-04-16 15-04-37.mp4" controls width="100%"></video>
 ## Fluxo de Trabalho
 
 ```mermaid
