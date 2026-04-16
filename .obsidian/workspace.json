@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Campanhas/Modelos de mídia.md",
+                "file": "docs/Tutoriais/Como Funcionam as Cores nos Cards e Lâminas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modelos de mídia"
+              "title": "Como Funcionam as Cores nos Cards e Lâminas"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Campanhas/Modelos de mídia.md",
+                "file": "docs/Tutoriais/Como Funcionam as Cores nos Cards e Lâminas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Modelos de mídia"
+              "title": "Links inversos para Como Funcionam as Cores nos Cards e Lâminas"
             }
           },
           {
@@ -184,19 +184,20 @@
   },
   "active": "335bf08f2897ed34",
   "lastOpenFiles": [
-    "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
-    "docs/Campanhas/Modelos de mídia.md",
     "docs/Campanhas/Calendários.md",
+    "docs/Campanhas/Modelos de mídia.md",
+    "docs/Campanhas/Modelos de diagramação.md",
+    "docs/Tutoriais/Como Funcionam as Cores nos Cards e Lâminas.md",
+    "docs/Tutoriais/Como usar o editor no modelo de mídia.md",
+    "docs/Campanhas/Mídias rápidas.md",
+    "docs/Campanhas/Painel de controle.md",
+    "docs/Campanhas/Listar campanhas.md",
     "main",
     "docs/Tutoriais",
     "docs/Operacional/Sem título.md",
     "docs/Campanhas/Tutorias/Como usar o editor do modelo de mídia.md",
-    "docs/Campanhas/Listar campanhas.md",
     "docs/Campanhas/Tutorias",
     "docs/Campanhas/Selos.md",
-    "docs/Campanhas/Mídias rápidas.md",
-    "docs/Campanhas/Painel de controle.md",
-    "docs/Campanhas/Modelos de diagramação.md",
     "docs/Campanhas/Config das Campanhas",
     "docs/Portal do fornecedor.md",
     "docs/FAQ.md",
