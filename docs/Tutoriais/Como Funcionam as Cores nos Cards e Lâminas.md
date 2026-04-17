@@ -61,7 +61,7 @@ Caso a primeira opção de cor esteja vazia, o sistema segue esta ordem:
 
 ```mermaid
 graph TD
-    A[Selecionar Elemento] --> B{Parâmetro Admin Ativo?}
+    A[Selecionar Elemento] --> B{Parâmetro global no painel administrativo ativo?}
     B -- Sim --> C[Verificar Origem Selecionada]
     B -- Não --> D[Aplicar Regra Automática]
     
