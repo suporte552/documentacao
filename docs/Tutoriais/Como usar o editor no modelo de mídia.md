@@ -64,6 +64,10 @@ Ao clicar em uma região (ex: Regiao 1), o painel exibe suas propriedades espec�
 4. Clique em **Gerar regiões**.
 5. Selecione a primeira região e marque **"Reservar para produto destaque"** para que a melhor oferta da campanha apareça sempre no topo esquerdo.
 6. Clique em **Salvar regiões**.
+
+<video src="../../images/2026-04-17 16-32-41.mp4" controls width="100%"></video>
+
+
 ## Fluxo de Trabalho
 
 ```mermaid
