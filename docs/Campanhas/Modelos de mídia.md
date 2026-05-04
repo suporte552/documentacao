@@ -8,19 +8,19 @@ Os **Modelos de Mídia** são o alicerce visual das suas campanhas. É neste mó
 ### Funcionalidades e Campos de Cadastro
 Ao criar ou editar um modelo de mídia, preencha as informações conforme os campos abaixo:
 
-|**Campo**|**Descrição**|
-|---|---|
-|**Nome**|Descrição da mídia para identificação no sistema.|
-|**Tipo de Mídia**|Define qual mídia está sendo feita: **Cartaz, Lâmina, Card ou Storie**.|
-|**Calendário**|Vincule o calendário correspondente.|
-|**Modelo de Diagramação**|Vincule o modelo de diagramação que será a base da mídia.|
-|**Tipo de Página**|**Interna:** Usado geralmente para as páginas de miolo.<br><br>  <br><br>**Capa:** Utilizado para diferenciar capas (ex: capa com 4 produtos e interna com 12) ou capas com BGs diferentes.|
-|**Modo de Layout**|Define o comportamento das regiões (ex: Regiões Livres).|
-|**Produtos por Página**|Define quantos produtos aparecem por peça (ex: Card com 2 produtos e Storie com 4), independente de quantos forem colocados na campanha.|
-|**Fonte Principal**|Fonte das descrições. Segue a hierarquia: Modelo de Mídia → Modelo de Diagramação → Elemento.|
-|**Fonte Secundária**|Fonte de números e preços. Segue a mesma hierarquia de busca.|
-|**Cor Principal**|Cor primária definida seguindo a hierarquia de aplicação.|
-|**Cor Secundária**|Cor secundária definida seguindo a hierarquia de aplicação.|
+| **Campo**                 | **Descrição**                                                                                                                                                                               |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nome**                  | Descrição da mídia para identificação no sistema.                                                                                                                                           |
+| **Tipo de Mídia**         | Define qual mídia está sendo feita: **Cartaz, Lâmina, Card ou Storie**.                                                                                                                     |
+| **Calendário**            | Vincule o calendário correspondente.                                                                                                                                                        |
+| **Modelo de Diagramação** | Vincule o modelo de diagramação que será a base da mídia.                                                                                                                                   |
+| **Tipo de Página**        | **Interna:** Usado geralmente para as páginas de miolo.<br><br>  <br><br>**Capa:** Utilizado para diferenciar capas (ex: capa com 4 produtos e interna com 12) ou capas com BGs diferentes. |
+| **Modo de Layout**        | Define o comportamento das regiões (ex: Regiões Livres).                                                                                                                                    |
+| **Produtos por Página**   | Define quantos produtos aparecem por peça (ex: Card com 2 produtos e Storie com 4), independente de quantos forem colocados na campanha.                                                    |
+| **Fonte Principal**       | Fonte das descrições. Segue a hierarquia: Modelo de Mídia → Modelo de Diagramação → Elemento.                                                                                               |
+| **Fonte Secundária**      | Fonte de números e preços. Segue a mesma hierarquia de busca: Modelo de Mídia → Modelo de Diagramação → Elemento.                                                                           |
+| **Cor Principal**         | Cor primária definida seguindo a hierarquia de aplicação: Modelo de Mídia → Modelo de Diagramação → Elemento.                                                                               |
+| **Cor Secundária**        | Cor secundária definida seguindo a hierarquia de aplicação: Modelo de Mídia → Modelo de Diagramação → Elemento.                                                                             |
 
 !!! tip "Importante"
     É necessário **Salvar** o registro para habilitar os outros campos e abas de configuração.
