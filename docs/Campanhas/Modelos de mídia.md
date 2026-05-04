@@ -1,109 +1,122 @@
-## Introdução
-O módulo de **Modelos de Mídia** permite criar e gerenciar modelos reutilizáveis para peças promocionais. Através de modelos configuráveis, é possível padronizar a criação de cartazes, lâminas, cards e stories, garantindo a identidade visual e agilizando o processo de criação.
+### Introdução
 
-!!! info "Caminho" 
-    Menu Lateral esquerdo → Campanhas e Ofertas → Config. das Campanhas → Modelos de Mídia
-## Entrega de Valor
+Os **Modelos de Mídia** são o alicerce visual das suas campanhas. É neste módulo que inserimos os fundos (BGs), definimos as áreas de atuação (regiões) e configuramos a hierarquia visual de fontes e cores. Eles garantem que, independentemente de quem esteja operando, o resultado final siga estritamente a identidade visual da marca.
 
-- **Padronização:** Garante que a identidade visual seja respeitada em todas as peças.
-- **Agilidade:** Reduz o trabalho manual ao reutilizar estruturas pré-definidas.
-- **Escalabilidade:** Permite criar múltiplos formatos (impresso e digital) a partir de um único planejamento.
-- **Eficiência:** Criação mais rápida com modelos vinculados a calendários e diagramações.
-## Funcionalidades na Grid
-Na tela principal, você tem o controle total dos modelos existentes:
+!!! info "Caminho"
+    Menu Lateral Esquerdo → Campanhas → Modelos de Mídia
 
-- **Filtros:** Possibilidade de filtrar por calendário vinculado, tipo de mídia, modelo de diagramação e registros excluídos.
-- **Ações:** Editar modelos existentes, replicar modelos (para criar variações rapidamente) e criar novos.
-## Especificações por Tipo de Mídia
-Ao criar um novo modelo, as características mudam conforme o tipo selecionado:
-### Lâmina (Tabloides e Encartes)
-Página com múltiplos produtos organizados em grid ou layout estruturado.
+### Funcionalidades e Campos de Cadastro
+Ao criar ou editar um modelo de mídia, preencha as informações conforme os campos abaixo:
 
-- **Configurações:** Requer um **Modelo de Organização** (define quantidade e posições dos produtos).
-- **Vínculo:** Associada a um único calendário específico (campo obrigatório).
-- **Orientação:** Retrato ou Paisagem.
-### Cartaz (Materiais de PDV)
-Material impresso para produto único, ideal para destaques.
+|**Campo**|**Descrição**|
+|---|---|
+|**Nome**|Descrição da mídia para identificação no sistema.|
+|**Tipo de Mídia**|Define qual mídia está sendo feita: **Cartaz, Lâmina, Card ou Storie**.|
+|**Calendário**|Vincule o calendário correspondente.|
+|**Modelo de Diagramação**|Vincule o modelo de diagramação que será a base da mídia.|
+|**Tipo de Página**|**Interna:** Usado geralmente para as páginas de miolo.<br><br>  <br><br>**Capa:** Utilizado para diferenciar capas (ex: capa com 4 produtos e interna com 12) ou capas com BGs diferentes.|
+|**Modo de Layout**|Define o comportamento das regiões (ex: Regiões Livres).|
+|**Produtos por Página**|Define quantos produtos aparecem por peça (ex: Card com 2 produtos e Storie com 4), independente de quantos forem colocados na campanha.|
+|**Fonte Principal**|Fonte das descrições. Segue a hierarquia: Modelo de Mídia → Modelo de Diagramação → Elemento.|
+|**Fonte Secundária**|Fonte de números e preços. Segue a mesma hierarquia de busca.|
+|**Cor Principal**|Cor primária definida seguindo a hierarquia de aplicação.|
+|**Cor Secundária**|Cor secundária definida seguindo a hierarquia de aplicação.|
 
-- **Tamanhos:** A3, A4, A5, A6 e Régua (formato personalizado em faixa horizontal).
-- **Vínculo:** Pode ser associado a **múltiplos calendários** (campo obrigatório).
-- **Diferencial:** Opção para criar versão espelhada (exclusivo A5).
-### Story (Social Media Vertical)
-Formato vertical (9:16) otimizado para mobile (Instagram/Facebook).
+!!! tip "Importante"
+    É necessário **Salvar** o registro para habilitar os outros campos e abas de configuração.
 
-- **Dimensões:** 1080 × 1920 px.
-- **Vínculo:** Um calendário por story (campo obrigatório).
-### Card (Digital e Redes Sociais)
-Peça gráfica quadrada (1:1) para redes sociais, apps ou totens digitais.
+### Configurações Avançadas
 
-- **Vínculo:** Um calendário por card (campo obrigatório).
-- **Uso:** Otimizado para materiais digitais.
-## Detalhes de Configuração e Layout
+#### 1. Criar Configuração de Oferta
+Utilizado quando se trabalha com tipos específicos de oferta (Clube, Escalonado, etc.). É necessário criar essa configuração para buscar o modelo de diagramação correto; caso contrário, o sistema sempre utilizará o padrão vinculado no Modelo de Mídia.
 
-- **Calendário:** Vincule o calendário deste modelo. Para saber mais sobre os calendários, leia em: [Calendários](https://suporte552.github.io/documentacao/Campanhas/Calend%C3%A1rios/)
-- **Modelo de Diagramação:** Vincule o modelo de diagramação. Para saber mais sobre o modelo de diagramação, leia em: [Modelos de diagramação](https://suporte552.github.io/documentacao/Campanhas/Modelos%20de%20diagrama%C3%A7%C3%A3o/)
-- **Tipo de Página:** Selecione se o modelo é **Capa** ou **Interna**.
-- **Modelo de Layout:** 
+#### 2. Editar Regiões (Layout Mode: Regions)
+Nesta área é feita a definição técnica do espaço útil da mídia.
 
-    * **Grid:** Organização automática (permite posição/tamanho livre na grid).
-    - **Regiões Livres:** Edição manual no botão **"Editar regiões"**. Para saber mais sobre o editor, [clique aqui](https://suporte552.github.io/documentacao/Tutoriais/Como%20usar%20o%20editor%20no%20modelo%20de%20m%C3%ADdia/)
+- **Botão Limpar Background:** Limpa o BG atual, possibilitando colocar um modelo pronto apenas para servir de base na hora de desenhar as regiões.
+    
 
-- **Identidade Visual:** Definição de Fonte Principal, Fonte Secundária, Cor Principal e Cor Secundária.
-- **Background:** Upload da imagem de fundo (BG) do modelo.
-- **Configuração de Oferta:** Vincule modelos de diagramação específicos para tipos como **Regular** e **Clube**, facilitando a troca automática de layouts de preço.
-## Integrações
-O Modelo de Mídia é o ponto de união entre a estratégia e a arte:
+**Ao clicar em "Criar boxes via grid template":**
 
-- **Vínculo com Diagramação e Calendários:** O modelo de mídia não funciona isoladamente; ele depende do Modelo de Diagramação (que define os dados) e do Calendário (que define o agrupamento).
-- **Automação na Campanha:** Através do calendário escolhido no modelo, o sistema permite que ele apareça automaticamente como opção de configuração na campanha criada, garantindo que a comunicação certa saia no período correto.
-## Casos de Uso
-### Caso 1: Padronização de Ofertas de WhatsApp (Cards)
-Uma rede precisa enviar ofertas diárias para listas de transmissão.
+- Para criar as regiões, é necessário arrastar as réguas até a posição desejada.
+- Em **Layout Mode**, escolha **Regions**.
+- Em **Template**, defina o número de colunas e linhas e clique em **“Aplicar margens a partir das réguas”**.
+- Clique em **Gerar Regiões**.
 
-- **Ação:** Cria-se um modelo de **Card** vinculado ao calendário "Ofertas Diárias".
-- **Resultado:** O operador apenas vincula os produtos e o sistema gera as imagens com os preços formatados, sem precisar de edição manual.
-### Caso 2: Campanha de Sazonalidade (Lâminas)
-Criação de um encarte especial para o "Aniversário da Loja".
+**Configurações do Grid:**
 
-- **Ação:** Cria-se um modelo de **Lâmina** com background festivo vinculado ao calendário de Aniversário.
-- **Resultado:** Todas as páginas internas do encarte seguem a mesma estrutura de grid e identidade visual automaticamente.
-### Caso 3: Sinalização de Loja (Cartazes)
-O cartaz A4 é usado em diversas promoções diferentes ao longo do mês.
+- **Gap Horizontal e Vertical:** Distanciamento entre as regiões desenhadas.
+- **Margem Superior e Inferior (px):** Definição das margens do topo e fundo.
+- **Margem Esquerda e Direita (px):** Definição das margens laterais.
+- **Largura Base e Altura Base (px):** Definição das dimensões reais do BG.
+- **Substituir:** Se marcado, irá substituir o trabalho feito anteriormente pelo novo grid.
 
-- **Ação:** Cria-se um modelo de **Cartaz** e vincula-se a ele **múltiplos calendários** (Semanal, Açougue, Higiene).
-- **Resultado:** O mesmo layout profissional fica disponível para todas essas frentes de campanha.
-## Fluxo de Trabalho
+
+### Gestão de Regiões Selecionadas
+Ao selecionar uma região específica no desenho, as seguintes opções ficam disponíveis:
+
+- **Produto Destaque:** Define a região selecionada como a que sempre receberá o produto principal/destaque.
+- 
+**Campos em "Região Selecionada":**
+
+- **Nome:** Descrição da região.
+- **Tipo de Região:** Define se é uma região **Normal** ou para **Upload de Imagem**.
+- **X e Y / Largura e Altura:** Definição numérica exata do tamanho e posição da região.
+- **Criar Modelo da Região:** Possibilita criar um modelo de diagramação específico baseado no tamanho do box desenhado.
+- **Cor da Borda:** Define a cor da borda da região.
+- **Cor de Fundo:** Define a cor de fundo da região.
+
+
+### Abas de Guias
+#### Smart Guias
+
+- **Ativar Smart Guides:** Exibe linhas vermelhas de alinhamento ao arrastar uma região.
+- **Snap no Canvas:** Cola a região nas extremidades do canvas.
+- **Snap de Elementos:** Ativa a aproximação magnética entre regiões.
+- **Snap da Grade:** Aproxima a região pelos quadradinhos da grade.
+- **Exibir Linhas de Grade:** Ativa ou desativa a visualização da grade sobre o BG.
+- **Guias de Espaçamento:** Mostra o valor do espaçamento entre regiões durante o movimento.
+
+#### Réguas e Guias
+
+- **Exibir Réguas:** Mostra as réguas numeradas.
+- **Exibir Guias:** Visualização das réguas que foram desenhadas.
+- **Travar Guias:** Impede a movimentação acidental das réguas.
+- **Snap nas Guias:** Aproximação automática das regiões às guias.
+- **Exibir Área Útil:** Exibe o desenho dentro do limite das réguas.
+### Aba Texto Legal
+
+Configurações para as informações jurídicas da mídia:
+- **Conteúdo:** Texto que será exibido.
+- **Alinhamento da Caixa:** Alinhamento do box de texto legal na mídia.
+- **Alinhamento do Texto:** Alinhamento interno do texto (Esquerda, Centro, Direita).
+- **Esquerda (px) / Bottom (px):** Posição da caixa em relação à esquerda e ao fundo.
+- **Largura / Altura:** Dimensões da caixa de texto legal.
+- **Fonte / Tamanho / Peso / Cor:** Especificações tipográficas do texto legal.
+- **Altura da Linha:** Espaçamento entre as linhas dentro do box.
+
+### Comandos e Botões de Ação
+
+- **Botão CTRL Pressionado:** Permite desenhar uma **Região Livre** clicando e arrastando.
+- **Adicionar Região:** Insere uma nova região manualmente no BG.
+- **Remover Selecionada:** Remove apenas a região que está selecionada.
+- **Limpar Regiões:** Apaga todas as regiões do BG de uma vez.
+- **Salvar Regiões:** Salva as configurações de desenho no BG.
+- **Layout Mode Grid:** Abre uma pré-visualização de como as regiões ficarão preenchidas.
+
+### Fluxo de Trabalho
+
+
 
 ```mermaid
 graph TD
-    A[Acessar Modelos de Mídia] --> B[Criar Novo Modelo]
-    B --> C[Definir Nome e Tipo de Mídia]
-    C --> D[Vincular Calendário e Diagramação]
-    D --> E{Escolher Layout}
-    E -->|Grid| F[Definir Colunas/Linhas]
-    E -->|Regiões Livres| G[Editar Regiões no Editor]
-    F --> H[Configurar Cores e Fontes]
-    G --> H[Configurar Cores e Fontes]
-    H --> I[Inserir Imagem de Background]
-    I --> J[Salvar e Publicar]
-    J --> K[Usar na Campanha via Calendário]
+A[Acessar Modelos de Mídia] --> B[Cadastrar Informações Gerais]
+B --> C[Salvar para Habilitar Edição]
+C --> D[Carregar BG e Limpar se necessário]
+D --> E[Definir Réguas e Grid Template]
+E --> F[Gerar e Ajustar Regiões]
+F --> G[Configurar Texto Legal e Identidade Visual]
+G --> H[Salvar Regiões e Pré-visualizar]
 ```
 
----
 
-## Perguntas Frequentes (FAQ)
-
-!!! question "Posso vincular um cartaz a mais de um calendário?"
-    Sim, os cartazes permitem múltiplos calendários para que o mesmo modelo de sinalização seja usado em diversas campanhas.
-
-!!! question "O que acontece se eu não configurar o background?" 
-    O modelo ficará sem uma base visual, o que pode comprometer a estética da peça final na diagramação.
-
-!!! question "Como o sistema sabe qual preço usar (Clube ou Regular)?"
-    Isso é definido na "Configuração de Oferta", onde você vincula os modelos de diagramação específicos para cada tipo de preço dentro do modelo de mídia.
-
-## Considerações Finais
-
-A correta integração entre Modelos de Mídia, Calendários e Diagramação é o que garante a eficiência da plataforma, permitindo que artes complexas sejam geradas em segundos com total segurança visual.
-
-**Leia Também**
