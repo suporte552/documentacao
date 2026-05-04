@@ -34,7 +34,6 @@ Utilizado quando se trabalha com tipos específicos de oferta (Clube, Escalonado
 Nesta área é feita a definição técnica do espaço útil da mídia.
 
 - **Botão Limpar Background:** Limpa o BG atual, possibilitando colocar um modelo pronto apenas para servir de base na hora de desenhar as regiões.
-    
 
 **Ao clicar em "Criar boxes via grid template":**
 
@@ -56,7 +55,7 @@ Nesta área é feita a definição técnica do espaço útil da mídia.
 Ao selecionar uma região específica no desenho, as seguintes opções ficam disponíveis:
 
 - **Produto Destaque:** Define a região selecionada como a que sempre receberá o produto principal/destaque.
-- 
+
 **Campos em "Região Selecionada":**
 
 - **Nome:** Descrição da região.
@@ -97,7 +96,7 @@ Configurações para as informações jurídicas da mídia:
 
 ### Comandos e Botões de Ação
 
-- **Botão CTRL Pressionado:** Permite desenhar uma **Região Livre** clicando e arrastando.
+- **Botão CTRL Pressionado:** Permite desenhar uma região livre clicando e arrastando.
 - **Adicionar Região:** Insere uma nova região manualmente no BG.
 - **Remover Selecionada:** Remove apenas a região que está selecionada.
 - **Limpar Regiões:** Apaga todas as regiões do BG de uma vez.
@@ -119,4 +118,28 @@ F --> G[Configurar Texto Legal e Identidade Visual]
 G --> H[Salvar Regiões e Pré-visualizar]
 ```
 
+### Perguntas Frequentes (FAQ)
 
+!!! question "Por que é necessário salvar o registro logo no início do cadastro?" 
+    O salvamento inicial é obrigatório para que o sistema registre a base do modelo no banco de dados e habilite as abas avançadas de edição de regiões, configurações de oferta e os parâmetros de texto legal.
+
+!!! question "Qual a diferença prática entre o Tipo de Página Capa e Interna?" 
+    A página Interna é o padrão para o miolo da mídia, enquanto a Capa é utilizada para layouts diferenciados, permitindo, por exemplo, que você exiba apenas um produto em destaque com um BG específico, mesmo que as páginas seguintes do encarte possuam doze produtos cada.
+
+!!! question "O que acontece se eu não criar uma Configuração de Oferta para tipos como Clube ou Escalonado?"
+    Se a configuração de oferta não for criada, o sistema não saberá que deve trocar o layout para aquela mecânica específica e acabará aplicando sempre o modelo de diagramação padrão vinculado ao modelo de mídia, o que pode ocultar selos e preços especiais.
+
+!!! question "Como o sistema define qual fonte ou cor utilizar se houver várias configurações?" 
+    O sistema segue uma hierarquia de prioridade: ele busca primeiro a informação no elemento individual; se não encontrar, busca no Modelo de Diagramação e, por último, utiliza a configuração definida no Modelo de Mídia.
+
+!!! question "Para que serve o botão Limpar Background no editor de regiões?" 
+    Este botão remove temporariamente a imagem de fundo oficial para que você possa subir um modelo de referência, facilitando o desenho manual das regiões e réguas exatamente sobre as posições desejadas antes de aplicar o BG definitivo.
+
+!!! question "O campo Produtos por Página limita a quantidade de ofertas da campanha?" 
+    Não. Ele limita apenas quantos produtos aparecem em cada peça gerada (como um card ou storie). Se a campanha tiver dez produtos e o modelo estiver configurado para dois produtos por página, o sistema gerará automaticamente cinco peças diferentes.
+
+!!! question "Como posso garantir que as regiões fiquem perfeitamente alinhadas?" 
+    A melhor forma é utilizar as Smart Guias e os Snaps (de grade, canvas ou elementos), que funcionam como ímãs para alinhar os boxes. Além disso, o uso do Grid Template com definição de Gaps horizontais e verticais garante um espaçamento matemático e uniforme entre as regiões.
+
+###  Considerações Finais
+A estruturação dos Modelos de Mídia é essencial para garantir a automação e a padronização visual de todas as peças publicitárias. Ao configurar corretamente as regiões, fontes e hierarquias de cores, você assegura que o sistema gere artes precisas de forma imediata, eliminando erros Manuais de alinhamento ou tipografia. A utilização das ferramentas de grid e a definição correta dos tipos de página permitem que a comunicação seja estratégica e visualmente equilibrada, enquanto as configurações de oferta e texto legal garantem a segurança técnica e jurídica necessária para a operação. Dominar este módulo transforma o processo de criação em uma tarefa ágil, permitindo que a equipe foque na estratégia comercial com a certeza de que a identidade visual da marca será mantida em todos os canais.
