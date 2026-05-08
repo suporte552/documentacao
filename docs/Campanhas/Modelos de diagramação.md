@@ -8,16 +8,16 @@ Os **Modelos de Diagramação** são o módulo onde ocorre o ajuste fino da iden
 ### Funcionalidades e Campos de Cadastro
 Ao criar ou editar um modelo de diagramação, preencha as informações conforme os campos abaixo:
 
-|**Campo**|**Descrição**|
-|---|---|
-|**Nome**|Defina um nome identificável para o modelo.|
-|**Tipo de Oferta**|Selecione entre as modalidades **Regular** ou **Clube**.|
-|**Tipo de Mídia**|Escolha o formato: **Cartaz, Storie, Card, Lâmina ou Encarte**.|
-|**Tamanho do Box**|Define o espaço ocupado na grade (ex: 1x1). Ideal para produtos secundários.|
-|**Altura / Largura**|Define as dimensões fixas do box em pixels.|
-|**Grid da Mídia**|Define o número de colunas que a grid da mídia possuirá.|
-|**Destaque**|Define se este box específico deve ser tratado como um item de destaque.|
-|**Imagem de Fundo**|Permite carregar uma imagem de fundo específica para o box, se houver.|
+| **Campo**            | **Descrição**                                                                |
+| -------------------- | ---------------------------------------------------------------------------- |
+| **Nome**             | Defina um nome identificável para o modelo.                                  |
+| **Tipo de Oferta**   | Selecione entre as modalidades **Regular** ou **Clube**.                     |
+| **Tipo de Mídia**    | Escolha o formato: **Cartaz, Storie, Card, Lâmina ou Encarte**.              |
+| **Tamanho do Box**   | Define o espaço ocupado na grade (ex: 1x1). Ideal para produtos secundários. |
+| **Altura / Largura** | Define as dimensões fixas do box em pixels.                                  |
+| **Grid da Mídia**    | Define o número de colunas que a grid da mídia possuirá.                     |
+| **Destaque**         | Define se este box específico deve ser tratado como um item de destaque.     |
+| **Imagem de Fundo**  | Permite carregar uma imagem de fundo específica para o box, se houver.       |
 
 ### Seção Configurações de Estilo
 Nesta seção, definimos a aparência estrutural do box:
