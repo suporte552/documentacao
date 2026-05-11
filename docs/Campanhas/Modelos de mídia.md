@@ -97,6 +97,7 @@ Configurações para as informações jurídicas da mídia:
 ### Comandos e Botões de Ação
 
 - **Botão CTRL Pressionado:** Permite desenhar uma região livre clicando e arrastando.
+- **Duplicar região CTRL + D**: Ao selecionar uma região, permite duplicá-la. 
 - **Adicionar Região:** Insere uma nova região manualmente no BG.
 - **Remover Selecionada:** Remove apenas a região que está selecionada.
 - **Limpar Regiões:** Apaga todas as regiões do BG de uma vez.
