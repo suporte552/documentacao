@@ -103,6 +103,7 @@ Configurações para as informações jurídicas da mídia:
 - **Limpar Regiões:** Apaga todas as regiões do BG de uma vez.
 - **Salvar Regiões:** Salva as configurações de desenho no BG.
 - **Layout Mode Grid:** Abre uma pré-visualização de como as regiões ficarão preenchidas.
+- **Zoom e Ajuste:** Utilize os botões de `+`, `-`, `100%` e `Ajustar` no canto superior do canvas para melhor visualização de detalhes.
 
 ### Fluxo de Trabalho
 
