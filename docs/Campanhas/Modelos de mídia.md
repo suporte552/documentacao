@@ -84,8 +84,8 @@ Ao selecionar uma região específica no desenho, as seguintes opções ficam di
 - **Snap nas Guias:** Aproximação automática das regiões às guias.
 - **Exibir Área Útil:** Exibe o desenho dentro do limite das réguas.
 ### Aba Texto Legal
-
 Configurações para as informações jurídicas da mídia:
+
 - **Conteúdo:** Texto que será exibido.
 - **Alinhamento da Caixa:** Alinhamento do box de texto legal na mídia.
 - **Alinhamento do Texto:** Alinhamento interno do texto (Esquerda, Centro, Direita).
