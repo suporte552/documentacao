@@ -45,7 +45,7 @@ Configura o comportamento físico e o alinhamento do elemento.
 
 - **Assistência de Layout:**
     - **Smart Guides da Região:** Aproximação automática das regiões às guias.
-    - **Snap da Grade:** "Imanta" o elemento aos quadrados da grade.
+    - **Snap da Grade:** Magnetiza o elemento aos quadrados da grade.
     - **Exibir Linhas de Grade:** Ativa/Desativa a visualização visual do grid.
     
 - **Constraints do Elemento:**
