@@ -53,6 +53,7 @@ Configura o comportamento físico e o alinhamento do elemento.
     - **Redimensionar com a Caixa:** O elemento acompanha o movimento de redimensionamento do box.
     - **Quebra Automática de Texto:** Força a quebra de linha caso o texto exceda o limite do elemento.
     - **Manter Proporção:** Bloqueia a escala para evitar distorções.
+    
 - **Transformação:** Permite definir a **Rotação** do elemento.
 #### 3. Cor e Texto
 Define toda a tipografia e aparência visual.
