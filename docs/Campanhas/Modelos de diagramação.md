@@ -42,15 +42,11 @@ Ao selecionar uma tag ou elemento dentro do box, utilize as abas abaixo:
 Menu de acesso rápido para navegar entre as funções de **Posição, Transformar e Cor**.
 #### 2. Transformar
 Configura o comportamento físico e o alinhamento do elemento.
-- **Snap da Grade:** Aproxima a região pelos quadradinhos da grade.
-- **Smart Guides:** Exibe linhas vermelhas de alinhamento ao arrastar uma região.
-- 
 
 - **Assistência de Layout:**
     - **Smart Guides da Região:** Aproximação automática das regiões às guias.
     - **Snap da Grade:** "Imanta" o elemento aos quadrados da grade.
     - **Exibir Linhas de Grade:** Ativa/Desativa a visualização visual do grid.
-    - **Linhas de Grade:** Ativa ou desativa a visualização da grade
     
 - **Constraints do Elemento:**
     
