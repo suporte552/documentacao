@@ -24,7 +24,7 @@ As cores dos elementos podem ser herdadas de três níveis distintos:
 
 Existe um parâmetro global no painel do administrador que define o comportamento das cores. **Entre em contato com o suporte para ativar ou desativar esta função.**
 
-#### **Quando ATIVADO**
+#### **Quando DESATIVADO**
 O sistema respeita a **Origem da Cor** selecionada no elemento:
 
 | **Opção**             | **Comportamento**                                                                                                                                                                             |
@@ -34,7 +34,7 @@ O sistema respeita a **Origem da Cor** selecionada no elemento:
 | **Cor Secundária**    | Força o uso da Cor Secundária do Modelo de Diagramação. Se não houver, busca a do Modelo de Mídia.                                                                                            |
 | **Cor Personalizada** | Ignora as regras acima e utiliza a cor exata definida manualmente no elemento.                                                                                                                |
 
-#### **Quando DESATIVADO**
+#### **Quando ATIVADO**
 As opções de Cor Principal, Secundária e Personalizada do elemento são **ignoradas** na geração final. O sistema aplicará sempre a **Regra Automática por tipo de campo**:
 
 - **Preço/Símbolos** = Cor Secundária.
