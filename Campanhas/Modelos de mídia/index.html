@@ -1,0 +1,1459 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Modelos%20de%20diagrama%C3%A7%C3%A3o/">
+      
+      
+        <link rel="next" href="../Painel%20de%20controle/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Modelos de mídia - Gomark.core</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Gomark.core" class="md-header__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gomark.core
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Modelos de mídia
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Gomark.core" class="md-nav__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Gomark.core
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campanhas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Campanhas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Calend%C3%A1rios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calendários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Listar%20campanhas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Listar campanhas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../M%C3%ADdias%20r%C3%A1pidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mídias rápidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelos%20de%20diagrama%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de diagramação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de mídia
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-e-campos-de-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades e Campos de Cadastro
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracoes-avancadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configurações Avançadas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configurações Avançadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-criar-configuracao-de-oferta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Criar Configuração de Oferta
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-editar-regioes-layout-mode-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Editar Regiões (Layout Mode: Regions)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestao-de-regioes-selecionadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestão de Regiões Selecionadas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abas-de-guias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abas de Guias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Abas de Guias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#smart-guias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smart Guias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reguas-e-guias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Réguas e Guias
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aba-texto-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aba Texto Legal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-e-botoes-de-acao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comandos e Botões de Ação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Painel%20de%20controle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Painel de controle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Selos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operacional
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Operacional
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Clusters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clusters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Cadastro%20de%20Fornecedores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Fornecedores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Unidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutoriais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutoriais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como Funcionam as Cores nos Cards e Lâminas" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como Funcionam as Cores nos Cards e Lâminas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como%20usar%20o%20editor%20no%20modelo%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como usar o editor no modelo de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Cadastro%20de%20Produtos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Produtos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Portal%20do%20fornecedor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portal do fornecedor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-e-campos-de-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades e Campos de Cadastro
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracoes-avancadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configurações Avançadas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configurações Avançadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-criar-configuracao-de-oferta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Criar Configuração de Oferta
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-editar-regioes-layout-mode-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Editar Regiões (Layout Mode: Regions)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestao-de-regioes-selecionadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestão de Regiões Selecionadas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abas-de-guias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abas de Guias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Abas de Guias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#smart-guias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smart Guias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reguas-e-guias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Réguas e Guias
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aba-texto-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aba Texto Legal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-e-botoes-de-acao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comandos e Botões de Ação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Modelos de mídia</h1>
+
+<h3 id="introducao">Introdução<a class="headerlink" href="#introducao" title="Permanent link">&para;</a></h3>
+<p>Os <strong>Modelos de Mídia</strong> são o alicerce visual das suas campanhas. É neste módulo que inserimos os fundos (BGs), definimos as áreas de atuação (regiões) e configuramos a hierarquia visual de fontes e cores. Eles garantem que, independentemente de quem esteja operando, o resultado final siga estritamente a identidade visual da marca.</p>
+<div class="admonition info">
+<p class="admonition-title">Caminho</p>
+<p>Menu Lateral Esquerdo → Campanhas → Modelos de Mídia</p>
+</div>
+<h3 id="funcionalidades-e-campos-de-cadastro">Funcionalidades e Campos de Cadastro<a class="headerlink" href="#funcionalidades-e-campos-de-cadastro" title="Permanent link">&para;</a></h3>
+<p>Ao criar ou editar um modelo de mídia, preencha as informações conforme os campos abaixo:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Campo</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome</strong></td>
+<td>Descrição da mídia para identificação no sistema.</td>
+</tr>
+<tr>
+<td><strong>Tipo de Mídia</strong></td>
+<td>Define qual mídia está sendo feita: <strong>Cartaz, Lâmina, Card ou Storie</strong>.</td>
+</tr>
+<tr>
+<td><strong>Calendário</strong></td>
+<td>Vincule o calendário correspondente.</td>
+</tr>
+<tr>
+<td><strong>Modelo de Diagramação</strong></td>
+<td>Vincule o modelo de diagramação que será a base da mídia.</td>
+</tr>
+<tr>
+<td><strong>Tipo de Página</strong></td>
+<td><strong>Interna:</strong> Usado geralmente para as páginas de miolo.<br><br>  <br><br><strong>Capa:</strong> Utilizado para diferenciar capas (ex: capa com 4 produtos e interna com 12) ou capas com BGs diferentes.</td>
+</tr>
+<tr>
+<td><strong>Modo de Layout</strong></td>
+<td>Define o comportamento das regiões (ex: Regiões Livres).</td>
+</tr>
+<tr>
+<td><strong>Produtos por Página</strong></td>
+<td>Define quantos produtos aparecem por peça (ex: Card com 2 produtos e Storie com 4), independente de quantos forem colocados na campanha.</td>
+</tr>
+<tr>
+<td><strong>Fonte Principal</strong></td>
+<td>Fonte das descrições. Segue a hierarquia: Modelo de Mídia → Modelo de Diagramação → Elemento.</td>
+</tr>
+<tr>
+<td><strong>Fonte Secundária</strong></td>
+<td>Fonte de números e preços. Segue a mesma hierarquia de busca: Modelo de Mídia → Modelo de Diagramação → Elemento.</td>
+</tr>
+<tr>
+<td><strong>Cor Principal</strong></td>
+<td>Cor primária definida seguindo a hierarquia de aplicação: Modelo de Mídia → Modelo de Diagramação → Elemento.</td>
+</tr>
+<tr>
+<td><strong>Cor Secundária</strong></td>
+<td>Cor secundária definida seguindo a hierarquia de aplicação: Modelo de Mídia → Modelo de Diagramação → Elemento.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Importante</p>
+<p>É necessário <strong>Salvar</strong> o registro para habilitar os outros campos e abas de configuração.</p>
+</div>
+<h3 id="configuracoes-avancadas">Configurações Avançadas<a class="headerlink" href="#configuracoes-avancadas" title="Permanent link">&para;</a></h3>
+<h4 id="1-criar-configuracao-de-oferta">1. Criar Configuração de Oferta<a class="headerlink" href="#1-criar-configuracao-de-oferta" title="Permanent link">&para;</a></h4>
+<p>Utilizado quando se trabalha com tipos específicos de oferta (Clube, Escalonado, etc.). É necessário criar essa configuração para buscar o modelo de diagramação correto; caso contrário, o sistema sempre utilizará o padrão vinculado no Modelo de Mídia.</p>
+<h4 id="2-editar-regioes-layout-mode-regions">2. Editar Regiões (Layout Mode: Regions)<a class="headerlink" href="#2-editar-regioes-layout-mode-regions" title="Permanent link">&para;</a></h4>
+<p>Nesta área é feita a definição técnica do espaço útil da mídia.</p>
+<ul>
+<li><strong>Botão Limpar Background:</strong> Limpa o BG atual, possibilitando colocar um modelo pronto apenas para servir de base na hora de desenhar as regiões.</li>
+</ul>
+<p><strong>Ao clicar em "Criar boxes via grid template":</strong></p>
+<ul>
+<li>Para criar as regiões, é necessário arrastar as réguas até a posição desejada.</li>
+<li>Em <strong>Layout Mode</strong>, escolha <strong>Regions</strong>.</li>
+<li>Em <strong>Template</strong>, defina o número de colunas e linhas e clique em <strong>“Aplicar margens a partir das réguas”</strong>.</li>
+<li>Clique em <strong>Gerar Regiões</strong>.</li>
+</ul>
+<p><strong>Configurações do Grid:</strong></p>
+<ul>
+<li><strong>Gap Horizontal e Vertical:</strong> Distanciamento entre as regiões desenhadas.</li>
+<li><strong>Margem Superior e Inferior (px):</strong> Definição das margens do topo e fundo.</li>
+<li><strong>Margem Esquerda e Direita (px):</strong> Definição das margens laterais.</li>
+<li><strong>Largura Base e Altura Base (px):</strong> Definição das dimensões reais do BG.</li>
+<li><strong>Substituir:</strong> Se marcado, irá substituir o trabalho feito anteriormente pelo novo grid.</li>
+</ul>
+<h3 id="gestao-de-regioes-selecionadas">Gestão de Regiões Selecionadas<a class="headerlink" href="#gestao-de-regioes-selecionadas" title="Permanent link">&para;</a></h3>
+<p>Ao selecionar uma região específica no desenho, as seguintes opções ficam disponíveis:</p>
+<ul>
+<li><strong>Produto Destaque:</strong> Define a região selecionada como a que sempre receberá o produto principal/destaque.</li>
+</ul>
+<p><strong>Campos em "Região Selecionada":</strong></p>
+<ul>
+<li><strong>Nome:</strong> Descrição da região.</li>
+<li><strong>Tipo de Região:</strong> Define se é uma região <strong>Normal</strong> ou para <strong>Upload de Imagem</strong>.</li>
+<li><strong>X e Y / Largura e Altura:</strong> Definição numérica exata do tamanho e posição da região.</li>
+<li><strong>Criar Modelo da Região:</strong> Possibilita criar um modelo de diagramação específico baseado no tamanho do box desenhado.</li>
+<li><strong>Cor da Borda:</strong> Define a cor da borda da região.</li>
+<li><strong>Cor de Fundo:</strong> Define a cor de fundo da região.</li>
+</ul>
+<h3 id="abas-de-guias">Abas de Guias<a class="headerlink" href="#abas-de-guias" title="Permanent link">&para;</a></h3>
+<h4 id="smart-guias">Smart Guias<a class="headerlink" href="#smart-guias" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Ativar Smart Guides:</strong> Exibe linhas vermelhas de alinhamento ao arrastar uma região.</li>
+<li><strong>Snap no Canvas:</strong> Cola a região nas extremidades do canvas.</li>
+<li><strong>Snap de Elementos:</strong> Ativa a aproximação magnética entre regiões.</li>
+<li><strong>Snap da Grade:</strong> Aproxima a região pelos quadradinhos da grade.</li>
+<li><strong>Exibir Linhas de Grade:</strong> Ativa ou desativa a visualização da grade sobre o BG.</li>
+<li><strong>Guias de Espaçamento:</strong> Mostra o valor do espaçamento entre regiões durante o movimento.</li>
+</ul>
+<h4 id="reguas-e-guias">Réguas e Guias<a class="headerlink" href="#reguas-e-guias" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Exibir Réguas:</strong> Mostra as réguas numeradas.</li>
+<li><strong>Exibir Guias:</strong> Visualização das réguas que foram desenhadas.</li>
+<li><strong>Travar Guias:</strong> Impede a movimentação acidental das réguas.</li>
+<li><strong>Snap nas Guias:</strong> Aproximação automática das regiões às guias.</li>
+<li><strong>Exibir Área Útil:</strong> Exibe o desenho dentro do limite das réguas.</li>
+</ul>
+<h3 id="aba-texto-legal">Aba Texto Legal<a class="headerlink" href="#aba-texto-legal" title="Permanent link">&para;</a></h3>
+<p>Configurações para as informações jurídicas da mídia:</p>
+<ul>
+<li><strong>Conteúdo:</strong> Texto que será exibido.</li>
+<li><strong>Alinhamento da Caixa:</strong> Alinhamento do box de texto legal na mídia.</li>
+<li><strong>Alinhamento do Texto:</strong> Alinhamento interno do texto (Esquerda, Centro, Direita).</li>
+<li><strong>Esquerda (px) / Bottom (px):</strong> Posição da caixa em relação à esquerda e ao fundo.</li>
+<li><strong>Largura / Altura:</strong> Dimensões da caixa de texto legal.</li>
+<li><strong>Fonte / Tamanho / Peso / Cor:</strong> Especificações tipográficas do texto legal.</li>
+<li><strong>Altura da Linha:</strong> Espaçamento entre as linhas dentro do box.</li>
+</ul>
+<h3 id="comandos-e-botoes-de-acao">Comandos e Botões de Ação<a class="headerlink" href="#comandos-e-botoes-de-acao" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Botão CTRL Pressionado:</strong> Permite desenhar uma região livre clicando e arrastando.</li>
+<li><strong>Duplicar região CTRL + D</strong>: Ao selecionar uma região, permite duplicá-la. </li>
+<li><strong>Adicionar Região:</strong> Insere uma nova região manualmente no BG.</li>
+<li><strong>Remover Selecionada:</strong> Remove apenas a região que está selecionada.</li>
+<li><strong>Limpar Regiões:</strong> Apaga todas as regiões do BG de uma vez.</li>
+<li><strong>Salvar Regiões:</strong> Salva as configurações de desenho no BG.</li>
+<li><strong>Layout Mode Grid:</strong> Abre uma pré-visualização de como as regiões ficarão preenchidas.</li>
+<li><strong>Zoom e Ajuste:</strong> Utilize os botões de <code>+</code>, <code>-</code>, <code>100%</code> e <code>Ajustar</code> no canto superior do canvas para melhor visualização de detalhes.</li>
+</ul>
+<h3 id="fluxo-de-trabalho">Fluxo de Trabalho<a class="headerlink" href="#fluxo-de-trabalho" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>graph TD
+A[Acessar Modelos de Mídia] --&gt; B[Cadastrar Informações Gerais]
+B --&gt; C[Salvar para Habilitar Edição]
+C --&gt; D[Carregar BG e Limpar se necessário]
+D --&gt; E[Definir Réguas e Grid Template]
+E --&gt; F[Gerar e Ajustar Regiões]
+F --&gt; G[Configurar Texto Legal e Identidade Visual]
+G --&gt; H[Salvar Regiões e Pré-visualizar]</code></pre>
+<h3 id="perguntas-frequentes-faq">Perguntas Frequentes (FAQ)<a class="headerlink" href="#perguntas-frequentes-faq" title="Permanent link">&para;</a></h3>
+<div class="admonition question">
+<p class="admonition-title">Por que é necessário salvar o registro logo no início do cadastro?</p>
+<p>O salvamento inicial é obrigatório para que o sistema registre a base do modelo no banco de dados e habilite as abas avançadas de edição de regiões, configurações de oferta e os parâmetros de texto legal.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Qual a diferença prática entre o Tipo de Página Capa e Interna?</p>
+<p>A página Interna é o padrão para o miolo da mídia, enquanto a Capa é utilizada para layouts diferenciados, permitindo, por exemplo, que você exiba apenas um produto em destaque com um BG específico, mesmo que as páginas seguintes do encarte possuam doze produtos cada.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">O que acontece se eu não criar uma Configuração de Oferta para tipos como Clube ou Escalonado?</p>
+<p>Se a configuração de oferta não for criada, o sistema não saberá que deve trocar o layout para aquela mecânica específica e acabará aplicando sempre o modelo de diagramação padrão vinculado ao modelo de mídia, o que pode ocultar selos e preços especiais.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Como o sistema define qual fonte ou cor utilizar se houver várias configurações?</p>
+<p>O sistema segue uma hierarquia de prioridade: ele busca primeiro a informação no elemento individual; se não encontrar, busca no Modelo de Diagramação e, por último, utiliza a configuração definida no Modelo de Mídia.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Para que serve o botão Limpar Background no editor de regiões?</p>
+<p>Este botão remove temporariamente a imagem de fundo oficial para que você possa subir um modelo de referência, facilitando o desenho manual das regiões e réguas exatamente sobre as posições desejadas antes de aplicar o BG definitivo.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">O campo Produtos por Página limita a quantidade de ofertas da campanha?</p>
+<p>Não. Ele limita apenas quantos produtos aparecem em cada peça gerada (como um card ou storie). Se a campanha tiver dez produtos e o modelo estiver configurado para dois produtos por página, o sistema gerará automaticamente cinco peças diferentes.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Como posso garantir que as regiões fiquem perfeitamente alinhadas?</p>
+<p>A melhor forma é utilizar as Smart Guias e os Snaps (de grade, canvas ou elementos), que funcionam como ímãs para alinhar os boxes. Além disso, o uso do Grid Template com definição de Gaps horizontais e verticais garante um espaçamento matemático e uniforme entre as regiões.</p>
+</div>
+<h3 id="consideracoes-finais">Considerações Finais<a class="headerlink" href="#consideracoes-finais" title="Permanent link">&para;</a></h3>
+<p>A estruturação dos Modelos de Mídia é essencial para garantir a automação e a padronização visual de todas as peças publicitárias. Ao configurar corretamente as regiões, fontes e hierarquias de cores, você assegura que o sistema gere artes precisas de forma imediata, eliminando erros Manuais de alinhamento ou tipografia. A utilização das ferramentas de grid e a definição correta dos tipos de página permitem que a comunicação seja estratégica e visualmente equilibrada, enquanto as configurações de oferta e texto legal garantem a segurança técnica e jurídica necessária para a operação. Dominar este módulo transforma o processo de criação em uma tarefa ágil, permitindo que a equipe foque na estratégia comercial com a certeza de que a identidade visual da marca será mantida em todos os canais.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "hide.footer"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

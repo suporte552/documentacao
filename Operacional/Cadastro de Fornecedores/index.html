@@ -1,0 +1,1429 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Clusters/">
+      
+      
+        <link rel="next" href="../Unidades/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Cadastro de Fornecedores - Gomark.core</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Gomark.core" class="md-header__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gomark.core
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cadastro de Fornecedores
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Gomark.core" class="md-nav__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Gomark.core
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campanhas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Campanhas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Campanhas/Calend%C3%A1rios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calendários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Campanhas/Listar%20campanhas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Listar campanhas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Campanhas/M%C3%ADdias%20r%C3%A1pidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mídias rápidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Campanhas/Modelos%20de%20diagrama%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de diagramação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Campanhas/Modelos%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Campanhas/Painel%20de%20controle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Painel de controle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Campanhas/Selos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operacional
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Operacional
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Clusters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clusters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Fornecedores
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Fornecedores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrega-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega de Valor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-principais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades Principais
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades Principais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-gestao-de-parceiros-na-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1: Gestão de Parceiros na Grid
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-gerar-convite-de-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2: Gerar Convite de Cadastro
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-importacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3: Importação de Dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-edicao-e-vinculacao-de-vendedores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4: Edição e Vinculação de Vendedores
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gerenciamento-na-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gerenciamento na Grid
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Casos de Uso
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-1-prospeccao-de-novos-parceiros-via-convite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 1: Prospecção de Novos Parceiros via Convite
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-2-cadastro-em-lote-para-grandes-campanhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 2: Cadastro em Lote para Grandes Campanhas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leia-tambem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leia Também
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Unidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutoriais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutoriais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como Funcionam as Cores nos Cards e Lâminas" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como Funcionam as Cores nos Cards e Lâminas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como%20usar%20o%20editor%20no%20modelo%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como usar o editor no modelo de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Cadastro%20de%20Produtos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Produtos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Portal%20do%20fornecedor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portal do fornecedor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrega-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega de Valor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-principais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades Principais
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades Principais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-gestao-de-parceiros-na-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1: Gestão de Parceiros na Grid
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-gerar-convite-de-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2: Gerar Convite de Cadastro
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-importacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3: Importação de Dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-edicao-e-vinculacao-de-vendedores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4: Edição e Vinculação de Vendedores
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gerenciamento-na-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gerenciamento na Grid
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Casos de Uso
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-1-prospeccao-de-novos-parceiros-via-convite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 1: Prospecção de Novos Parceiros via Convite
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-2-cadastro-em-lote-para-grandes-campanhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 2: Cadastro em Lote para Grandes Campanhas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leia-tambem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leia Também
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Cadastro de Fornecedores</h1>
+
+<h2 id="introducao">Introdução<a class="headerlink" href="#introducao" title="Permanent link">&para;</a></h2>
+<p>O Portal do Fornecedor é uma interface dedicada que permite aos parceiros acessar o sistema de forma independente. Com ele, é possível gerenciar produtos, visualizar campanhas e enviar propostas diretamente para os clientes da Gomark, estabelecendo um relacionamento B2B2C eficiente e colaborativo.</p>
+<div class="admonition info">
+<p class="admonition-title">Caminho</p>
+<p>Menu Lateral esquerdo → Operacional → Fornecedores</p>
+</div>
+<h2 id="entrega-de-valor">Entrega de Valor<a class="headerlink" href="#entrega-de-valor" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Autonomia:</strong> Fornecedores gerenciam seus próprios dados e propostas.</li>
+<li><strong>Colaboração Direta:</strong> Estreita o relacionamento entre parceiros e a plataforma.</li>
+<li><strong>Segurança:</strong> Controle total sobre quem acessa e quais convites estão ativos.</li>
+<li><strong>Escalabilidade:</strong> Importação em lote de usuários e fornecedores via Excel.</li>
+</ul>
+<h2 id="funcionalidades-principais">Funcionalidades Principais<a class="headerlink" href="#funcionalidades-principais" title="Permanent link">&para;</a></h2>
+<h3 id="1-gestao-de-parceiros-na-grid">1: Gestão de Parceiros na Grid<a class="headerlink" href="#1-gestao-de-parceiros-na-grid" title="Permanent link">&para;</a></h3>
+<p>Na tela principal de fornecedores, você tem o controle total dos cadastros.
+<strong>Criar Parceiro do Zero:</strong> Ao clicar em "Criar", preencha as informações conforme os campos abaixo:</p>
+<ul>
+<li><strong>Obrigatórios:</strong> CNPJ, Nome e Razão Social.</li>
+<li><strong>Opcionais:</strong> E-mail, telefone e descrição.</li>
+<li><strong>Status:</strong> Defina o parceiro como <strong>Ativo</strong> ou <strong>Inativo</strong>.</li>
+</ul>
+<p><strong>Opções de Finalização:</strong></p>
+<ul>
+<li><strong>Criar:</strong> Salva e mantém na tela para edição.</li>
+<li><strong>Salvar e Criar Outro:</strong> Salva e limpa os campos para um novo cadastro rápido.</li>
+<li><strong>Vincular a um Parceiro:</strong> Permite buscar e associar um fornecedor já existente no banco de dados através do CNPJ.</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Botão cancelar</p>
+<p>O botão <strong>Cancelar</strong> interrompe o processo sem salvar e redireciona para a grid de fornecedores.</p>
+</div>
+<h3 id="2-gerar-convite-de-cadastro">2: Gerar Convite de Cadastro<a class="headerlink" href="#2-gerar-convite-de-cadastro" title="Permanent link">&para;</a></h3>
+<p>Esta funcionalidade permite convidar novos parceiros via e-mail com total segurança.
+<strong>Configurações do Convite:</strong></p>
+<ul>
+<li><strong>E-mal do Vendedor (Opcional):</strong> E-mail para envio do convite. </li>
+<li>
+<p><strong>Permitir Uso Múltiplo (Toggle):</strong> </p>
+<ul>
+<li><strong>Ativado:</strong> O link pode ser usado por várias pessoas da mesma empresa.</li>
+<li><strong>Desativado (Padrão):</strong> O link expira após o primeiro uso.</li>
+</ul>
+</li>
+<li>
+<p><strong>Expiração:</strong> Você pode definir o prazo de validade (1, 3, 7, 15 ou 30 dias). Recomendamos <strong>7 dias</strong>.</p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Segurança do Link</p>
+<p>O sistema gera um token aleatório de 48 caracteres. O link valida automaticamente o ID do cliente, a expiração e a unicidade do token, garantindo que apenas o fornecedor autorizado realize o cadastro via HTTPS.</p>
+</div>
+<h3 id="3-importacao-de-dados">3: Importação de Dados<a class="headerlink" href="#3-importacao-de-dados" title="Permanent link">&para;</a></h3>
+<p>Para cadastros em massa, utilize as ferramentas de importação via planilha Excel:</p>
+<ul>
+<li><strong>Importar Fornecedores:</strong> Carrega os dados das empresas parceiras.</li>
+<li><strong>Importar Usuários:</strong> Carrega os acessos dos colaboradores desses fornecedores no sistema.</li>
+</ul>
+<h3 id="4-edicao-e-vinculacao-de-vendedores">4: Edição e Vinculação de Vendedores<a class="headerlink" href="#4-edicao-e-vinculacao-de-vendedores" title="Permanent link">&para;</a></h3>
+<p>Ao editar um fornecedor já cadastrado, você pode gerenciar a equipe comercial dele:</p>
+<ol>
+<li><strong>Cadastrar Vendedor:</strong> Informe nome do representante, e-mail e defina uma senha de acesso.</li>
+<li><strong>Associar Vendedor:</strong> Vincule um vendedor que já existe no sistema ao fornecedor através da busca por nome ou e-mail.</li>
+</ol>
+<h2 id="gerenciamento-na-grid">Gerenciamento na Grid<a class="headerlink" href="#gerenciamento-na-grid" title="Permanent link">&para;</a></h2>
+<p>Ao selecionar o checkbox <strong>"Razão Social"</strong> na listagem principal, novas ações são habilitadas:</p>
+<ul>
+<li><strong>Exportar:</strong> Gera um arquivo com os dados dos fornecedores selecionados.</li>
+<li><strong>Aprovar:</strong> Valida o cadastro do fornecedor para operação.</li>
+<li><strong>Voltar para Rascunho:</strong> Permite reverter um cadastro aprovado para ajustes internos.</li>
+</ul>
+<h2 id="casos-de-uso">Casos de Uso<a class="headerlink" href="#casos-de-uso" title="Permanent link">&para;</a></h2>
+<h3 id="caso-1-prospeccao-de-novos-parceiros-via-convite">Caso 1: Prospecção de Novos Parceiros via Convite<a class="headerlink" href="#caso-1-prospeccao-de-novos-parceiros-via-convite" title="Permanent link">&para;</a></h3>
+<p>Imagine que sua rede de varejo está expandindo o setor de bebidas e precisa cadastrar 10 novas vinícolas parceiras rapidamente.</p>
+<ul>
+<li><strong>O Cenário:</strong> Em vez de pedir os documentos por e-mail e cadastrar um por um, o comprador gera <strong>convites individuais</strong> no sistema.</li>
+<li><strong>A Prática:</strong> O comprador configura os convites com validade de <strong>7 dias</strong> e uso único.</li>
+<li><strong>O Resultado:</strong> Cada vinícola recebe o link seguro, preenche seus próprios dados e, assim que finalizam, os cadastros aparecem na sua grid para apenas um clique de <strong>Aprovação</strong>. Isso economiza horas de trabalho manual da sua equipe.</li>
+</ul>
+<h3 id="caso-2-cadastro-em-lote-para-grandes-campanhas">Caso 2: Cadastro em Lote para Grandes Campanhas<a class="headerlink" href="#caso-2-cadastro-em-lote-para-grandes-campanhas" title="Permanent link">&para;</a></h3>
+<p>Sua empresa vai realizar uma "Semana do Fornecedor" e precisa importar os dados de 50 novos parceiros e seus respectivos 100 vendedores que atuarão na plataforma.</p>
+<ul>
+<li><strong>O Cenário:</strong> O cadastro manual seria inviável para o prazo da campanha.</li>
+<li><strong>A Prática:</strong> Você utiliza a função <strong>Importar Fornecedores</strong> via Excel para subir os dados das empresas e, em seguida, usa o <strong>Importar Usuários</strong> para liberar o acesso de todos os vendedores de uma só vez.</li>
+<li><strong>O Resultado:</strong> Em poucos minutos, todo o ecossistema de parceiros está criado e pronto para enviar propostas de produtos para as artes das campanhas.</li>
+</ul>
+<h2 id="fluxo-de-trabalho">Fluxo de Trabalho<a class="headerlink" href="#fluxo-de-trabalho" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>graph TD
+    A[Acessar Operacional &gt; Fornecedores] --&gt; B{Ação Desejada}
+    B --&gt; C[Criar Novo Cadastro]
+    B --&gt; D[Gerar Convite Manual]
+    B --&gt; E[Importar via Excel]
+
+    C --&gt; C1[Preencher CNPJ/Razão]
+    C1 --&gt; C2[Definir Status]
+
+    D --&gt; D1[Configurar Expiração]
+    D1 --&gt; D2[Enviar Link Seguro]
+
+    E --&gt; E1[Planilha de Fornecedores]
+    E1 --&gt; E2[Planilha de Usuários]
+
+    C2 --&gt; F[Aprovar Cadastro na Grid]
+    D2 --&gt; F
+    E2 --&gt; F</code></pre>
+<hr />
+<h2 id="perguntas-frequentes-faq">Perguntas Frequentes (FAQ)<a class="headerlink" href="#perguntas-frequentes-faq" title="Permanent link">&para;</a></h2>
+<div class="admonition question">
+<p class="admonition-title">O que acontece se o link do convite expirar?</p>
+<p>O parceiro não conseguirá acessar a tela de cadastro. Será necessário gerar um novo convite no painel administrativo.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Qual a diferença entre 'Uso Múltiplo' ativado ou desativado?</p>
+<p>Se estiver <strong>desativado</strong>, apenas a primeira pessoa que clicar conseguirá se cadastrar; o link "morre" depois disso. Se estiver <strong>ativado</strong>, você pode enviar o mesmo link para vários departamentos de um fornecedor.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Posso vincular um vendedor a mais de um fornecedor?</p>
+<p>Sim, através da opção de "Associar", você consegue conectar representantes a diferentes CNPJs de fornecedores parceiros.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Como aprovar um fornecedor que acabou de se cadastrar via convite?</p>
+<p>Na grid de fornecedores, selecione o registro desejado através do checkbox e utilize a opção de "Aprovar" que aparecerá no menu de ações.</p>
+</div>
+<h2 id="consideracoes-finais">Considerações Finais<a class="headerlink" href="#consideracoes-finais" title="Permanent link">&para;</a></h2>
+<p>O gerenciamento de fornecedores é o ponto de partida para o ecossistema colaborativo da Gomark. Manter os cadastros aprovados e os vendedores vinculados corretamente garante que o fluxo de propostas e produtos ocorra sem interrupções.</p>
+<h2 id="leia-tambem">Leia Também<a class="headerlink" href="#leia-tambem" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../Campanhas/Gestão de campanhas.md">Gestão de Campanhas</a></li>
+<li><a href="https://www.google.com/search?q=../Campanhas/Calend%C3%A1rios.md">Calendário de Campanhas</a></li>
+<li><a href="https://www.google.com/search?q=%23">Configurações de Perfil</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "hide.footer"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1846 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../Listar%20campanhas/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Calendários - Gomark.core</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Gomark.core" class="md-header__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gomark.core
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Calendários
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Gomark.core" class="md-nav__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Gomark.core
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campanhas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Campanhas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calendários
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calendários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrega-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega de Valor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-principais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades Principais
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades Principais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-criacao-de-calendarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1: Criação de Calendários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1: Criação de Calendários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opcoes-de-finalizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opções de Finalização
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-uso-do-calendario-em-campanhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2: Uso do Calendário em Campanhas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-uso-do-calendario-em-modelos-de-midia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3: Uso do Calendário em Modelos de Mídia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-visualizacao-e-gerenciamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4: Visualização e Gerenciamento
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4: Visualização e Gerenciamento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-que-voce-pode-fazer-na-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O que você pode fazer na Grid?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dicas-para-uma-organizacao-impecavel-boas-praticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dicas para uma Organização Impecável (Boas Práticas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Casos de Uso
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-1-organizacao-por-eventos-sazonais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 1: Organização por Eventos Sazonais
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso 1: Organização por Eventos Sazonais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Cenário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#por-que-isso-e-bom-na-pratica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Por que isso é bom na prática?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-2-ofertas-semanais-recorrentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 2: Ofertas Semanais Recorrentes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso 2: Ofertas Semanais Recorrentes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-cenario_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Cenário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#como-isso-facilita-o-dia-a-dia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como isso facilita o dia a dia?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-3-organizacao-por-regioes-nacional-vs-regional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 3: Organização por Regiões (Nacional vs. Regional)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso 3: Organização por Regiões (Nacional vs. Regional)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-cenario_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Cenário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#por-que-isso-e-bom-na-pratica_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Por que isso é bom na prática?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permissoes-necessarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Permissões Necessárias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Perguntas Frequentes (FAQ)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leia-tambem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leia Também
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Listar%20campanhas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Listar campanhas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../M%C3%ADdias%20r%C3%A1pidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mídias rápidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelos%20de%20diagrama%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de diagramação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelos%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Painel%20de%20controle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Painel de controle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Selos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operacional
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Operacional
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Clusters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clusters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Cadastro%20de%20Fornecedores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Fornecedores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Unidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutoriais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutoriais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como Funcionam as Cores nos Cards e Lâminas" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como Funcionam as Cores nos Cards e Lâminas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como%20usar%20o%20editor%20no%20modelo%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como usar o editor no modelo de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Cadastro%20de%20Produtos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Produtos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Portal%20do%20fornecedor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portal do fornecedor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrega-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega de Valor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-principais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades Principais
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades Principais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-criacao-de-calendarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1: Criação de Calendários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1: Criação de Calendários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opcoes-de-finalizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opções de Finalização
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-uso-do-calendario-em-campanhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2: Uso do Calendário em Campanhas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-uso-do-calendario-em-modelos-de-midia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3: Uso do Calendário em Modelos de Mídia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-visualizacao-e-gerenciamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4: Visualização e Gerenciamento
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4: Visualização e Gerenciamento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-que-voce-pode-fazer-na-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O que você pode fazer na Grid?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dicas-para-uma-organizacao-impecavel-boas-praticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dicas para uma Organização Impecável (Boas Práticas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Casos de Uso
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-1-organizacao-por-eventos-sazonais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 1: Organização por Eventos Sazonais
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso 1: Organização por Eventos Sazonais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Cenário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#por-que-isso-e-bom-na-pratica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Por que isso é bom na prática?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-2-ofertas-semanais-recorrentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 2: Ofertas Semanais Recorrentes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso 2: Ofertas Semanais Recorrentes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-cenario_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Cenário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#como-isso-facilita-o-dia-a-dia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como isso facilita o dia a dia?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-3-organizacao-por-regioes-nacional-vs-regional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 3: Organização por Regiões (Nacional vs. Regional)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso 3: Organização por Regiões (Nacional vs. Regional)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-cenario_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Cenário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#por-que-isso-e-bom-na-pratica_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Por que isso é bom na prática?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permissoes-necessarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Permissões Necessárias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Perguntas Frequentes (FAQ)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leia-tambem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leia Também
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h2 id="introducao">Introdução<a class="headerlink" href="#introducao" title="Permanent link">&para;</a></h2>
+<p>O <strong>Calendário de Campanhas</strong> é o coração do seu planejamento. Com ele, você organiza e visualiza todas as ações promocionais do ano de forma estratégica, garantindo que as campanhas recorrentes sigam um padrão e que nenhum período importante seja esquecido.</p>
+<div class="admonition info">
+<p class="admonition-title">Caminho</p>
+<p>Menu Lateral esquerdo → Campanhas → Calendários</p>
+</div>
+<h2 id="entrega-de-valor">Entrega de Valor<a class="headerlink" href="#entrega-de-valor" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Planejamento Estratégico:</strong> Visão antecipada das campanhas do ano.</li>
+<li><strong>Padronização:</strong> Eventos recorrentes com configurações predefinidas.</li>
+<li><strong>Organização:</strong> Evita sobreposição e conflitos de datas.</li>
+<li><strong>Eficiência:</strong> Criação mais rápida com modelos vinculados.</li>
+<li><strong>Histórico:</strong> Comparação facilitada com anos anteriores.</li>
+</ul>
+<h2 id="funcionalidades-principais">Funcionalidades Principais<a class="headerlink" href="#funcionalidades-principais" title="Permanent link">&para;</a></h2>
+<h3 id="1-criacao-de-calendarios">1: Criação de Calendários<a class="headerlink" href="#1-criacao-de-calendarios" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Acesse <strong>Campanhas -&gt; Calendários</strong>.</li>
+<li>Clique em <strong>Criar Calendário</strong>.</li>
+<li>Preencha as informações conforme a tabela abaixo:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><strong>Campo</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Dica de Ouro</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome</strong></td>
+<td>Identificação do grupo (Obrigatório).</td>
+<td>Use o padrão "Nome + Ano" (Ex: <em>Natal 2025</em>).</td>
+</tr>
+<tr>
+<td><strong>Especificações</strong></td>
+<td>Texto livre para notas.</td>
+<td>Insira aqui os objetivos da campanha ou o público-alvo.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="opcoes-de-finalizacao">Opções de Finalização<a class="headerlink" href="#opcoes-de-finalizacao" title="Permanent link">&para;</a></h4>
+<p>No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Botão</strong></th>
+<th><strong>Comportamento</strong></th>
+<th><strong>Objetivo Principal</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Criar</strong></td>
+<td>Salva o registro e mantém o usuário na mesma tela, habilitando a edição.</td>
+<td>Ideal para quem precisa revisar ou detalhar o calendário logo após a criação.</td>
+</tr>
+<tr>
+<td><strong>Salvar e Criar Outro</strong></td>
+<td>Conclui o registro atual e limpa os campos para um novo cadastro.</td>
+<td>Focado em produtividade para cadastros em lote (múltiplos itens).</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p>O botão <strong>Cancelar</strong> interrompe o processo sem salvar e redireciona para a grid de calendários já existentes.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Status na grid</p>
+<p>O <strong>Status</strong> é gerado automaticamente pelo sistema no momento em que o registro é finalizado, ficando como <strong>Publicado</strong>.</p>
+</div>
+<video src="../../images/Gravando%202026-03-24%20151016.mp4" controls width="100%"></video>
+<h3 id="2-uso-do-calendario-em-campanhas">2: Uso do Calendário em Campanhas<a class="headerlink" href="#2-uso-do-calendario-em-campanhas" title="Permanent link">&para;</a></h3>
+<p>Ao criar uma campanha, você pode vincular um calendário:</p>
+<p><strong>Benefícios da Vinculação:</strong></p>
+<ul>
+<li><strong>Filtragem</strong>: Facilita encontrar campanhas relacionadas</li>
+<li><strong>Modelos de Mídia</strong>: Os modelos de mídia vinculados ao mesmo calendário aparecem automaticamente como opções</li>
+<li><strong>Organização</strong>: Agrupa campanhas por tema ou período</li>
+<li><strong>Relatórios</strong>: Permite análises agrupadas por calendário</li>
+</ul>
+<p><strong>Como Funciona:</strong></p>
+<ol>
+<li>Ao criar uma campanha, selecione o calendário no campo "Calendário"</li>
+<li>O sistema filtra automaticamente os Modelos de Mídia compatíveis com o calendário selecionado</li>
+<li>Durante a diagramação, apenas modelos vinculados ao mesmo calendário aparecem como opções
+<img alt="Identificação" src="../../images/Pasted%20image%2020260325140447.png" /></li>
+</ol>
+<h3 id="3-uso-do-calendario-em-modelos-de-midia">3: Uso do Calendário em Modelos de Mídia<a class="headerlink" href="#3-uso-do-calendario-em-modelos-de-midia" title="Permanent link">&para;</a></h3>
+<p>Os modelos de mídia também podem ser "etiquetados" com um calendário para garantir que a comunicação visual esteja sempre alinhada:</p>
+<ul>
+<li><strong>Lâminas, Cards e Stories:</strong> Geralmente são vinculados a <strong>um único calendário</strong> específico.</li>
+<li><strong>Cartazes:</strong> Podem aceitar <strong>múltiplos calendários</strong>, permitindo mais flexibilidade na criação.</li>
+</ul>
+<p><img alt="Identificação" src="../../images/Pasted%20image%2020260325141602.png" /></p>
+<h3 id="4-visualizacao-e-gerenciamento">4: Visualização e Gerenciamento<a class="headerlink" href="#4-visualizacao-e-gerenciamento" title="Permanent link">&para;</a></h3>
+<p>Na tela principal de <strong>Calendários</strong>, você tem uma visão completa de tudo o que foi planejado. É o seu painel de controle para manter a organização em dia.</p>
+<h4 id="o-que-voce-pode-fazer-na-grid">O que você pode fazer na Grid?<a class="headerlink" href="#o-que-voce-pode-fazer-na-grid" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Acompanhar tudo:</strong> Veja todos os seus calendários em uma única lista organizada.</li>
+<li><strong>Manutenção simples:</strong> Precisa mudar algo? Você pode <strong>Editar</strong> as informações ou <strong>Excluir</strong> calendários que não serão mais utilizados.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Exclusão em massa</p>
+<p>Na grid de calendários, é possível utilizar o botão <strong>Abrir Ações</strong> para excluir registros selecionados, otimizando a limpeza de calendários antigos.</p>
+<p><strong>Caminho:</strong> Acesse Calendários &gt; Marque o Checkbox "Nome" &gt; Clique no botão "Abrir ações" &gt; Selecione os calendários para exclusão &gt; Excluir selecionado.</p>
+</div>
+<p><img alt="Identificação" src="../../images/Pasted%20image%2020260324154958.png" /></p>
+<h4 id="dicas-para-uma-organizacao-impecavel-boas-praticas">Dicas para uma Organização Impecável (Boas Práticas)<a class="headerlink" href="#dicas-para-uma-organizacao-impecavel-boas-praticas" title="Permanent link">&para;</a></h4>
+<p>Para que o sistema trabalhe a seu favor e você ganhe tempo no dia a dia, siga estas recomendações:</p>
+<ul>
+<li><strong>Nomes que falam por si:</strong> Escolha nomes claros e descritivos. Em vez de apenas "Promoção", use "Ofertas Relâmpago - Outubro 2025". Isso facilita muito a busca depois.</li>
+<li><strong>Agrupar é a chave:</strong> Procure manter campanhas que tenham o mesmo contexto dentro do mesmo calendário. Isso evita que as informações fiquem espalhadas.</li>
+<li><strong>Mantenha o padrão:</strong> Tente organizar seus calendários sempre seguindo um tema (ex: Dia das Mães) ou um período específico (ex: Verão 2025). Isso ajuda muito na hora de tirar relatórios e analisar resultados</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Considerações Importantes</p>
+<ul>
+<li><strong>O calendário não armazena datas:</strong> Ele é apenas um agrupador. As datas de vigência são definidas dentro da Campanha.</li>
+<li><strong>Edição Segura:</strong> Você pode editar o nome de um calendário mesmo que ele já possua campanhas vinculadas; isso não afetará os dados das campanhas.</li>
+<li><strong>Exclusão:</strong> Se excluir um calendário, as campanhas vinculadas não são apagadas, elas apenas perdem a referência do agrupador.</li>
+</ul>
+</div>
+<h1 id="casos-de-uso">Casos de Uso<a class="headerlink" href="#casos-de-uso" title="Permanent link">&para;</a></h1>
+<h2 id="caso-1-organizacao-por-eventos-sazonais">Caso 1: Organização por Eventos Sazonais<a class="headerlink" href="#caso-1-organizacao-por-eventos-sazonais" title="Permanent link">&para;</a></h2>
+<p>Imagine uma rede de supermercados que precisa gerenciar dezenas de artes e ofertas ao longo do ano. Veja como os calendários simplificam essa rotina:</p>
+<h3 id="o-cenario">O Cenário<a class="headerlink" href="#o-cenario" title="Permanent link">&para;</a></h3>
+<p>A equipe de marketing cria calendários específicos para as grandes datas do varejo:</p>
+<ul>
+<li><strong>Páscoa 2025:</strong> Reúne todas as ofertas de chocolates e bacalhau.</li>
+<li><strong>Dia das Mães 2025:</strong> Focado em presentes e almoço especial.</li>
+<li><strong>Black Friday 2025:</strong> Concentra as promoções agressivas de eletrônicos e bazar.</li>
+<li><strong>Natal 2025:</strong> Agrupa tudo relacionado à ceia e presentes de fim de ano.</li>
+</ul>
+<h3 id="por-que-isso-e-bom-na-pratica">Por que isso é bom na prática?<a class="headerlink" href="#por-que-isso-e-bom-na-pratica" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Foco Total:</strong> Ao abrir o calendário "Natal", você vê apenas o que importa para aquela data, sem misturar com outras promoções.</li>
+<li><strong>Seleção sem Erros:</strong> Quando você cria uma campanha de Páscoa, o sistema já "filtra" os modelos de mídia (como artes de ovos de chocolate) automaticamente. Você não corre o risco de usar o fundo errado!</li>
+<li><strong>Histórico que Funciona:</strong> No próximo ano, você consegue consultar exatamente o que foi feito em 2025 para cada tema, facilitando o planejamento do futuro.</li>
+<li><strong>Organização Visual:</strong> Sua lista de campanhas deixa de ser uma "bagunça" de nomes e passa a ser um cronograma organizado por temas claros.</li>
+</ul>
+<h2 id="caso-2-ofertas-semanais-recorrentes">Caso 2: Ofertas Semanais Recorrentes<a class="headerlink" href="#caso-2-ofertas-semanais-recorrentes" title="Permanent link">&para;</a></h2>
+<p>Sabe aquelas ofertas que acontecem toda semana, de quinta a domingo? Em vez de criar tudo do zero toda vez, o calendário ajuda a padronizar o processo.</p>
+<h3 id="o-cenario_1">O Cenário<a class="headerlink" href="#o-cenario_1" title="Permanent link">&para;</a></h3>
+<p>A loja cria um calendário fixo chamado <strong>"Ofertas Semanais 2025"</strong>.</p>
+<h3 id="como-isso-facilita-o-dia-a-dia">Como isso facilita o dia a dia?<a class="headerlink" href="#como-isso-facilita-o-dia-a-dia" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Padrão de Qualidade:</strong> Todas as campanhas de ofertas da semana são "carimbadas" com esse calendário.</li>
+<li><strong>Agilidade na Criação:</strong> Ao abrir uma nova campanha semanal, o sistema já traz os modelos de mídia padrão (aqueles que você já usa toda semana). Você só precisa trocar os preços e produtos!</li>
+<li><strong>Busca Simples:</strong> Quer saber o que entrou em oferta nas últimas 4 semanas? Basta filtrar pelo calendário semanal e ter a lista completa na tela.</li>
+</ul>
+<h2 id="caso-3-organizacao-por-regioes-nacional-vs-regional">Caso 3: Organização por Regiões (Nacional vs. Regional)<a class="headerlink" href="#caso-3-organizacao-por-regioes-nacional-vs-regional" title="Permanent link">&para;</a></h2>
+<p>Se a sua rede tem lojas em diferentes estados ou cidades, você sabe que o que vende no Sul nem sempre é o que vende no Nordeste. O calendário ajuda a separar essas realidades.</p>
+<h3 id="o-cenario_2">O Cenário<a class="headerlink" href="#o-cenario_2" title="Permanent link">&para;</a></h3>
+<p>A equipe de marketing organiza a comunicação em três níveis:</p>
+<ul>
+<li><strong>Calendário Nacional:</strong> Campanhas que valem para a rede toda (ex: Aniversário do Supermercado).</li>
+<li><strong>Calendário Regional Sul:</strong> Ofertas de inverno, vinhos e itens típicos da região.</li>
+<li><strong>Calendário Regional Nordeste:</strong> Promoções de verão antecipado e itens regionais específicos.</li>
+</ul>
+<h3 id="por-que-isso-e-bom-na-pratica_1">Por que isso é bom na prática?<a class="headerlink" href="#por-que-isso-e-bom-na-pratica_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Sem Confusão:</strong> O gerente da loja do Nordeste não corre o risco de ver ou usar, por engano, uma arte criada especificamente para o Sul.</li>
+<li><strong>Organização por Local:</strong> Cada região tem seu "quadrado". Você consegue gerenciar o que é nacional e o que é local de forma totalmente separada.</li>
+<li><strong>Artes Corretas:</strong> Modelos de mídia com preços ou regionalismos específicos ficam "presos" aos seus calendários correspondentes, garantindo que a comunicação certa chegue ao lugar certo.</li>
+</ul>
+<h2 id="permissoes-necessarias">Permissões Necessárias<a class="headerlink" href="#permissoes-necessarias" title="Permanent link">&para;</a></h2>
+<p>Para garantir a segurança e a organização das informações, o acesso às funcionalidades de Calendário é dividido por perfis. Confira o que cada nível de acesso permite fazer:</p>
+<table>
+<thead>
+<tr>
+<th>Ação</th>
+<th>Quem pode fazer (Perfis)</th>
+<th>O que é permitido?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Criar</strong></td>
+<td>Gestor de Marketing ou Administrador</td>
+<td>Criar novos grupos de calendários do zero.</td>
+</tr>
+<tr>
+<td><strong>Editar</strong></td>
+<td>Gestor de Marketing ou Administrador</td>
+<td>Alterar nomes ou especificações de calendários já criados.</td>
+</tr>
+<tr>
+<td><strong>Visualizar</strong></td>
+<td>Todos os usuários do módulo de campanhas</td>
+<td>Consultar a lista e usar os calendários nas campanhas.</td>
+</tr>
+<tr>
+<td><strong>Excluir</strong></td>
+<td>Gestor de Marketing ou Administrador</td>
+<td>Remover calendários (Ação irreversível).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fluxo-de-trabalho">Fluxo de Trabalho<a class="headerlink" href="#fluxo-de-trabalho" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>graph TD
+    A[Acessar Campanhas -&gt; Calendários] --&gt; B[Clicar em Criar Calendário]
+    B --&gt; C[Preencher Nome]
+    C --&gt; D[Preencher Especificações]
+    D --&gt; E{Escolher Ação}
+    E --&gt; F[Criar]
+    E --&gt; G[Salvar e Criar Outro]
+    E --&gt; H[Cancelar]
+
+    A --&gt; I[Visualizar Grid de Calendários]
+    I --&gt; J[Selecionar Registros]
+    J --&gt; K[Clicar em Ações]
+    K --&gt; L[Excluir Registros Selecionados]
+
+    F --&gt; M[Uso em Campanhas]
+    G --&gt; M
+
+    M --&gt; N[Selecionar Calendário na Campanha]
+    N --&gt; O[Filtragem Automática Aplicada]
+
+    O --&gt; P[Uso em Modelos de Mídia]
+    P --&gt; Q[Lâminas, Cards e Stories - 1 Calendário]
+    P --&gt; R[Cartazes - Múltiplos Calendários]
+
+    O --&gt; S[Exibir apenas Modelos Compatíveis com o Calendário]</code></pre>
+<h1 id="perguntas-frequentes-faq">Perguntas Frequentes (FAQ)<a class="headerlink" href="#perguntas-frequentes-faq" title="Permanent link">&para;</a></h1>
+<div class="admonition question">
+<p class="admonition-title">Posso ter múltiplos calendários ativos ao mesmo tempo?</p>
+<p>Sim! É comum ter múltiplos calendários para organizar diferentes tipos de campanhas (eventos sazonais, ofertas semanais, campanhas regionais, etc.).</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">O calendário armazena eventos ou datas?</p>
+<p>Não. O calendário é apenas um agrupador. As datas e períodos são definidos diretamente nas campanhas.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Posso editar um calendário que já tem campanhas vinculadas?</p>
+<p>Sim, você pode editar o nome e descrição do calendário a qualquer momento. Isso não afeta as campanhas vinculadas.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Campanhas precisam estar vinculadas a calendários?</p>
+<p>Não é obrigatório, mas é altamente recomendado para organização e para que os modelos de mídia apropriados apareçam automaticamente.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Como funciona a filtragem de modelos de mídia por calendário?</p>
+<p>Ao criar uma campanha vinculada a um calendário, apenas os modelos de mídia vinculados ao mesmo calendário aparecem como opções durante a diagramação.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Posso vincular um modelo de mídia a múltiplos calendários?</p>
+<p>Para cartazes, sim. Um modelo de cartaz pode ser vinculado a múltiplos calendários. Para lâminas, cards e stories, cada modelo é vinculado a apenas um calendário.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">O que acontece se eu excluir um calendário?</p>
+<p>As campanhas vinculadas não são excluídas, mas ficam sem calendário. Os modelos de mídia vinculados também não são excluídos, mas perdem a vinculação.</p>
+</div>
+<h2 id="consideracoes-finais">Considerações Finais<a class="headerlink" href="#consideracoes-finais" title="Permanent link">&para;</a></h2>
+<p>A configuração correta dos calendários é o primeiro passo para uma operação de marketing eficiente e organizada, garantindo que a equipe de diagramação tenha sempre as ferramentas certas para cada tema promocional.</p>
+<h2 id="leia-tambem">Leia Também<a class="headerlink" href="#leia-tambem" title="Permanent link">&para;</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "hide.footer"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

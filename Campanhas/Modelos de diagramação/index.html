@@ -1,0 +1,1377 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../M%C3%ADdias%20r%C3%A1pidas/">
+      
+      
+        <link rel="next" href="../Modelos%20de%20m%C3%ADdia/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Modelos de diagramação - Gomark.core</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Gomark.core" class="md-header__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gomark.core
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Modelos de diagramação
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Gomark.core" class="md-nav__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Gomark.core
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campanhas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Campanhas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Calend%C3%A1rios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calendários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Listar%20campanhas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Listar campanhas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../M%C3%ADdias%20r%C3%A1pidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mídias rápidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de diagramação
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de diagramação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-e-campos-de-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades e Campos de Cadastro
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secao-configuracoes-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seção Configurações de Estilo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secao-preview-editor-visual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seção Preview (Editor Visual)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#painel-de-edicao-de-elementos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Painel de Edição de Elementos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Painel de Edição de Elementos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-editar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Editar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-transformar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Transformar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-cor-e-texto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Cor e Texto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-posicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Posição
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-selos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Selos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelos%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Painel%20de%20controle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Painel de controle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Selos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operacional
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Operacional
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Clusters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clusters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Cadastro%20de%20Fornecedores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Fornecedores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Unidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutoriais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutoriais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como Funcionam as Cores nos Cards e Lâminas" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como Funcionam as Cores nos Cards e Lâminas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como%20usar%20o%20editor%20no%20modelo%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como usar o editor no modelo de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Cadastro%20de%20Produtos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Produtos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Portal%20do%20fornecedor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portal do fornecedor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-e-campos-de-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades e Campos de Cadastro
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secao-configuracoes-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seção Configurações de Estilo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secao-preview-editor-visual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seção Preview (Editor Visual)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#painel-de-edicao-de-elementos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Painel de Edição de Elementos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Painel de Edição de Elementos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-editar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Editar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-transformar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Transformar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-cor-e-texto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Cor e Texto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-posicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Posição
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-selos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Selos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Modelos de diagramação</h1>
+
+<h3 id="introducao">Introdução<a class="headerlink" href="#introducao" title="Permanent link">&para;</a></h3>
+<p>Os <strong>Modelos de Diagramação</strong> são o módulo onde ocorre o ajuste fino da identidade visual dos produtos. É através deste recurso que é possível configurar o comportamento dos boxes, posicionar as tags de informação (como nome e preço), inserir selos promocionais e desenhar a estética individual de cada oferta que comporá a mídia final.</p>
+<div class="admonition info">
+<p class="admonition-title">Caminho</p>
+<p>Menu Lateral Esquerdo → Campanhas → Modelos de Diagramação</p>
+</div>
+<h3 id="funcionalidades-e-campos-de-cadastro">Funcionalidades e Campos de Cadastro<a class="headerlink" href="#funcionalidades-e-campos-de-cadastro" title="Permanent link">&para;</a></h3>
+<p>Ao criar ou editar um modelo de diagramação, preencha as informações conforme os campos abaixo:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Campo</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome</strong></td>
+<td>Defina um nome identificável para o modelo.</td>
+</tr>
+<tr>
+<td><strong>Tipo de Oferta</strong></td>
+<td>Selecione entre as modalidades <strong>Regular</strong> ou <strong>Clube</strong>.</td>
+</tr>
+<tr>
+<td><strong>Tipo de Mídia</strong></td>
+<td>Escolha o formato: <strong>Cartaz, Storie, Card, Lâmina ou Encarte</strong>.</td>
+</tr>
+<tr>
+<td><strong>Tamanho do Box</strong></td>
+<td>Define o espaço ocupado na grade (ex: 1x1). Ideal para produtos secundários.</td>
+</tr>
+<tr>
+<td><strong>Altura / Largura</strong></td>
+<td>Define as dimensões fixas do box em pixels.</td>
+</tr>
+<tr>
+<td><strong>Grid da Mídia</strong></td>
+<td>Define o número de colunas que a grid da mídia possuirá.</td>
+</tr>
+<tr>
+<td><strong>Destaque</strong></td>
+<td>Define se este box específico deve ser tratado como um item de destaque.</td>
+</tr>
+<tr>
+<td><strong>Imagem de Fundo</strong></td>
+<td>Permite carregar uma imagem de fundo específica para o box, se houver.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="secao-configuracoes-de-estilo">Seção Configurações de Estilo<a class="headerlink" href="#secao-configuracoes-de-estilo" title="Permanent link">&para;</a></h3>
+<p>Nesta seção, definimos a aparência estrutural do box:</p>
+<ul>
+<li><strong>Cor Principal:</strong> Define a cor padrão para textos. Caso fique vazia, o sistema utilizará a cor do Modelo de Mídia.</li>
+<li><strong>Cor Secundária:</strong> Define a cor para preços e unidades. Segue a hierarquia: Elemento → Modelo de Diagramação → Modelo de Mídia.</li>
+<li><strong>Borda:</strong> Define se o box terá borda visível.</li>
+<li><strong>Cor e Estilo da Borda:</strong> Define a tonalidade e o tipo de traçado (sólido, tracejado, etc).</li>
+<li><strong>Cantos (Superior/Inferior):</strong> Configura o arredondamento ou presença de borda em cada quina (esquerda/direita).</li>
+<li><strong>Cor de Fundo:</strong> Define a cor interna do box.</li>
+</ul>
+<h3 id="secao-preview-editor-visual">Seção Preview (Editor Visual)<a class="headerlink" href="#secao-preview-editor-visual" title="Permanent link">&para;</a></h3>
+<p>O Preview é a área de manipulação direta, onde as tags são posicionadas e estilizadas.</p>
+<ul>
+<li><strong>Lado Esquerdo:</strong> Menu com as <strong>Tags Disponíveis</strong> (descrição, preço, validade, etc.) e botões de ação: <em>Salvar, Resetar Mídia, Desfazer, Refazer, Copiar, Colar, Trazer para Frente, Trazer para Trás, Deletar e Resetar Card</em>.</li>
+<li><strong>Lado Direito:</strong> Painel para edição detalhada do box e dos elementos selecionados.</li>
+</ul>
+<h3 id="painel-de-edicao-de-elementos">Painel de Edição de Elementos<a class="headerlink" href="#painel-de-edicao-de-elementos" title="Permanent link">&para;</a></h3>
+<p>Ao selecionar uma tag ou elemento dentro do box, utilize as abas abaixo:</p>
+<h4 id="1-editar">1. Editar<a class="headerlink" href="#1-editar" title="Permanent link">&para;</a></h4>
+<p>Menu de acesso rápido para navegar entre as funções de <strong>Posição, Transformar e Cor</strong>.</p>
+<h4 id="2-transformar">2. Transformar<a class="headerlink" href="#2-transformar" title="Permanent link">&para;</a></h4>
+<p>Configura o comportamento físico e o alinhamento do elemento.</p>
+<ul>
+<li>
+<p><strong>Assistência de Layout:</strong></p>
+<ul>
+<li><strong>Smart Guides da Região:</strong> Aproximação automática das regiões às guias.</li>
+<li><strong>Snap da Grade:</strong> Magnetiza o elemento aos quadrados da grade.</li>
+<li><strong>Exibir Linhas de Grade:</strong> Ativa/Desativa a visualização visual do grid.</li>
+</ul>
+</li>
+<li>
+<p><strong>Constraints do Elemento:</strong></p>
+<ul>
+<li><strong>Redimensionar com a Caixa:</strong> O elemento acompanha o movimento de redimensionamento do box.</li>
+<li><strong>Quebra Automática de Texto:</strong> Força a quebra de linha caso o texto exceda o limite do elemento.</li>
+<li><strong>Manter Proporção:</strong> Bloqueia a escala para evitar distorções.</li>
+</ul>
+</li>
+<li>
+<p><strong>Transformação:</strong> Permite definir a <strong>Rotação</strong> do elemento.</p>
+</li>
+</ul>
+<h4 id="3-cor-e-texto">3. Cor e Texto<a class="headerlink" href="#3-cor-e-texto" title="Permanent link">&para;</a></h4>
+<p>Define toda a tipografia e aparência visual.</p>
+<ul>
+<li><strong>Texto:</strong> Gerencia Conteúdo, Origem da Cor, Fonte, Tamanho, Estilo (Negrito/Itálico), Decoração (Sublinhado/Riscado), Alinhamento, Altura da Linha, Espaçamento entre letras e Transformação (Maiúsculas/Minúsculas).</li>
+<li><strong>Aparência:</strong> Configura Cor de Fundo do elemento, Borda, Estilo, Espessura e Raio (arredondamento).</li>
+</ul>
+<h4 id="4-posicao">4. Posição<a class="headerlink" href="#4-posicao" title="Permanent link">&para;</a></h4>
+<p>Ajuste fino das coordenadas e dimensões exatas do elemento selecionado.</p>
+<h4 id="5-selos">5. Selos<a class="headerlink" href="#5-selos" title="Permanent link">&para;</a></h4>
+<p>Permite vincular selos promocionais que já estejam cadastrados no sistema ao modelo.</p>
+<h3 id="fluxo-de-trabalho">Fluxo de Trabalho<a class="headerlink" href="#fluxo-de-trabalho" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>graph TD
+    A[Acessar Modelos de Diagramação] --&gt; B[Definir Nome, Tipo de Oferta e Mídia]
+    B --&gt; C[Configurar Tamanho do Box e Grid da Mídia]
+    C --&gt; D[Ajustar Estilo: Cores, Bordas e Fundo]
+    D --&gt; E[Acessar Preview para Inserir Tags e Selos]
+    E --&gt; F[Configurar Constraints e Transformações dos Elementos]
+    F --&gt; G[Ajustar Tipografia e Alinhamento em Cor e Texto]
+    G --&gt; H[Salvar e Validar no Layout Mode Grid]</code></pre>
+<h3 id="perguntas-frequentes-faq">Perguntas Frequentes (FAQ)<a class="headerlink" href="#perguntas-frequentes-faq" title="Permanent link">&para;</a></h3>
+<div class="admonition question">
+<p class="admonition-title">Qual a diferença prática entre o Tipo de Oferta Regular e Clube?</p>
+<p>O tipo <strong>Regular</strong> é utilizado para preços de gôndola padrão. O tipo <strong>Clube</strong> permite que o modelo puxe campos específicos de fidelidade, como "Preço exclusivo para sócios" ou selos de identificação de clube de descontos.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">O que acontece se eu não definir uma Cor Principal no Modelo de Diagramação?</p>
+<p>O sistema seguirá a hierarquia de cores. Caso o campo esteja vazio, ele buscará automaticamente a cor definida no <strong>Modelo de Mídia</strong>. Se lá também estiver vazio, ele utilizará o padrão do elemento original.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Para que serve a função 'Redimensionar elemento junto com a caixa'?</p>
+<p>Esta função garante que, ao aumentar ou diminuir o tamanho do box na grade da campanha, os elementos internos (como o preço ou a foto do produto) se ajustem proporcionalmente, evitando que fiquem "cortados" ou fora do lugar.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Como posso garantir que o nome do produto não 'atropele' o preço?</p>
+<p>Utilize a função <strong>Quebra automática de texto</strong> dentro da seção Constraints. Isso garante que, se o nome for muito longo, ele pule para a linha de baixo em vez de sobrepor outros elementos do box.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Posso usar o mesmo Modelo de Diagramação para um Cartaz e um Storie?</p>
+<p>Não é recomendado. Como as dimensões (Altura e Largura) e a proporção visual são muito diferentes, o ideal é criar um modelo específico para cada <strong>Tipo de Mídia</strong> para garantir que a diagramação fique legível e esteticamente correta.</p>
+</div>
+<h3 id="consideracoes-finais">Considerações Finais<a class="headerlink" href="#consideracoes-finais" title="Permanent link">&para;</a></h3>
+<p>A estruturação minuciosa dos Modelos de Diagramação é o que garante que a estratégia de preços e produtos seja apresentada de forma clara e profissional. Ao dominar as configurações de estilo, hierarquia de cores e o uso correto das constraints de layout, você assegura que a diagramação seja resiliente a diferentes tamanhos de box e tipos de oferta. Este módulo é a peça final que une a parte técnica do sistema à criatividade do marketing, garantindo que cada selo, tag e preço esteja exatamente onde deve estar para converter a venda.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "hide.footer"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

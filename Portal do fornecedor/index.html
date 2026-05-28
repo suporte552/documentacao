@@ -1,0 +1,1524 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Cadastro%20de%20Produtos/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Portal do fornecedor - Gomark.core</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Gomark.core" class="md-header__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gomark.core
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Portal do fornecedor
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Gomark.core" class="md-nav__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Gomark.core
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campanhas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Campanhas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Campanhas/Calend%C3%A1rios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calendários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Campanhas/Listar%20campanhas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Listar campanhas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Campanhas/M%C3%ADdias%20r%C3%A1pidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mídias rápidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Campanhas/Modelos%20de%20diagrama%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de diagramação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Campanhas/Modelos%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Campanhas/Painel%20de%20controle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Painel de controle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Campanhas/Selos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operacional
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Operacional
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Operacional/Clusters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clusters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Operacional/Cadastro%20de%20Fornecedores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Fornecedores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Operacional/Unidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutoriais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutoriais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tutoriais/Como Funcionam as Cores nos Cards e Lâminas" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como Funcionam as Cores nos Cards e Lâminas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tutoriais/Como%20usar%20o%20editor%20no%20modelo%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como usar o editor no modelo de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Cadastro%20de%20Produtos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Produtos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portal do fornecedor
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portal do fornecedor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrega-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega de Valor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-do-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades do Menu
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-cadastro-de-produto-wizard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Cadastro de Produto (Wizard)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fluxo de Cadastro de Produto (Wizard)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-identificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 1 — Identificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-dados-financeiros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 2 — Dados Financeiros
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-3-dados-fiscais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 3 — Dados Fiscais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-4-dados-logisticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 4 — Dados Logísticos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-5-dados-adicionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 5 — Dados Adicionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-envio-ao-comprador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Envio ao Comprador
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leia-tambem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leia Também
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrega-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega de Valor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-do-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades do Menu
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-cadastro-de-produto-wizard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Cadastro de Produto (Wizard)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fluxo de Cadastro de Produto (Wizard)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-identificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 1 — Identificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-dados-financeiros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 2 — Dados Financeiros
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-3-dados-fiscais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 3 — Dados Fiscais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-4-dados-logisticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 4 — Dados Logísticos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-5-dados-adicionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PASSO 5 — Dados Adicionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-envio-ao-comprador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Envio ao Comprador
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leia-tambem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leia Também
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Portal do fornecedor</h1>
+
+<h2 id="introducao">Introdução<a class="headerlink" href="#introducao" title="Permanent link">&para;</a></h2>
+<p>O <strong>Portal do Fornecedor</strong> é o ambiente exclusivo onde o parceiro comercial interage com o sistema. É nesta seção que o fornecedor centraliza o cadastro de seus produtos, gerencia os vínculos com suas empresas e envia ofertas diretamente para os compradores, garantindo que os dados cheguem padronizados para o processo de compra.</p>
+<div class="admonition info">
+<p class="admonition-title">Caminho</p>
+<p>Menu Lateral Esquerdo → Portal do Fornecedor</p>
+</div>
+<h2 id="entrega-de-valor">Entrega de Valor<a class="headerlink" href="#entrega-de-valor" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Autonomia:</strong> O fornecedor é responsável pela inserção dos dados técnicos e imagens.</li>
+<li><strong>Agilidade:</strong> Redução de erros de digitação manual no ERP.</li>
+<li><strong>Transparência:</strong> Acompanhamento do status de aprovação dos produtos enviados.</li>
+</ul>
+<h2 id="funcionalidades-do-menu">Funcionalidades do Menu<a class="headerlink" href="#funcionalidades-do-menu" title="Permanent link">&para;</a></h2>
+<p>A estrutura lateral do portal permite a gestão completa do ciclo de vida do produto:</p>
+<ul>
+<li><strong>Menu painel de controle:</strong> Consegue verificar pedidos por status através de um gráfico e demais informações.</li>
+<li><strong>Minhas empresas:</strong> Cadastro de fornecedores vinculados em seu usuário. Dessa forma, para usar nos produtos cadastrados.</li>
+<li><strong>Produtos enviados:</strong> Produtos cadastrados que foram enviados para os compradores. Possível visualizar quais estão criados, em análise, em andamento, recusados, concluídos e arquivados.</li>
+<li><strong>Meus produtos:</strong> Possível cadastrar produtos para envio.</li>
+</ul>
+<h2 id="fluxo-de-cadastro-de-produto-wizard">Fluxo de Cadastro de Produto (Wizard)<a class="headerlink" href="#fluxo-de-cadastro-de-produto-wizard" title="Permanent link">&para;</a></h2>
+<p>Para iniciar um novo registro, acesse <strong>Meus produtos</strong> e clique no botão <strong>"Criar produto"</strong>. Preencha os campos de controle inicial e, ao confirmar, o sistema apresentará o Wizard dividido em 5 passos obrigatórios:</p>
+<h3 id="passo-1-identificacao">PASSO 1 — Identificação<a class="headerlink" href="#passo-1-identificacao" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Empresa / Fornecedor</strong></td>
+<td>Qual empresa (PJ) está fornecendo este produto</td>
+</tr>
+<tr>
+<td><strong>Descrição completa</strong></td>
+<td>Nome completo do produto com especificações e características</td>
+</tr>
+<tr>
+<td><strong>Código de barras</strong></td>
+<td>Código de barras do produto (EAN/GTIN)</td>
+</tr>
+<tr>
+<td><strong>Código do fornecedor</strong></td>
+<td>Código interno do fabricante — o mesmo que constará na nota fiscal</td>
+</tr>
+<tr>
+<td><strong>Imagem do produto</strong></td>
+<td>Upload da imagem do produto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="passo-2-dados-financeiros">PASSO 2 — Dados Financeiros<a class="headerlink" href="#passo-2-dados-financeiros" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Custo tabela fornecedor</strong></td>
+<td>Preço de tabela do produto, sem considerar negociação</td>
+</tr>
+<tr>
+<td><strong>Preço sugerido PDV</strong></td>
+<td>Preço sugerido de venda ao consumidor no ponto de venda</td>
+</tr>
+</tbody>
+</table>
+<h3 id="passo-3-dados-fiscais">PASSO 3 — Dados Fiscais<a class="headerlink" href="#passo-3-dados-fiscais" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Origem / Procedência</strong></td>
+<td>Nacional, Importado, etc.</td>
+</tr>
+<tr>
+<td><strong>Código NCM</strong></td>
+<td>Classificação fiscal com busca integrada</td>
+</tr>
+<tr>
+<td><strong>ICMS (%)</strong></td>
+<td>Percentual de ICMS</td>
+</tr>
+<tr>
+<td><strong>Possui Substituição Tributária?</strong></td>
+<td>Indica se o produto tem ST</td>
+</tr>
+<tr>
+<td><strong>Código CEST</strong></td>
+<td>Código Especificador da Substituição Tributária (visível quando há ST)</td>
+</tr>
+<tr>
+<td><strong>% MVA Interno / Ajustado</strong></td>
+<td>Margem de Valor Agregado interno e ajustado (visível quando há ST)</td>
+</tr>
+<tr>
+<td><strong>Valor da ST</strong></td>
+<td>Valor da substituição tributária negociada</td>
+</tr>
+<tr>
+<td><strong>Possui IPI? / IPI (%)</strong></td>
+<td>Tributação por IPI quando aplicável — de 0 a 100%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="passo-4-dados-logisticos">PASSO 4 — Dados Logísticos<a class="headerlink" href="#passo-4-dados-logisticos" title="Permanent link">&para;</a></h3>
+<p><strong>Embalagem Primária</strong></p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tipo de embalagem</strong></td>
+<td>Ex.: Caixa, Fardo, Pacote, Lata, Garrafa</td>
+</tr>
+<tr>
+<td><strong>Conteúdo / Unidade de medida</strong></td>
+<td>Quantidade dentro da embalagem e unidade (Quilo, Litro, Grama, Unidade...)</td>
+</tr>
+<tr>
+<td><strong>Altura / Largura / Profundidade</strong></td>
+<td>Dimensões da embalagem primária (cm)</td>
+</tr>
+<tr>
+<td><strong>Dias de validade</strong></td>
+<td>Prazo de validade do produto em dias</td>
+</tr>
+<tr>
+<td><strong>Formato de venda</strong></td>
+<td>Como o produto é vendido: KG, UNID, L, M...</td>
+</tr>
+<tr>
+<td><strong>O produto é pesável?</strong></td>
+<td>Se é vendido por peso (muda os campos de peso visíveis)</td>
+</tr>
+<tr>
+<td><strong>Peso aproximado / bruto / líquido</strong></td>
+<td>Pesos conforme o tipo de produto</td>
+</tr>
+<tr>
+<td><strong>Tipo de frete</strong></td>
+<td>Modalidade de frete negociada com o fornecedor</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Embalagem Secundária <em>(visível quando marcado)</em></strong></p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tipo de embalagem secundária</strong></td>
+<td>Ex.: Caixa master, Fardo de caixas</td>
+</tr>
+<tr>
+<td><strong>Conteúdo da embalagem secundária</strong></td>
+<td>Quantidade de embalagens primárias dentro da secundária</td>
+</tr>
+<tr>
+<td><strong>DUN-14</strong></td>
+<td>Código de barras da embalagem secundária</td>
+</tr>
+<tr>
+<td><strong>Altura / Largura / Profundidade secundária</strong></td>
+<td>Dimensões da embalagem secundária (cm)</td>
+</tr>
+<tr>
+<td><strong>Peso bruto / líquido secundário</strong></td>
+<td>Pesos da embalagem secundária</td>
+</tr>
+<tr>
+<td><strong>Empilhamento</strong></td>
+<td>Quantos níveis de empilhamento o palete comporta</td>
+</tr>
+<tr>
+<td><strong>Quantidade por camada</strong></td>
+<td>Quantidade de embalagens secundárias por camada de palete</td>
+</tr>
+<tr>
+<td><strong>Quantidade por caixa/fardo/pacote</strong></td>
+<td>Quantidade de produtos por unidade de transporte</td>
+</tr>
+</tbody>
+</table>
+<h3 id="passo-5-dados-adicionais">PASSO 5 — Dados Adicionais<a class="headerlink" href="#passo-5-dados-adicionais" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Categoria mercadológica</strong></td>
+<td>Categorização na árvore mercadológica</td>
+</tr>
+<tr>
+<td><strong>Marca / Submarca / Modelo / Tipo</strong></td>
+<td>Identificação do produto</td>
+</tr>
+<tr>
+<td><strong>Referência / Cor / Sabor / Fragrância</strong></td>
+<td>Atributos específicos do produto</td>
+</tr>
+<tr>
+<td><strong>Descrição auxiliar / Informação adicional</strong></td>
+<td>Complementos para uso interno</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td><code>Rascunho</code> (ainda editando) ou <code>Pronto para envio</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="fluxo-de-envio-ao-comprador">Fluxo de Envio ao Comprador<a class="headerlink" href="#fluxo-de-envio-ao-comprador" title="Permanent link">&para;</a></h2>
+<p>O cadastro permanece na área privada do fornecedor (<strong>Meus produtos</strong>) até que o envio seja formalizado:</p>
+<ol>
+<li>Acesse a grid de <strong>"Meus produtos"</strong>.</li>
+<li>Selecione o(s) produto(s) desejado(s).</li>
+<li>Clique na ação <strong>"Enviar para cliente"</strong>.</li>
+<li>No formulário, selecione o <strong>Cliente</strong> (Rede) e o <strong>Comprador</strong> responsável.</li>
+<li>Clique em <strong>Enviar</strong>. O item passará a ser listado em <strong>"Produtos enviados"</strong> para acompanhamento.</li>
+</ol>
+<h2 id="fluxo-de-trabalho">Fluxo de Trabalho<a class="headerlink" href="#fluxo-de-trabalho" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>graph TD
+    A[Acessar Meus Produtos] --&gt; B[Criar Produto]
+    B --&gt; C[Preencher Wizard de 5 Passos]
+    C --&gt; D[Definir Status como Pronto para Envio]
+    D --&gt; E[Selecionar na Grid]
+    E --&gt; F[Enviar para Cliente e Comprador]
+    F --&gt; G[Acompanhar em Produtos Enviados]</code></pre>
+<h2 id="perguntas-frequentes-faq">Perguntas Frequentes (FAQ)<a class="headerlink" href="#perguntas-frequentes-faq" title="Permanent link">&para;</a></h2>
+<div class="admonition question">
+<p class="admonition-title">Posso editar um produto que já foi enviado?</p>
+<p>Não. Após o envio para o comprador, o produto fica em modo de visualização para garantir que a negociação ocorra sobre dados fixos.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">O que acontece se o comprador recusar o produto?</p>
+<p>O produto retornará para a grid com o status <strong>Recusado</strong> e o motivo da recusa poderá ser visualizado nos detalhes.</p>
+</div>
+<h2 id="consideracoes-finais">Considerações Finais<a class="headerlink" href="#consideracoes-finais" title="Permanent link">&para;</a></h2>
+<p>A implementação do <strong>Portal do Fornecedor</strong> representa um marco na eficiência operacional da organização. Ao transferir a etapa inicial de cadastro para o parceiro comercial, eliminamos processos manuais passíveis de erros e garantimos que a base de dados do ERP seja alimentada com informações técnicas, fiscais e logísticas precisas.</p>
+<h2 id="leia-tambem">Leia Também<a class="headerlink" href="#leia-tambem" title="Permanent link">&para;</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.expand", "hide.footer"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

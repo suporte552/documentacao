@@ -1,0 +1,1410 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Painel%20de%20controle/">
+      
+      
+        <link rel="next" href="../../Operacional/Clusters/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Selos - Gomark.core</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Gomark.core" class="md-header__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gomark.core
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Selos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Gomark.core" class="md-nav__button md-logo" aria-label="Gomark.core" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Gomark.core
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campanhas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Campanhas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Calend%C3%A1rios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calendários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Listar%20campanhas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Listar campanhas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../M%C3%ADdias%20r%C3%A1pidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mídias rápidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelos%20de%20diagrama%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de diagramação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelos%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Painel%20de%20controle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Painel de controle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selos
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrega-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega de Valor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-principais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades Principais
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades Principais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-criacao-de-selos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1: Criação de Selos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1: Criação de Selos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opcoes-de-finalizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opções de Finalização
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-vinculo-no-modelo-de-diagramacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2: Vinculo no modelo de diagramação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2: Vinculo no modelo de diagramação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-a-passo-para-insercao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo a Passo para Inserção:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ajuste-de-sobreposicao-camadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ajuste de Sobreposição (Camadas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-visualizacao-e-gerenciamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3: Visualização e Gerenciamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Perguntas Frequentes (FAQ)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leia-tambem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leia Também
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operacional
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Operacional
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Clusters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clusters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Cadastro%20de%20Fornecedores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Fornecedores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Operacional/Unidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutoriais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutoriais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como Funcionam as Cores nos Cards e Lâminas" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como Funcionam as Cores nos Cards e Lâminas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutoriais/Como%20usar%20o%20editor%20no%20modelo%20de%20m%C3%ADdia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como usar o editor no modelo de mídia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Cadastro%20de%20Produtos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastro de Produtos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Portal%20do%20fornecedor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portal do fornecedor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrega-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega de Valor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades-principais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades Principais
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades Principais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-criacao-de-selos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1: Criação de Selos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1: Criação de Selos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opcoes-de-finalizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opções de Finalização
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-vinculo-no-modelo-de-diagramacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2: Vinculo no modelo de diagramação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2: Vinculo no modelo de diagramação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-a-passo-para-insercao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo a Passo para Inserção:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ajuste-de-sobreposicao-camadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ajuste de Sobreposição (Camadas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-visualizacao-e-gerenciamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3: Visualização e Gerenciamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perguntas-frequentes-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perguntas Frequentes (FAQ)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Perguntas Frequentes (FAQ)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações Finais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leia-tambem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leia Também
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h2 id="introducao">Introdução<a class="headerlink" href="#introducao" title="Permanent link">&para;</a></h2>
+<p>Os <strong>Selos</strong> são elementos visuais essenciais para destacar ofertas e novidades nas suas peças. Eles funcionam como badges promocionais (ex: "50% OFF", "NOVO", "LANÇAMENTO", "CLUBE") que podem ser aplicados diretamente nos modelos de diagramação para atrair a atenção do consumidor.</p>
+<div class="admonition info">
+<p class="admonition-title">Caminho</p>
+<p>Menu Lateral esquerdo → Campanhas → Selos</p>
+</div>
+<h2 id="entrega-de-valor">Entrega de Valor<a class="headerlink" href="#entrega-de-valor" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Destaque Visual:</strong> Chama a atenção para condições especiais de venda.</li>
+<li><strong>Flexibilidade:</strong> Ajuste total de tamanho e posicionamento conforme o layout.</li>
+<li><strong>Padronização:</strong> Garante que toda a comunicação utilize a mesma identidade visual para promoções.</li>
+<li><strong>Agilidade:</strong> Uma vez cadastrado, o selo fica disponível para uso rápido em qualquer diagramação.</li>
+</ul>
+<h2 id="funcionalidades-principais">Funcionalidades Principais<a class="headerlink" href="#funcionalidades-principais" title="Permanent link">&para;</a></h2>
+<h3 id="1-criacao-de-selos">1: Criação de Selos<a class="headerlink" href="#1-criacao-de-selos" title="Permanent link">&para;</a></h3>
+<p>Acesse <strong>Campanhas -&gt; Selos</strong> -&gt; Clique em <strong>Criar</strong>. 
+Preencha as informações conforme os campos abaixo:</p>
+<ul>
+<li><strong>Nome</strong>: Identificação do selo;</li>
+<li><strong>Imagem</strong>: Para que o selo esteja disponível na diagramação, você precisa realizar o upload do arquivo visual. O sistema oferece duas formas práticas de inserção:<ul>
+<li><strong>Arrastar e Soltar:</strong> Selecione o arquivo de imagem em seu computador e arraste-o diretamente para a área demarcada no campo "Imagem".</li>
+<li><strong>Seleção Manual:</strong> Clique no ícone de upload dentro do campo "Imagem" para abrir o explorador de arquivos do seu computador e selecionar o arquivo desejado.</li>
+</ul>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Dica de Formato</p>
+<p>Para garantir um acabamento profissional na diagramação, utilize arquivos em formato <strong>.PNG com fundo transparente</strong>. Isso evita que o selo sobreponha o produto com um "quadrado branco" indesejado.</p>
+</div>
+<h4 id="opcoes-de-finalizacao">Opções de Finalização<a class="headerlink" href="#opcoes-de-finalizacao" title="Permanent link">&para;</a></h4>
+<p>No momento de salvar o registro, escolha a ação que melhor atenda ao seu fluxo:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Botão</strong></th>
+<th><strong>Comportamento</strong></th>
+<th><strong>Objetivo Principal</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Criar</strong></td>
+<td>Salva o registro e mantém o usuário na mesma tela, habilitando a edição.</td>
+<td>Ideal para quem precisa revisar o selo logo após a criação.</td>
+</tr>
+<tr>
+<td><strong>Salvar e Criar Outro</strong></td>
+<td>Conclui o registro atual e limpa os campos para um novo cadastro.</td>
+<td>Focado em produtividade para cadastros em lote (múltiplos itens).</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Botão cancelar</p>
+<p>O botão <strong>Cancelar</strong> interrompe o processo sem salvar e redireciona para a grid de selos já existentes.</p>
+</div>
+<h3 id="2-vinculo-no-modelo-de-diagramacao">2: Vinculo no modelo de diagramação<a class="headerlink" href="#2-vinculo-no-modelo-de-diagramacao" title="Permanent link">&para;</a></h3>
+<p>Após cadastrar os selos, eles ficam disponíveis na biblioteca do editor do modelo de diagramação para serem aplicados às suas peças. Veja como utilizá-los e como organizar as camadas para um visual perfeito:</p>
+<div class="admonition info">
+<p class="admonition-title">Caminho</p>
+<p>Menu lateral esquerdo → Campanhas → <strong>Modelos de Diagramação</strong></p>
+</div>
+<h4 id="passo-a-passo-para-insercao">Passo a Passo para Inserção:<a class="headerlink" href="#passo-a-passo-para-insercao" title="Permanent link">&para;</a></h4>
+<ol>
+<li><strong>Acesse o Modelo:</strong> Selecione o modelo de diagramação que deseja editar.</li>
+<li><strong>Ative o Menu de Edição:</strong> Clique em qualquer componente da tela para habilitar o <strong>menu lateral direito</strong>.</li>
+<li><strong>Selecione o Selo:</strong> No menu lateral direito, clique na aba <strong>Selos</strong> e escolha o selo desejado para inseri-lo na tela.</li>
+</ol>
+<h4 id="ajuste-de-sobreposicao-camadas">Ajuste de Sobreposição (Camadas)<a class="headerlink" href="#ajuste-de-sobreposicao-camadas" title="Permanent link">&para;</a></h4>
+<p>Para que o selo apareça exatamente onde você deseja (por exemplo, à frente do produto, mas atrás de um texto), utilize as ferramentas de ordenação:</p>
+<ul>
+<li><strong>Organização de Camadas:</strong> Localize os ícones de seta ao lado da lixeira no menu de propriedades do elemento.</li>
+<li><strong>Recuar Elemento:</strong> Utilize o botão <strong>"Send Backward"</strong> (ou o atalho <code>Ctrl</code> + <code>Shift</code> + <code>Down</code>) para mover o elemento para trás, nível por nível, até que ele fique posicionado abaixo do componente desejado.</li>
+<li><strong>Trazer para Frente:</strong> Se o selo sumir atrás de uma imagem, utilize o botão <strong>"Bring Forward"</strong> para trazê-lo para o topo.</li>
+</ul>
+<p><strong>Dica de Ouro:</strong> Ao selecionar o selo no editor, você também pode usar o mouse para ajustar o <strong>tamanho</strong> (puxando pelas extremidades) e a <strong>rotação</strong> (utilizando o ícone circular acima do elemento).</p>
+<h3 id="3-visualizacao-e-gerenciamento">3: Visualização e Gerenciamento<a class="headerlink" href="#3-visualizacao-e-gerenciamento" title="Permanent link">&para;</a></h3>
+<p>Na tela principal de Selos, você tem uma visão completa de todos os elementos cadastrados.</p>
+<p><strong>O que você pode fazer na Grid?</strong></p>
+<ul>
+<li><strong>Acompanhar tudo:</strong> Veja todos os seus selos em uma única lista organizada.</li>
+<li><strong>Manutenção simples:</strong> Precisa mudar a imagem ou o nome? Você pode <strong>Editar</strong> as informações ou <strong>Excluir</strong> selos que não serão mais utilizados.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Exclusão em massa</p>
+<p>Na grid de selos, é possível utilizar o botão <strong>Abrir Ações</strong> para excluir registros selecionados, otimizando a limpeza de selos antigos. 
+<strong>Caminho:</strong> Acesse Selos &gt; Marque o Checkbox "Cover" &gt; Clique no botão "Abrir ações" &gt; Selecione os selos para exclusão &gt; Excluir selecionado.</p>
+</div>
+<h2 id="fluxo-de-trabalho">Fluxo de Trabalho<a class="headerlink" href="#fluxo-de-trabalho" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>graph TD
+    A[Início: Preparar Imagem .PNG] --&gt; B[Acessar Campanhas &gt; Selos]
+    B --&gt; C[Criar Novo Selo]
+    C --&gt; D{Upload do Arquivo}
+    D --&gt;|Opção 1| E[Arrastar e Soltar]
+    D --&gt;|Opção 2| F[Seleção Manual]
+
+    E --&gt; G[Salvar Registro]
+    F --&gt; G
+
+    G --&gt; H[Acessar Modelos de Diagramação]
+    H --&gt; I[Selecionar Elemento na Tela]
+    I --&gt; J[Abrir Aba 'Selos' no Menu Direito]
+    J --&gt; K[Inserir Selo no Layout]
+
+    K --&gt; L{Ajuste Fino}
+    L --&gt; M[Redimensionar e Rotacionar]
+    L --&gt; N[Organizar Camadas / Sobreposição]
+
+    M --&gt; O[Peça Finalizada]
+    N --&gt; O[Peça Finalizada]</code></pre>
+<h1 id="perguntas-frequentes-faq">Perguntas Frequentes (FAQ)<a class="headerlink" href="#perguntas-frequentes-faq" title="Permanent link">&para;</a></h1>
+<div class="admonition question">
+<p class="admonition-title">Qual o melhor formato de arquivo para cadastrar um selo?</p>
+<p>O formato ideal é o <strong>.PNG com fundo transparente</strong>. Isso garante que o selo não fique com um quadrado branco ao redor, permitindo um acabamento profissional sobre as imagens dos produtos.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Posso ajustar o tamanho e a posição do selo após inseri-lo no layout?</p>
+<p>Sim! Ao selecionar o selo no editor de diagramação, você pode utilizar o mouse para redimensionar (puxando pelas extremidades), rotacionar (usando o ícone circular) e arrastar para qualquer posição.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">O que fazer se o selo ficar "escondido" atrás de outro elemento na tela?</p>
+<p>Você deve utilizar as ferramentas de <strong>Organização de Camadas</strong>. No menu de propriedades, utilize o botão <strong>"Bring Forward"</strong> para trazer o selo para a frente ou <strong>"Send Backward"</strong> para movê-lo para trás de outros componentes.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Como excluir vários selos antigos de uma só vez?</p>
+<p>Na grid principal de Selos, marque o checkbox <strong>"Cover"</strong> (para selecionar todos) ou selecione os itens individualmente. Depois, clique no botão <strong>"Abrir ações"</strong> e escolha <strong>"Excluir selecionado"</strong>.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Para que serve a opção 'Salvar e Criar Outro' no cadastro?</p>
+<p>Essa opção é focada em produtividade. Ela conclui o cadastro do selo atual e já limpa os campos para que você inicie um novo imediatamente, sendo ideal para cadastros em lote.</p>
+</div>
+<h2 id="consideracoes-finais">Considerações Finais<a class="headerlink" href="#consideracoes-finais" title="Permanent link">&para;</a></h2>
+<p>A utilização correta dos selos é um diferencial estratégico para destacar suas promoções e guiar o olhar do consumidor. Ao manter uma biblioteca organizada e padronizada em PNG transparente, você garante que a equipe de marketing tenha agilidade total na criação de peças visualmente atraentes e profissionais.</p>
+<h2 id="leia-tambem">Leia Também<a class="headerlink" href="#leia-tambem" title="Permanent link">&para;</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "hide.footer"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
